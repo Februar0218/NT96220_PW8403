@@ -1,0 +1,342 @@
+
+#----------------------------------------------------------------------
+# get the source full path, convert upper case extension to lower case
+#----------------------------------------------------------------------
+SRC := $(addprefix $(shell cygpath --mixed $(shell pwd))/, $(SRC:.C=.c))
+ASM := $(addprefix $(shell cygpath --mixed $(shell pwd))/, $(ASM:.S=.s))
+
+#----------------------------------------------------------------------
+# set the basic include directories
+#----------------------------------------------------------------------
+# Get working directory
+MYPWD       := $(shell pwd)
+APP_PATH    := $(findstring /Application/, $(MYPWD))
+APPEXT_PATH := $(findstring /AppExt/, $(MYPWD))
+LIB_PATH    := $(findstring /LIB/, $(MYPWD))
+LIBEXT_PATH := $(findstring /LIBExt/, $(MYPWD))
+PRJ_PATH    := $(shell find ./ -maxdepth 1 -name MakeConfig.txt)
+
+BASE_INC_DIR    := $(filter %/Include, $(INC_DIR))
+APPEXT_INC_DIR  := -I$(BASE_INC_DIR)/AppExt
+APP_INC_DIR     := -I$(BASE_INC_DIR)/Application
+
+INC_DIR := $(addprefix -I, $(sort $(dir $(shell find $(INC_DIR) -name \'\*\.h\'))))
+
+# Filter out upper layer's include path
+# /LIB can't access /Application or /AppExt
+ifneq "$(LIB_PATH)" ""
+INC_DIR := $(filter-out $(APPEXT_INC_DIR)% $(APP_INC_DIR)%, $(INC_DIR))
+# /LIBExt can't access /Application or /AppExt
+else ifneq "$(LIBEXT_PATH)" ""
+INC_DIR := $(filter-out $(APPEXT_INC_DIR)% $(APP_INC_DIR)%, $(INC_DIR))
+endif
+
+#----------------------------------------------------------------------
+# set the basic C and ASM flags
+#----------------------------------------------------------------------
+# -W+abcd..: Enable 'a' 'b' 'c' 'd'... warning message
+# g: Warning for unguarded header file
+# l: Warning for lower precsion in wider context
+# n: Warning for implicit narrowing cast
+# x = y * z; x is context, y * z is expression
+# Refer to ADS 1.2 Compilers and Libraries Guide for more information
+#----------------------------------------------------------------------
+# for Debug target
+CFLAGS_D += $(INC_DIR) -c -O0 -g -cpu 4 -li -W+g -fa
+ASMFLAGS_D += $(INC_DIR) -keep -g -cpu 4 -fpu None -li
+
+# for Release target
+CFLAGS_R += $(INC_DIR) -c -O2 -cpu 4 -li -W+g -fa
+ASMFLAGS_R += $(INC_DIR) -cpu 4 -fpu None -li
+
+# Generate debug symbol in release target
+ifeq "$(RELEASE_SYMBOL)" "ON"
+CFLAGS_R += -g
+ASMFLAGS_R += -keep -g
+endif
+
+# Generate interleaved assembly language file for C source files in release target.
+# Check *.txt files in the folder where output *.o files.
+# Usage: make RELEASE_DISASSEMBLY="ON" release
+ifeq "$(RELEASE_DISASSEMBLY)" "ON"
+CFLAGS_R += -asm -fs -c -o newname.ext
+endif
+
+# Generate Preprocessor codes for specific C source files in release target
+#
+# Using Step
+# (1) Make sure the bin file is built.
+# (2) delete the relative objs or modify c source files
+# (3) make RELEASE_PREPROCESSOR="ON" release
+# Note:
+# (1)List the .a file creatation date[armar -v -t kernel.a]
+# -list option: show the replace result(macro #define)
+ifeq "$(RELEASE_PREPROCESSOR)" "ON"
+CFLAGS_R += -list
+endif
+
+# Generate one ELF section for each function
+ifeq "$(SECTION_BY_FUNC)" "ON"
+CFLAGS_R += -zo
+CFLAGS_D += -zo
+endif
+#----------------------------------------------------------------------
+# enable assert function
+#----------------------------------------------------------------------
+ifeq "$(USING_ASSERT)" "ON"
+#enable the assert function
+CFLAGS_R += -DUSING_ASSERT
+CFLAGS_D += -DUSING_ASSERT
+else
+#disable the assert function
+endif
+
+# for dependency creating
+GCCFLAGS += $(INC_DIR) -I"$(ARMINC_DIR)" -c -w
+
+# for checking robustness of source code
+SPLINTFLAGS += $(SPLINT_PARAMETER) -D__packed= $(SPLINTFLGS) $(INC_DIR)
+
+#----------------------------------------------------------------------
+# FPGA notification for drivers
+#----------------------------------------------------------------------
+ifeq "$(FPGA_EMULATION)" "ON"
+CFLAGS_R += -D_FPGA_EMULATION_=1
+CFLAGS_D += -D_FPGA_EMULATION_=1
+CFLAGS_R += -D_FPGA_PLL_OSC_=$(FPGA_PLL_OSC)
+CFLAGS_D += -D_FPGA_PLL_OSC_=$(FPGA_PLL_OSC)
+else
+CFLAGS_R += -D_FPGA_EMULATION_=0
+CFLAGS_D += -D_FPGA_EMULATION_=0
+endif
+
+
+#----------------------------------------------------------------------
+# set the directory for debug/release objects and images here
+#----------------------------------------------------------------------
+OBJ_DEBUG = $(PRJ_NAME)_Data/Debug/ObjectCode
+OBJ_RELEASE = $(PRJ_NAME)_Data/Release/ObjectCode
+IMG_DEBUG = $(IMG_BASE_DIR)/Debug
+IMG_RELEASE = $(IMG_BASE_DIR)/Release
+
+#----------------------------------------------------------------------
+# set the make outputs
+#----------------------------------------------------------------------
+SRC_OBJ_D := $(addprefix $(OBJ_DEBUG)/, $(notdir $(SRC:.c=.o)))
+ASM_OBJ_D := $(addprefix $(OBJ_DEBUG)/, $(notdir $(ASM:.s=.o)))
+ALL_OBJ_D := $(ASM_OBJ_D) $(SRC_OBJ_D)
+DEPFILE_D := $(subst .o,.d,$(ALL_OBJ_D))
+
+SRC_OBJ_R := $(addprefix $(OBJ_RELEASE)/, $(notdir $(SRC:.c=.o)))
+ASM_OBJ_R := $(addprefix $(OBJ_RELEASE)/, $(notdir $(ASM:.s=.o)))
+ALL_OBJ_R := $(ASM_OBJ_R) $(SRC_OBJ_R)
+DEPFILE_R := $(subst .o,.d,$(ALL_OBJ_R))
+
+ifeq "$(ISOLATE_DEP)" "ON"
+ALL_DEP := $(DEPFILE_D) $(DEPFILE_R)
+endif
+
+CHECK_DIR = $(PRJ_NAME)_Data/CheckData
+CHECK_FILE := $(addprefix $(CHECK_DIR)/, $(notdir $(SRC:.c=_chk.txt)))
+
+#----------------------------------------------------------------------
+# set the make targets
+#----------------------------------------------------------------------
+build_all: rm_log build_D build_R
+
+make_debug_begin:
+	@-echo Checking $(basename $(notdir $(IMAGE_R))) debug target ... \
+	&& mkdir -p $(IMG_DEBUG) $(OBJ_DEBUG)
+
+make_release_begin:
+	@-echo Checking $(basename $(notdir $(IMAGE_R))) release target ... \
+	&& mkdir -p $(IMG_RELEASE) $(OBJ_RELEASE)
+
+ifeq "$(ISOLATE_DEP)" "ON"
+make_dep_begin:
+	@-echo Checking $(basename $(notdir $(IMAGE_R))) dependency ... \
+	&& mkdir -p $(OBJ_DEBUG) $(OBJ_RELEASE)
+endif
+
+make_chk_begin:
+	@-echo Checking $(basename $(notdir $(IMAGE_R))) robustness  ... \
+	&& mkdir -p $(CHECK_DIR)
+
+#----------------------------------------------------------------------
+# compile rule functions
+#----------------------------------------------------------------------
+# $(call get_obj,obj_dir,source)
+get_obj = $(addprefix $1/, $(subst .c,.o,$(notdir $2)))
+
+# $(call get_obj_asm,obj_dir,source)
+get_obj_asm = $(addprefix $1/, $(subst .s,.o,$(notdir $2)))
+
+ifeq "$(ISOLATE_DEP)" "ON"
+# $(call compile_rule,object,source,cflags)
+define compile_rule
+$1: $2
+	@echo Compiling $(notdir $2) \
+	&& $(CC) $3 -o $1 $2 $$(LOG_OPTION)
+
+endef
+
+# $(call compile_rule_asm,object,source,asmflags)
+define compile_rule_asm
+$1: $2
+	@echo Compiling $(notdir $2) \
+	&& $(AS) $3 -o $1 $2 $$(LOG_OPTION)
+
+endef
+else
+# $(call compile_rule,object,source,cflags)
+define compile_rule
+$1: $2
+	@-$(GCC) -MM -MF $(basename $1).d -MP -MT $1 $(GCCFLAGS) $2 \
+	&& echo Compiling $(notdir $2)
+	@$(CC) $3 -o $1 $2 $$(LOG_OPTION)
+
+endef
+
+# $(call compile_rule_asm,object,source,asmflags)
+define compile_rule_asm
+$1: $2
+	@-$(AS) $(ASMFLAGS_R) $2 -Depend tmp \
+	&& echo $1: '\\' > $(basename $1).d \
+	&& sed -e 's/$(basename $(notdir $1))\.o\://g' \
+		-e 's/\\\/\//g' \
+		-e 's/\.s/.s \\\/g' \
+		-e 's/\.h/.h \\\/g' tmp >> $(basename $1).d
+	@-rm -f tmp $(notdir $1) \
+	&& echo Compiling $(notdir $2)
+	@$(AS) $3 -o $1 $2 $$(LOG_OPTION)
+
+endef
+endif
+
+# $(call compile_all,obj_dir,cflags)
+define compile_all
+$(foreach i, $(SRC), \
+	$(call compile_rule,$(call get_obj,$1,$i),$i,$2))
+endef
+
+# $(call compile_all_asm,obj_dir,asmflags)
+define compile_all_asm
+$(foreach i, $(ASM), \
+	$(call compile_rule_asm,$(call get_obj_asm,$1,$i),$i,$2))
+endef
+
+#-----------------------------------------------------------------
+# dependency rule functions
+#-----------------------------------------------------------------
+ifeq "$(ISOLATE_DEP)" "ON"
+# $(call get_dep,dep_dir,source)
+get_dep = $(addprefix $1/, $(subst .c,.d,$(notdir $2)))
+
+# $(call get_dep_asm,dep_dir,source)
+get_dep_asm = $(addprefix $1/, $(subst .s,.d,$(notdir $2)))
+
+# $(call depend_rule,depend,source)
+define depend_rule
+$1: $2
+	@echo Depending $(notdir $2) \
+	&& $(GCC) -MM -MF $1 -MP -MT $(basename $1).o $(GCCFLAGS) $2 \
+	&& sed -e 's/_Data\/Debug\//_Data\/Release\//1' $1 > $(subst _Data/Debug/,_Data/Release/,$1)
+
+endef
+
+# $(call depend_rule_asm,depend,source)
+define depend_rule_asm
+$1: $2
+	@echo Depending $(notdir $2) \
+	&& $(AS) $(ASMFLAGS_R) $2 -Depend tmp \
+	&& echo $(basename $1).o: '\\' > $1 \
+	&& sed -e 's/$(basename $(notdir $1))\.o\://g' \
+		 -e 's/\\\/\//g' \
+		 -e 's/\.s/.s \\\/g' \
+		 -e 's/\.h/.h \\\/g' tmp > tmp2
+	@-cat tmp2 >> $1 \
+	&& echo $(basename $(subst _Data/Debug/,_Data/Release/,$1)).o: '\\' > $(subst _Data/Debug/,_Data/Release/,$1) \
+	&& cat tmp2 >> $(subst _Data/Debug/,_Data/Release/,$1) \
+	&& rm -f tmp tmp2 $(basename $(notdir $1)).o
+
+endef
+
+# $(call dep_all,dep_dir)
+define depend_all
+$(foreach i, $(SRC), \
+	$(call depend_rule,$(call get_dep,$1,$i),$i))
+endef
+
+# $(call dep_all_asm,dep_dir)
+define depend_all_asm
+$(foreach i, $(ASM), \
+	$(call depend_rule_asm,$(call get_dep_asm,$1,$i),$i))
+endef
+
+#----------------------------------------------------------------------
+# Check rule functions
+#----------------------------------------------------------------------
+# $(call get_chk,chk_dir,source)
+get_chk = $(addprefix $1/, $(subst .c,_chk.txt,$(notdir $2)))
+
+# $(call check_rule,output,source)
+define check_rule
+$1: $2
+	@-echo Checking $(notdir $2) ... \
+	&& rm -f $1 \
+	&& $(SP) $(SPLINTFLAGS) $2 2>>$1
+	@-cat $(1) >> $$(chk_file)
+
+endef
+
+define check_all
+$(foreach i, $(SRC), \
+	$(call check_rule,$(call get_chk,$1,$i),$i))
+endef
+
+ifeq "$(MAKECMDGOALS)" "dep"
+$(eval $(call depend_all,$(OBJ_DEBUG)))
+$(eval $(call depend_all_asm,$(OBJ_DEBUG)))
+endif
+
+ifeq "$(MAKECMDGOALS)" ""
+.DEFAULT_GOAL := all
+endif
+
+else
+
+ifeq "$(MAKECMDGOALS)" ""
+-include $(DEPFILE_D)
+-include $(DEPFILE_R)
+$(eval $(call compile_all,$(OBJ_DEBUG),$(CFLAGS_D)))
+$(eval $(call compile_all,$(OBJ_RELEASE),$(CFLAGS_R)))
+$(eval $(call compile_all_asm,$(OBJ_DEBUG),$(ASMFLAGS_D)))
+$(eval $(call compile_all_asm,$(OBJ_RELEASE),$(ASMFLAGS_R)))
+endif
+
+ifeq "$(MAKECMDGOALS)" "rebuild"
+-include $(DEPFILE_D)
+-include $(DEPFILE_R)
+$(eval $(call compile_all,$(OBJ_DEBUG),$(CFLAGS_D)))
+$(eval $(call compile_all,$(OBJ_RELEASE),$(CFLAGS_R)))
+$(eval $(call compile_all_asm,$(OBJ_DEBUG),$(ASMFLAGS_D)))
+$(eval $(call compile_all_asm,$(OBJ_RELEASE),$(ASMFLAGS_R)))
+endif
+
+endif
+
+ifeq "$(MAKECMDGOALS)" "debug"
+-include $(DEPFILE_D)
+$(eval $(call compile_all,$(OBJ_DEBUG),$(CFLAGS_D)))
+$(eval $(call compile_all_asm,$(OBJ_DEBUG),$(ASMFLAGS_D)))
+endif
+
+ifeq "$(MAKECMDGOALS)" "release"
+-include $(DEPFILE_R)
+$(eval $(call compile_all,$(OBJ_RELEASE),$(CFLAGS_R)))
+$(eval $(call compile_all_asm,$(OBJ_RELEASE),$(ASMFLAGS_R)))
+endif
+
+ifeq "$(MAKECMDGOALS)" "chk"
+$(eval $(call check_all,$(CHECK_DIR)))
+endif

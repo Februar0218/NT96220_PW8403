@@ -1,0 +1,104 @@
+
+ifeq "$(OPTION_LOADED)" ""
+include $(MAKE_COMMON_DIR)/MakeOption.txt
+LOCAL_CLEAN_LOG = $(CLEAN_LOG)
+else
+LOCAL_CLEAN_LOG = OFF
+endif
+
+include $(MAKE_COMMON_DIR)/MakeCommon.txt
+
+#----------------------------------------------------------------------
+# set the make outputs
+#----------------------------------------------------------------------
+IMAGE_D = $(IMG_DEBUG)/$(PRJ_NAME)_D.a
+IMAGE_R = $(IMG_RELEASE)/$(PRJ_NAME).a
+
+#----------------------------------------------------------------------
+# set the warning/error log file option
+#----------------------------------------------------------------------
+# $(APP_PATH), $(APPEXT_PATH), $(LIB_PATH), $(LIBEXT_PATH) will be assigned value in MakeCommon.txt
+ifneq "$(APP_PATH)" ""
+log_file := $(subst MakeCommon,Application/log_App.txt,$(MAKE_COMMON_DIR))
+chk_file := $(subst MakeCommon,Application/chk_App.txt,$(MAKE_COMMON_DIR))
+else ifneq "$(APPEXT_PATH)" ""
+log_file := $(subst MakeCommon,AppExt/log_AppExt.txt,$(MAKE_COMMON_DIR))
+chk_file := $(subst MakeCommon,AppExt/chk_AppExt.txt,$(MAKE_COMMON_DIR))
+else ifneq "$(LIB_PATH)" ""
+log_file := $(subst MakeCommon,LIB/log_Lib.txt,$(MAKE_COMMON_DIR))
+chk_file := $(subst MakeCommon,LIB/chk_Lib.txt,$(MAKE_COMMON_DIR))
+else ifneq "$(LIBEXT_PATH)" ""
+log_file := $(subst MakeCommon,LIBExt/log_LibExt.txt,$(MAKE_COMMON_DIR))
+chk_file := $(subst MakeCommon,LIBExt/chk_LibExt.txt,$(MAKE_COMMON_DIR))
+else
+log_file := /dev/null
+chk_file := /dev/null
+endif
+
+ifeq "$(LOG_ERR)" "ON"
+LOG_OPTION = 2>>$(log_file)
+LOG_DATE = date >>$(log_file)
+LOG_SPACE = echo >>$(log_file)
+endif
+
+#----------------------------------------------------------------------
+# set the make targets
+#----------------------------------------------------------------------
+build_D: make_debug_begin $(IMAGE_D)
+build_R: make_release_begin $(IMAGE_R)
+
+ifeq "$(ISOLATE_DEP)" "ON"
+build_DEP: make_dep_begin $(ALL_DEP)
+endif
+
+build_CHK: make_chk_begin $(CHECK_FILE)
+
+$(IMAGE_D): $(ALL_OBJ_D)
+	@echo Creating library $(notdir $@) ... \
+	&& $(AR) -cru $@ $?
+
+$(IMAGE_R): $(ALL_OBJ_R)
+	@echo Creating library $(notdir $@) ... \
+	&& $(AR) -cru $@ $?
+
+.PHONY:
+rm_log:
+ifeq "$(LOCAL_CLEAN_LOG)" "ON"
+	@-rm -f $(log_file)
+endif
+
+clean:
+	@-echo Clean $(basename $(notdir $(IMAGE_R))) ... \
+	&& rm -rf $(PRJ_NAME)_Data $(IMAGE_D) $(IMAGE_R) $(log_file) $(chk_file)
+
+ifeq "$(ISOLATE_DEP)" "ON"
+all: rm_log
+	@make dep
+	@make debug
+	@make release
+
+rebuild:
+	@make clean
+	@make dep
+	@make debug
+	@make release
+
+dep: build_DEP
+else
+rebuild: clean build_D build_R
+endif
+
+debug: rm_log build_D
+
+release: rm_log build_R
+
+rm_chk_log:
+ifeq "$(LOCAL_CLEAN_LOG)" "ON"
+	@-rm -f $(chk_file)
+endif
+
+chk: rm_chk_log build_CHK
+
+chkclean:
+	@-echo Check Clean $(basename $(notdir $(IMAGE_R))) checking data ... \
+	&& rm -rf $(CHECK_DIR) $(chk_file)

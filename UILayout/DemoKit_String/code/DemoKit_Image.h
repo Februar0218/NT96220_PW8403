@@ -1,0 +1,232 @@
+/*//////////////////////////////////////////////////////////////////////////////
+
+ ---------- Document Info ---------------
+
+        Author : Anonymous
+       Created : 16:07:29, Apr  7 2010
+ Last modified : 10:44:26, Mar 16 2010
+   Making tool : UI Designer Studio
+   File format : C language header file
+
+ ----------- Object Info ----------------
+
+         Class : IMAGE_TABLE
+          Name : DemoKit_Image
+
+*///////////////////////////////////////////////////////////////////////////////
+
+#ifndef _DEMOKIT_IMAGE_H_
+#define _DEMOKIT_IMAGE_H_
+
+// IMAGE_TABLE
+extern const
+unsigned char gDemoKit_Image[];
+
+// IMAGE ID
+#define ICON_AF1                                 0x0000
+#define ICON_AF2                                 0x0001
+#define ICON_AF3                                 0x0002
+#define ICON_AF4                                 0x0003
+#define ICON_AF                                  0x0004
+#define ICON_AUDBEF                              0x0005
+#define ICON_AUDFB                               0x0006
+#define ICON_AUDFF                               0x0007
+#define ICON_AUDNEXT                             0x0008
+#define ICON_AUDPAUSE                            0x0009
+#define ICON_AUDPLAY                             0x000A
+#define ICON_AUDSTOP                             0x000B
+#define ICON_BATTERY_EMPTY                       0x000C
+#define ICON_BATTERY_FULL                        0x000D
+#define ICON_BATTERY_LOW                         0x000E
+#define ICON_BATTERY_MED                         0x000F
+#define ICON_BATTERY_TYPE                        0x0010
+#define ICON_BATTERY_ZERO                        0x0011
+#define ICON_CAPTURE_MULTI                       0x0012
+#define ICON_CAR_SHAKE_ON                        0x0013
+#define ICON_COLOR                               0x0014
+#define ICON_COLOR_NOMAL                         0x0015
+#define ICON_COLOR_SEPIA                         0x0016
+#define ICON_COLOR_WB                            0x0017
+#define ICON_COPY_FROM_CARD                      0x0018
+#define ICON_COPY_TO_CARD                        0x0019
+#define ICON_CYCLIC_REC                          0x001A
+#define ICON_CYCLIC_REC_1MIN                     0x001B
+#define ICON_CYCLIC_REC_2MIN                     0x001C
+#define ICON_CYCLIC_REC_3MIN                     0x001D
+#define ICON_CYCLIC_REC_5MIN                     0x001E
+#define ICON_CYCLIC_REC_10MIN                    0x001F
+#define ICON_CYCLIC_REC_15MIN                    0x0020
+#define ICON_DATE_PRINT                          0x0021
+#define ICON_DATE_STAMPING                       0x0022
+#define ICON_DATE_TIME                           0x0023
+#define ICON_DECREASE                            0x0024
+#define ICON_DEFAULT                             0x0025
+#define ICON_DELETE                              0x0026
+#define ICON_DIR_DOWN                            0x0027
+#define ICON_DIR_LEFT                            0x0028
+#define ICON_DIR_LEFT_B                          0x0029
+#define ICON_DIR_RIGHT                           0x002A
+#define ICON_DIR_UP                              0x002B
+#define ICON_DOWN_PP                             0x002C
+#define ICON_DPOF                                0x002D
+#define ICON_EV                                  0x002E
+#define ICON_EV_M0P3                             0x002F
+#define ICON_EV_M0P6                             0x0030
+#define ICON_EV_M1P0                             0x0031
+#define ICON_EV_M1P3                             0x0032
+#define ICON_EV_M1P6                             0x0033
+#define ICON_EV_M2P0                             0x0034
+#define ICON_EV_P0P0                             0x0035
+#define ICON_EV_P0P3                             0x0036
+#define ICON_EV_P0P6                             0x0037
+#define ICON_EV_P1P0                             0x0038
+#define ICON_EV_P1P3                             0x0039
+#define ICON_EV_P1P6                             0x003A
+#define ICON_EV_P2P0                             0x003B
+#define ICON_EXIT                                0x003C
+#define ICON_FACE_OFF                            0x003D
+#define ICON_FACE_ON                             0x003E
+#define ICON_FACE_ON_TMP                         0x003F
+#define ICON_FB_LEFT                             0x0040
+#define ICON_FB_LEFT_ORI                         0x0041
+#define ICON_FF_RIGHT                            0x0042
+#define ICON_FF_RIGHT_ORI                        0x0043
+#define ICON_FILE_NAME                           0x0044
+#define ICON_FILE_VIDEO                          0x0045
+#define ICON_FILE_VIDEO_ORI                      0x0046
+#define ICON_FLASH_AUTO                          0x0047
+#define ICON_FLASH_OFF                           0x0048
+#define ICON_FLASH_ON                            0x0049
+#define ICON_FLASH_REC                           0x004A
+#define ICON_FLASH_RED_EYE                       0x004B
+#define ICON_FORMAT                              0x004C
+#define ICON_GOLF_REC                            0x004D
+#define ICON_HINT_BAR                            0x004E
+#define ICON_HZ                                  0x004F
+#define ICON_IMAGE_ROTATE                        0x0050
+#define ICON_INCREASE                            0x0051
+#define ICON_INTERNAL_FLASH                      0x0052
+#define ICON_ISO                                 0x0053
+#define ICON_ISO_50                              0x0054
+#define ICON_ISO_100                             0x0055
+#define ICON_ISO_200                             0x0056
+#define ICON_ISO_400                             0x0057
+#define ICON_ISO_AUTO                            0x0058
+#define ICON_LANDSCAPE                           0x0059
+#define ICON_LANGUAGE                            0x005A
+#define ICON_LCD_BRIGHTNESS                      0x005B
+#define ICON_LEFT_PP                             0x005C
+#define ICON_LOCK                                0x005D
+#define ICON_LOCK_S                              0x005E
+#define ICON_LOGO_DISPLAY                        0x005F
+#define ICON_MACRO                               0x0060
+#define ICON_MACRO_ORI                           0x0061
+#define ICON_MEDIA                               0x0062
+#define ICON_MENU                                0x0063
+#define ICON_MENU_BG                             0x0064
+#define ICON_MENU_ITEM_BAR                       0x0065
+#define ICON_MENU_ITEM_BAR_BOT                   0x0066
+#define ICON_MENU_ITEM_BAR_MED                   0x0067
+#define ICON_MENU_ITEM_BAR_TOP                   0x0068
+#define ICON_MENU_PLAYBACK_EDIT                  0x0069
+#define ICON_MENU_PLAYBACK_OFF                   0x006A
+#define ICON_MENU_PLAYBACK_ON                    0x006B
+#define ICON_MENU_PRINT_MODE                     0x006C
+#define ICON_MENU_PRINT_OFF                      0x006D
+#define ICON_MENU_PRINT_ON                       0x006E
+#define ICON_MENU_RETURN                         0x006F
+#define ICON_MENU_SETUP_OFF                      0x0070
+#define ICON_MENU_SETUP_ON                       0x0071
+#define ICON_MENU_STILL_OFF                      0x0072
+#define ICON_MENU_STILL_ON                       0x0073
+#define ICON_MENU_VIDEO_OFF                      0x0074
+#define ICON_MENU_VIDEO_ON                       0x0075
+#define ICON_METERING                            0x0076
+#define ICON_METERING_SPOT                       0x0077
+#define ICON_MODE_CAPTURE                        0x0078
+#define ICON_MODE_PLAYBACK                       0x0079
+#define ICON_MODE_VIDEO                          0x007A
+#define ICON_NO_OF_COPY                          0x007B
+#define ICON_NUP_LAYOUT                          0x007C
+#define ICON_OK                                  0x007D
+#define ICON_OK_PAUSE                            0x007E
+#define ICON_OK_PAUSE_ORI                        0x007F
+#define ICON_OK_PLAY                             0x0080
+#define ICON_OK_PLAY_ORI                         0x0081
+#define ICON_OK_PRINT                            0x0082
+#define ICON_OK_S                                0x0083
+#define ICON_PAPER_SIZE                          0x0084
+#define ICON_PICTBRIDGE                          0x0085
+#define ICON_PICTBRIDGE_S                        0x0086
+#define ICON_PLAY_PAUSE                          0x0087
+#define ICON_POWER_OFF                           0x0088
+#define ICON_PRINT                               0x0089
+#define ICON_PROTECT                             0x008A
+#define ICON_QM_HINT_BAR                         0x008B
+#define ICON_QM_ITEM_BAR                         0x008C
+#define ICON_QM_STILL                            0x008D
+#define ICON_QM_VIDEO                            0x008E
+#define ICON_QUALITY                             0x008F
+#define ICON_QUALITY_BASIC                       0x0090
+#define ICON_QUALITY_FINE                        0x0091
+#define ICON_QUALITY_NORMAL                      0x0092
+#define ICON_QUICK_REVIEW                        0x0093
+#define ICON_R_STOP                              0x0094
+#define ICON_REC_RECOVERY                        0x0095
+#define ICON_RESOLUTION                          0x0096
+#define ICON_RIGHT_PP                            0x0097
+#define ICON_ROTATE                              0x0098
+#define ICON_ROTATE_90                           0x0099
+#define ICON_ROTATE_180                          0x009A
+#define ICON_ROTATE_270                          0x009B
+#define ICON_SCENE_AUTO                          0x009C
+#define ICON_SCENE_BACKLIGHT                     0x009D
+#define ICON_SCENE_NIGHT_PORTRAIT                0x009E
+#define ICON_SCENE_NIGHT_SCENERY                 0x009F
+#define ICON_SCENE_PORTRAIT                      0x00A0
+#define ICON_SCENE_SCENERY                       0x00A1
+#define ICON_SCENE_SPORT                         0x00A2
+#define ICON_SD_CARD                             0x00A3
+#define ICON_SEL_BAR_BEGIN                       0x00A4
+#define ICON_SEL_BAR_DATE                        0x00A5
+#define ICON_SEL_BAR_END                         0x00A6
+#define ICON_SEL_BAR_ITEM                        0x00A7
+#define ICON_SEL_BAR_MED                         0x00A8
+#define ICON_SEL_BAR_YEAR                        0x00A9
+#define ICON_SELFTIMER_2SEC                      0x00AA
+#define ICON_SELFTIMER_5SEC                      0x00AB
+#define ICON_SELFTIMER_10SEC                     0x00AC
+#define ICON_SEQUENCE_NO                         0x00AD
+#define ICON_SHAKE_OFF                           0x00AE
+#define ICON_SHAKE_ON                            0x00AF
+#define ICON_SHARPNESS                           0x00B0
+#define ICON_SHARPNESS_HIGH                      0x00B1
+#define ICON_SHARPNESS_LOW                       0x00B2
+#define ICON_SHARPNESS_MED                       0x00B3
+#define ICON_SLIDE_SHOW                          0x00B4
+#define ICON_SMILE                               0x00B5
+#define ICON_SMILE_TMP                           0x00B6
+#define ICON_TITLE_BAR                           0x00B7
+#define ICON_TV_MODE                             0x00B8
+#define ICON_U_STOP                              0x00B9
+#define ICON_U_STOP_ORI                          0x00BA
+#define ICON_USB                                 0x00BB
+#define ICON_VERSION                             0x00BC
+#define ICON_VOICE                               0x00BD
+#define ICON_VOL_0                               0x00BE
+#define ICON_VOL_1                               0x00BF
+#define ICON_VOL_2                               0x00C0
+#define ICON_VOL_3                               0x00C1
+#define ICON_VOL_4                               0x00C2
+#define ICON_VOL_5                               0x00C3
+#define ICON_VOL_6                               0x00C4
+#define ICON_VOL_7                               0x00C5
+#define ICON_VOL_8                               0x00C6
+#define ICON_VOLUME                              0x00C7
+#define ICON_WB_AUTO                             0x00C8
+#define ICON_WB_CLOUDY                           0x00C9
+#define ICON_WB_DAYLIGHT                         0x00CA
+#define ICON_WB_FLUORESCENT                      0x00CB
+#define ICON_WB_TUNGSTEN                         0x00CC
+
+#endif //_DEMOKIT_IMAGE_H_

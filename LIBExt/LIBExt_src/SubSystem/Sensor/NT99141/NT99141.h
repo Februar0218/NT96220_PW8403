@@ -1,0 +1,21 @@
+#ifndef _NT99141_H
+#define _NT99141_H
+#include "sensor.h"
+#define Token(n)    #n
+typedef enum _NT99141_MODE
+{
+    NT99141_INIT         = 0,
+    NT99141_1280X720    = SENSOR_MODE_1280X720,
+    NT99141_1280X960    = SENSOR_MODE_1280X960,
+    NT99141_1440X1080    = SENSOR_MODE_1440X1080,
+    NT99141_1920X1080    = SENSOR_MODE_1920X1080,
+    NT99141_STILL        = SENSOR_MODE_FULL,
+    ENUM_DUMMY4WORD(NT99141_MODE)
+}NT99141_MODE;
+
+extern void NT99141_GetRegInfo(NT99141_MODE mode,UINT32* addr,UINT32* size);
+extern void NT99141_GetSigInfo(NT99141_MODE mode,UINT32* addr,UINT32* size);
+extern void NT99141_GetDataInfo(NT99141_MODE mode,UINT32* addr,UINT32* size);
+extern void NT99141_GetISOInfo(UINT32 *ISOBase,UINT32 *AGCBase);
+
+#endif

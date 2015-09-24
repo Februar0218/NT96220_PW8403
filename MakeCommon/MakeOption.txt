@@ -1,0 +1,227 @@
+export OPTION_LOADED := TRUE
+
+#----------------------------------------------------------------------
+# splint parameters
+#----------------------------------------------------------------------
+# Set checking mode to weak (4 modes: weak, standard, checks and strict)
+#
+# Set length of maximum message line to 4096 characters.
+#
+# Send warnings to standard error stream.
+#
+# Don't show column number where error is found
+#
+# Set Boolean type to BOOL
+#
+# Set Boolean true to TRUE
+#
+# Set Boolean false to FALSE
+#
+export SPLINT_PARAMETER := -weak \
+                           -linelen 4096 \
+                           -warning-stream-stderr \
+                           -show-column \
+                           -booltype BOOL \
+                           -booltrue TRUE \
+                           -boolfalse FALSE
+
+#----------------------------------------------------------------------
+# Use '#' to turn on/off the Splint parameters.
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+# The following parameters are default ON in "weak" mode
+# Mark the line      : Turn ON the parameter
+# Don't mark the line: Turn OFF the parameter
+#----------------------------------------------------------------------
+
+# Preprocessor directive is not recognized
+SPLINT_PARAMETER += -unrecog
+
+# Preprocessing error
+SPLINT_PARAMETER += -preproc
+
+# Doesn't use the return value
+SPLINT_PARAMETER += -ret-val
+
+# A function or variable is defined more than once
+#SPLINT_PARAMETER += -redef
+
+# Found a type which appears to be the boolean type
+SPLINT_PARAMETER += -likelybool
+
+# An array formal parameter is declared with a fixed size
+#SPLINT_PARAMETER += -fixed-formal-array
+
+# A comment open sequence (/*) appears inside a comment
+# This usually indicates that an earlier comment was not closed
+SPLINT_PARAMETER += -nest-comment
+
+# Type mismatch
+SPLINT_PARAMETER += -type
+
+#----------------------------------------------------------------------
+# The following parameters are default OFF in "weak" mode
+# Mark the line      : Turn OFF the parameter
+# Don't mark the line: Turn ON the parameter
+#----------------------------------------------------------------------
+
+# The operand of a boolean operator is not a boolean
+#SPLINT_PARAMETER += +boolops
+
+# A declaration is exported but not used outside this module
+#SPLINT_PARAMETER += +export-local
+
+# Function parameter never used
+#SPLINT_PARAMETER += +param-use
+
+# The left operand to a shift operator may be negative (behavior is implementation-defined)
+#SPLINT_PARAMETER += +shiftimplementation
+
+# A function, variable or constant is redefined with a different type
+#SPLINT_PARAMETER += +incondefs
+
+# Function returns a possibly null pointer
+#SPLINT_PARAMETER += +nullret
+
+# A possibly null pointer is passed as a parameter
+#SPLINT_PARAMETER += +nullpass
+
+# Representation of mutable type has sharing semantics
+#SPLINT_PARAMETER += +mutrep
+
+# Allocated storage was not released before return or scope exit
+#SPLINT_PARAMETER += +mustfreefresh
+
+# An immediate address (result of &) is transferred inconsistently
+#SPLINT_PARAMETER += +immediatetrans
+
+# A macro parameter is used without parentheses (in potentially dangerous context)
+#SPLINT_PARAMETER += +macroredef
+
+# Type of condition test is an integral type.
+#SPLINT_PARAMETER += +predboolint
+
+# The value of a location that may not be initialized on some execution path is used
+SPLINT_PARAMETER += +usedef
+
+#----------------------------------------------------------------------
+# Set log file option
+#
+# ON: Save warning/error message to log files
+# OFF: Just output warning/error message to stdout
+#----------------------------------------------------------------------
+export LOG_ERR := ON
+#export LOG_ERR := OFF
+
+#----------------------------------------------------------------------
+# Set clean log file option
+#
+# ON: Clean log files before make
+# OFF: Don't clean log files before make
+#      (You should execute "make clean" to clean the log files)
+#----------------------------------------------------------------------
+export CLEAN_LOG := ON
+#export CLEAN_LOG := OFF
+
+#----------------------------------------------------------------------
+# Keep going when encounter error or not
+#
+# ON: Make will keep going when encounter error
+# OFF: Make will stop when encounter error
+#----------------------------------------------------------------------
+#export KEEP_GOING := ON
+export KEEP_GOING := OFF
+
+#----------------------------------------------------------------------
+# Isolate creating dependency files process
+#
+# ON: You have to run "make dep" to create dependency files
+# OFF: dependency file will be created when making the file
+#----------------------------------------------------------------------
+#export ISOLATE_DEP := ON
+export ISOLATE_DEP := OFF
+
+#----------------------------------------------------------------------
+# Generate debug symbol in release target
+# Release target won't generate debug symbol by default, if you want to
+# generate debug symbol in release target, please turn on this option
+#
+# ON: Generate debug symbol in release target
+# OFF: Don't generate debug symbol in release target (default value)
+#----------------------------------------------------------------------
+#export RELEASE_SYMBOL := ON
+export RELEASE_SYMBOL := OFF
+
+#----------------------------------------------------------------------
+# Generate one ELF section for each function
+# Compiler will generate one ELF section for one .c file by default.
+# If the .c file contains lots of function that are unused, turn on
+# this function can reduce code size.
+# (Linker will remove unused section by default)
+#
+# ON: One ELF section for each function
+# OFF: One ELF section for each .c file (default value of ADS C compiler)
+#----------------------------------------------------------------------
+export SECTION_BY_FUNC := ON
+#export SECTION_BY_FUNC := OFF
+
+#----------------------------------------------------------------------
+# Copy bin file to storage after bin file is created
+# You have to set an environment variable named "NVT_STG_PATH" (without
+# quote) to work with this function.
+# Example: set "NVT_STG_PATH" to "H:/" (without quote).
+#
+# ON: Copy bin file to storage after bin file is created
+# OFF: Don't copy bin file to storage after bin file is created
+#----------------------------------------------------------------------
+export COPY_BIN_2_STG := ON
+#export COPY_BIN_2_STG := OFF
+
+#----------------------------------------------------------------------
+# SET FPGA EMULATION MACRO for FPGA/realchip dependency module
+#
+# ON: FPGA platform
+# OFF: realchip platform
+#----------------------------------------------------------------------
+#export FPGA_EMULATION := ON
+export FPGA_EMULATION := OFF
+
+#----------------------------------------------------------------------
+# SET PLL OSC frequency for FPGA EMULATION
+# (only valid when FPGA_EMULATION == ON)
+#
+# For example, you should set it to 27000000 if your FPGA is connected
+# with a 27Mhz OSC.
+#----------------------------------------------------------------------
+export FPGA_PLL_OSC := 27000000
+
+#----------------------------------------------------------------------
+# Set the ARM parameters
+#
+# The ARMCONF and ARMINC are the Windows environment variable. They
+# should be set by the install program of ARM ADS 1.2
+#----------------------------------------------------------------------
+TOOL_DIR := $(subst \,/,$(ARMCONF))
+export CC = "$(TOOL_DIR)/armcc"
+export AS = "$(TOOL_DIR)/armasm"
+export LD = "$(TOOL_DIR)/armlink"
+export AR = "$(TOOL_DIR)/armar"
+export FE = "$(TOOL_DIR)/fromelf"
+export SP = splint
+export GCC = arm-gcc
+export EBIN = encrypt_bin
+export BFC = bfc
+export ARMINC_DIR := $(subst \,/,$(ARMINC))
+
+#----------------------------------------------------------------------
+# set make flags
+#
+# Note: Don't modify this if you didn't add new option
+#----------------------------------------------------------------------
+# Slient mode
+MAKEFLAGS := s
+
+# Keep going or not
+ifeq "$(KEEP_GOING)" "ON"
+MAKEFLAGS := $(MAKEFLAGS)k
+endif

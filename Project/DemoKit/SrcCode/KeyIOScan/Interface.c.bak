@@ -1,0 +1,192 @@
+/**
+    Copyright   Novatek Microelectronics Corp. 2005.  All rights reserved.
+
+    @file       GPIOMapphing.h
+    @ingroup    mIPRJAPKeyIO
+
+    @brief      Header file of GPIO mapping
+                This file is the header file of GPIO mapping
+
+    @note       Nothing.
+    @date       2005/12/05
+*/
+
+#include "Type.h"
+#include "debug.h"
+#include "AviRecApi.h"
+#include "AviPlayAPI.h"
+
+#include "Kernel.h"
+#include "KeyScanInt.h"
+#include "KeyScanTsk.h"
+#include "GPIOMapping.h"
+#include "PrimaryTsk.h"
+#include "UIFlow.h"
+#include "FwVersion.h"
+
+#if (PRJ == APC3)
+char *pFwVersion = "410C3NOD4507N19";
+char *pMakerString = "Novatek";
+char *pModelString = "DSC Turnkey";
+#elif (PRJ == V010N)
+char *pFwVersion = "V010NFW01";
+char *pMakerString = "Novatek";
+char *pModelString = "DSC Turnkey";
+#else
+//char *pFwVersion = "L5000.2012.12.17.IQ-B-001";
+#if 1//(_ENCRYPTE_ == ENABLE)
+//char *pFwVersion = "L5000.20121225V001E";
+//char *pFwVersion = "FHD5010.20130418V001";
+//char *pFwVersion = "FHD5010.20130422V001";
+//char *pFwVersion = "FHD5010.20130517V001";
+//char *pFwVersion = "FHD5010.20130701V001";
+//char *pFwVersion = "D-106 V15";
+char *pFwVersion = "20150424V001";
+#else
+char *pFwVersion = "L5000.20121225V001";
+#endif
+char *pMakerString = "Novatek";
+char *pModelString = "DSC Turnkey";
+#endif
+
+BOOL InterFace_CheckPrjFile(void)
+{
+    #if (PRJ == NVT_EVB)
+    return KeyScan_CheckFileExit("A:\\NVT_EVB.txt");
+    #elif (PRJ == APC3)
+    return KeyScan_CheckFileExit("A:\\APC3.txt");
+    #elif (PRJ == V010N)
+    return KeyScan_CheckFileExit("A:\\V010N.txt");
+    #else
+    return KeyScan_CheckFileExit("A:\\NVT.txt");
+    #endif
+}
+
+void InterFace_KeyScan_PlaySound(UINT32 uiTempKeyStatus)
+{
+    KeyScan_PlaySound(uiTempKeyStatus);
+}
+
+UINT32 InterFace_uiNoiseFilterLevel(void)
+{
+    return 0;
+}
+
+void InterFace_SysInit_InitAudio(void)
+{
+
+}
+
+void InterFace_InitAvi_SysInit_InitAudio(void)
+{
+    InterFace_SysInit_InitAudio();
+}
+void InterFace_Aud_SetFeature_Off(void)
+{
+}
+
+void InterFace_Get_WakeUp_BackLight_Key(UINT32* TempKeyStatus)
+{
+//when LCD is turn off,press any key instead of UP key to turn on LCD.
+#if 0
+    if ((GPIOMap_IsLCDBacklightOn() == FALSE)&&(KeyScan_IsTVPlugIn() == FALSE)&&(KeyScan_IsHDMIPlugIn() == FALSE))
+	{
+		*TempKeyStatus = FLGKEY_DISPLAY;
+	}
+#endif
+}
+
+//static UINT32       uiLastMDStatus          = 0;
+void InterFace_KeyScan_DetModedial(BOOL bForceChangeMode)
+{
+#if  0
+    UINT32          uiCurMDStatus, uiMDChanged, uiModedial;
+
+    uiCurMDStatus       = GPIOMap_DetModeDial();
+
+    if (uiCurMDStatus == 0)
+    return;
+
+    uiMDChanged         = uiCurMDStatus ^ uiLastMDStatus;
+
+    uiModedial          = uiCurMDStatus;
+
+
+    if (uiMDChanged || bForceChangeMode)
+    {
+    	PlaySound_WaitStopped();
+    	FilesysWaitInitFinish(FST_TIME_INFINITE);
+    	FilesysWaitCmdFinish(FST_TIME_INFINITE);
+
+        switch (uiCurMDStatus)
+        {
+        case GPIOMAP_MD_PLAYBACK:
+            Primary_ChangeMode(PRIMARY_MODE_PLAYBACK);
+            break;
+
+        case GPIOMAP_MD_MOVIE:
+            Primary_ChangeMode(PRIMARY_MODE_MOVIE);
+            break;
+
+        case GPIOMAP_MD_PHOTO:
+            Primary_ChangeMode(PRIMARY_MODE_PHOTO);
+            break;
+
+        case GPIOMAP_MD_SCENERY_AUTO:
+            SysSetFL(FL_SCENERY,SCENERY_AUTO);
+            break;
+
+        case GPIOMAP_MD_SCENERY_HIGHSENSITIVITY:
+            SysSetFL(FL_SCENERY,SCENERY_HIGHSENSITIVITY);
+            break;
+
+        case GPIOMAP_MD_SCENERY_NIGHTSCENERY:
+            SysSetFL(FL_SCENERY,SCENERY_NIGHTSCENERY);
+            break;
+
+        case GPIOMAP_MD_SCENERY_SPORT:
+            SysSetFL(FL_SCENERY,SCENERY_SPORT);
+            break;
+
+        case GPIOMAP_MD_SCENERY_SCENERY:
+            SysSetFL(FL_SCENERY,SCENERY_SCENERY);
+            break;
+
+        case GPIOMAP_MD_SCENERY_PORTRAIT:
+            SysSetFL(FL_SCENERY,SCENERY_PORTRAIT);
+            break;
+
+        case GPIOMAP_MD_SCENERY_BEACH:
+            SysSetFL(FL_SCENERY,SCENERY_BEACH);
+            break;
+
+        case GPIOMAP_MD_SCENERY_NIGHTPORTRAIT:
+            SysSetFL(FL_SCENERY,SCENERY_NIGHTPORTRAIT);
+            break;
+
+        default:
+            uiModedial = uiLastMDStatus;
+            break;
+        }
+    	Primary_Wait4ChangeModeDone();
+
+        // Reset auto power off counter
+        g_uiKeyScanAutoPoweroffCnt = 0;
+    }
+
+    uiLastMDStatus = uiModedial;
+#endif
+}
+
+void InterFace_Dac_SetPgaGain(void)
+{
+}
+
+void InterFace_VolDet_SetBatteryLevel_Record(void)
+{
+}
+
+void InterFace_VolDet_SetBatteryLevel_RecordStop(void)
+{
+
+}

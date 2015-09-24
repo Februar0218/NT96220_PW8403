@@ -1,0 +1,1113 @@
+include ../../MakeCommon/MakeOption.txt
+
+#NVT_EVB--fw
+#VERSION_CUSTOM_LOGO = NVT_EVB
+
+#HDCF--fw
+#VERSION_CUSTOM_LOGO = HDCF_NMS4_1
+
+#FDNN--fw
+#VERSION_CUSTOM_LOGO = FDNN_NMS4_1
+
+#HA60--fw
+#VERSION_CUSTOM_LOGO = HA60_1
+
+#TDV5160--fw
+#VERSION_CUSTOM_LOGO = TDV5160_1
+
+#ADPK DSC DEMO--fw
+#VERSION_CUSTOM_LOGO = ADPK_DSC_DEMO223
+
+#HDV5160--fw
+#VERSION_CUSTOM_LOGO = HDV5160_1
+
+#APC3--fw
+#VERSION_CUSTOM_LOGO = APC3_1
+
+#V010N--fw
+#VERSION_CUSTOM_LOGO = V010N
+
+#JXW--fw
+#VERSION_CUSTOM_LOGO = JXW
+#JXW--fw
+VERSION_CUSTOM_LOGO = P5000
+
+
+include ./PrjConfig/NVT_EVB_Config.txt
+include ./PrjConfig/HA60_Config.txt
+include ./PrjConfig/ADPK_DSC_DEMO_Config.txt
+include ./PrjConfig/HDV5160_Config.txt
+include ./PrjConfig/APC3_Config.txt
+include ./PrjConfig/V010N_Config.txt
+include ./PrjConfig/JXW_Config.txt
+include ./PrjConfig/P5000_Config.txt
+
+PRJ_PARAM = \
+	-DNVT_EVB=0 \
+	-DHDCF=1 \
+	-DFDNN=2 \
+	-DHA60=3 \
+	-DADPK_DSC_DEMO=4 \
+	-DHDV5160=5 \
+	-DAPC3=6 \
+	-DV010N=7 \
+	-DJXW=8 \
+	-DHDV5160_1=9 \
+	-DP5000=10\
+	-DPRJ=$(PRJ)
+	-DNVT_EVB=0 \
+	-DHDCF_NMS4_1=1 \
+	-DFDNN_NMS4_1=2 \
+	-DHA60_1=3 \
+	-DADPK_DSC_DEMO223=4 \
+	-DTDV5160_1=5 \
+	-DAPC3_1=6 \
+	-DV010N=7 \
+	-DJXW=8 \
+	-DHDV5160_1=9 \
+	-DP5000=10\
+	-DVERSION_CUSTOM_LOGO=$(VERSION_CUSTOM_LOGO) \
+
+UI_STYLE_PARAM = \
+	-DUI_STYLE_HDCF=0 \
+	-DUI_STYLE_FDO6=1 \
+	-DUI_STYLE_CD800O6=2 \
+	-DUI_STYLE_TURNKEY=3 \
+	-DUI_STYLE_DRIVE=4 \
+	-DUI_STYLE=$(UI_STYLE) 
+
+UPDATE_CFG_PARAM = \
+	-DUPDATE_CFG_NO=1 \
+	-DUPDATE_CFG_YES=2 \
+	-DUPDATE_CFG=$(UPDATE_CFG)
+
+DISPLAY_169HD_PARAM = \
+	-DDISPLAY_169HD_NO=1 \
+	-DDISPLAY_169HD_YES=2 \
+	-DDISPLAY_169HD=$(DISPLAY_169HD)
+
+#----------------------------------------------------------------------
+# set NAND block here
+#----------------------------------------------------------------------
+NANDBLOCKSIZE = SIZE_16K
+
+#----------------------------------------------------------------------
+# set binary file name
+#----------------------------------------------------------------------
+#BIN_NAME = FW96$(CHIP)A
+#BIN_NAME_T = FW96$(CHIP)T
+
+#----------------------------------------------------------------------
+# Set FW compression option
+#
+# ON: Compress FW
+# OFF: Normal
+#----------------------------------------------------------------------
+#FW_COMPRESS = ON
+#FW_COMPRESS = OFF
+
+#----------------------------------------------------------------------
+# Set FW partial compression option
+#
+# ON: Partial Compress FW
+# OFF: Full Compress FW
+#----------------------------------------------------------------------
+#FW_PARTIAL_COMPRESS = ON
+#FW_PARTIAL_COMPRESS = OFF
+
+#----------------------------------------------------------------------
+# multi regions in scatter description file or not
+# ON: Two or more load regions
+# OFF: Only one load region
+#----------------------------------------------------------------------
+MULTI_REGIONS = ON
+#MULTI_REGIONS = OFF
+
+#----------------------------------------------------------------------
+# set encrypt binary parameters
+# EBIN_METHOD
+#   CRC: CRC32
+#   SUM: Checksum
+# EBIN_BADDR
+#   Model name address in binary file (VersionInfo.s), should be 0x50
+# EBIN_MNAME
+#   Model name store in binary file (VersionInfo.s)
+# EBIN_PSTR
+#   Optional parameter, use as additional bytes to generate CRC or checksum
+#----------------------------------------------------------------------
+#EBIN_METHOD = CRC
+EBIN_METHOD = SUM
+
+EBIN_BADDR  = 0x50
+EBIN_MNAME  = NT96$(CHIP)
+EBIN_PSTR   =
+
+#----------------------------------------------------------------------
+# enable/disable FD functions
+#----------------------------------------------------------------------
+#FD = ENABLE
+#FD = DISABLE
+
+#----------------------------------------------------------------------
+# enable/disable SD functions
+#----------------------------------------------------------------------
+#SD = ENABLE
+#SD = DISABLE
+
+#----------------------------------------------------------------------
+# enable/disable FW Rotate functions
+#----------------------------------------------------------------------
+#FWROATE = ENABLE
+#FWROATE = DISABLE
+
+#----------------------------------------------------------------------
+# select HDMI device
+#----------------------------------------------------------------------
+HDMI = HDMITX_NOVATEK
+#HDMI = HDMITX_ANX7150
+
+#----------------------------------------------------------------------
+# select Scanner device
+#----------------------------------------------------------------------
+SCANNER = SCAN_DUMMY
+#SCANNER = SCAN_CH1HT82V36
+
+#----------------------------------------------------------------------
+# select MSDC Vendor Module
+#----------------------------------------------------------------------
+MSDCVENDOR = MSDCVENDOR_DEFAULT
+#MSDCVENDOR = MSDCVENDOR_NVT
+
+#----------------------------------------------------------------------
+# set parameters due to external device selection
+# user doesn't need to modify this area unless adding/deleting devices
+# note: the parameter name must be the same as source code
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+# Chip parameters
+#----------------------------------------------------------------------
+ifeq "$(CHIP)" "210"
+    CHIP_TYPE = _CHIP_210_
+endif
+
+ifeq "$(CHIP)" "220"
+    CHIP_TYPE = _CHIP_220_
+endif
+
+CHIP_PARAM = \
+	-D_CHIP_210_=0 \
+	-D_CHIP_220_=1 \
+	-D_CHIP_=$(CHIP_TYPE)
+
+CHIP_PARAM_ASM = \
+	-PD "_CHIP_210_ SETA 0" \
+	-PD "_CHIP_220_ SETA 1" \
+	-PD "_CHIP_ SETA $(CHIP_TYPE)"
+
+#----------------------------------------------------------------------
+# DRAM size parameters
+#----------------------------------------------------------------------
+ifeq "$(DRAMSIZE)" "SIZE_08MB"
+    DRAM_SIZE_VALUE = 0x00800000
+endif
+
+ifeq "$(DRAMSIZE)" "SIZE_16MB"
+    DRAM_SIZE_VALUE = 0x01000000
+endif
+
+ifeq "$(DRAMSIZE)" "SIZE_32MB"
+    DRAM_SIZE_VALUE = 0x02000000
+endif
+
+ifeq "$(DRAMSIZE)" "SIZE_64MB"
+    DRAM_SIZE_VALUE = 0x04000000
+endif
+
+DRAMSIZE_PARAM = \
+	-DDRAM_END=$(DRAM_SIZE_VALUE)
+
+DRAMSIZE_PARAM_ASM = \
+	-PD "DRAM_END SETA $(DRAM_SIZE_VALUE)"
+
+#----------------------------------------------------------------------
+# Firmware size parameters
+#----------------------------------------------------------------------
+ifeq "$(FREEMEMORYSIZE)" "SIZE_1MB512K"
+    FREEMEMORY_SIZE_VALUE = 0x00180000
+endif
+
+ifeq "$(FREEMEMORYSIZE)" "SIZE_1MB768K"
+    FREEMEMORY_SIZE_VALUE = 0x001C0000
+endif
+
+ifeq "$(FREEMEMORYSIZE)" "SIZE_2MB"
+    FREEMEMORY_SIZE_VALUE = 0x00200000
+endif
+
+ifeq "$(FREEMEMORYSIZE)" "SIZE_2MB256K"
+    FREEMEMORY_SIZE_VALUE = 0x00240000
+endif
+
+ifeq "$(FREEMEMORYSIZE)" "SIZE_2MB512K"
+    FREEMEMORY_SIZE_VALUE = 0x00280000
+endif
+
+ifeq "$(FREEMEMORYSIZE)" "SIZE_3MB"
+    FREEMEMORY_SIZE_VALUE = 0x00300000
+endif
+
+FREEMEMORYSIZE_PARAM = \
+	-DFRE_MEM=$(FREEMEMORY_SIZE_VALUE)
+
+#----------------------------------------------------------------------
+# Firmware compress parameters
+#----------------------------------------------------------------------
+ifeq "$(FW_COMPRESS)" "ON"
+ifeq "$(FW_PARTIAL_COMPRESS)" "ON"
+	FWCOMPRESS_TYPE = _FWCOMPRESS_PARTIAL_
+else
+	FWCOMPRESS_TYPE = _FWCOMPRESS_FULL_
+endif
+else
+ifeq "$(FW_PARTIAL_LOAD)" "ON"
+    FWCOMPRESS_TYPE = _FWCOMPRESS_NONE_PARTIAL_
+else
+    FWCOMPRESS_TYPE = _FWCOMPRESS_NONE_
+endif
+endif
+
+FWCOMPRESS_PARAM = \
+	-D_FWCOMPRESS_NONE_=0 \
+	-D_FWCOMPRESS_FULL_=1 \
+	-D_FWCOMPRESS_PARTIAL_=2 \
+	-D_FWCOMPRESS_NONE_PARTIAL_=3 \
+	-D_FWCOMPRESS_TYPE_=$(FWCOMPRESS_TYPE)
+
+FWCOMPRESS_PARAM_ASM = \
+	-PD "_FWCOMPRESS_NONE_ SETA 0" \
+	-PD "_FWCOMPRESS_FULL_ SETA 1" \
+	-PD "_FWCOMPRESS_PARTIAL_ SETA 2" \
+	-PD "_FWCOMPRESS_NONE_PARTIAL_ SETA 3" \
+	-PD "_FWCOMPRESS_TYPE_ SETA $(FWCOMPRESS_TYPE)"
+
+#----------------------------------------------------------------------
+# NAND block size parameters
+#----------------------------------------------------------------------
+# 512 page, 1block = 32page = 16K bytes
+ifeq "$(NANDBLOCKSIZE)" "SIZE_16K"
+    NAND_BLK_SIZE = 0x4000
+endif
+
+#----------------------------------------------------------------------
+# LCD parameters
+#----------------------------------------------------------------------
+ifeq "$(LCD)" "LCDTV_AUAN04"
+    LCD_TYPE = _LCDTYPE_AUAN04_
+endif
+
+ifeq "$(LCD)" "LCDTV_AUBL02"
+    LCD_TYPE = _LCDTYPE_AUBL02_
+endif
+
+ifeq "$(LCD)" "LCDTV_AUBN01"
+    LCD_TYPE = _LCDTYPE_AUBN01_
+endif
+
+ifeq "$(LCD)" "LCDTV_AUBN02"
+    LCD_TYPE = _LCDTYPE_AUBN02_
+endif
+
+ifeq "$(LCD)" "LCDTV_AUCN01"
+    LCD_TYPE = _LCDTYPE_AUCN01_
+endif
+
+ifeq "$(LCD)" "LCDTV_AUDL02"
+    LCD_TYPE = _LCDTYPE_AUDL02_
+endif
+
+ifeq "$(LCD)" "LCDTV_Casio1G"
+    LCD_TYPE = _LCDTYPE_CASIO1G_
+endif
+
+ifeq "$(LCD)" "LCDTV_Casio2G"
+    LCD_TYPE = _LCDTYPE_CASIO2G_
+endif
+
+ifeq "$(LCD)" "LCDTV_Toppoly"
+    LCD_TYPE = _LCDTYPE_TOPPOLY_
+endif
+
+ifeq "$(LCD)" "LCDTV_ToppolyTD020"
+    LCD_TYPE = _LCDTYPE_TOPPOLYTD020_
+endif
+
+ifeq "$(LCD)" "LCDTV_ToppolyTD024THEA1"
+    LCD_TYPE = _LCDTYPE_TOPPOLYTD024_
+endif
+
+ifeq "$(LCD)" "LCDTV_ToppolyTD025"
+    LCD_TYPE = _LCDTYPE_TOPPOLYTD025_
+endif
+
+ifeq "$(LCD)" "LCDTV_ToppolyTD025THEE9"
+    LCD_TYPE = _LCDTYPE_TOPPOLYTD025THEE9_
+endif
+
+ifeq "$(LCD)" "LCDTV_A027DN01"
+    LCD_TYPE = _LCDTYPE_A027DN01_
+endif
+
+ifeq "$(LCD)" "LCDTV_WT8871"
+    LCD_TYPE = _LCDTYPE_WT8871_
+endif
+
+ifeq "$(LCD)" "LCDTV_ToppolyTD024THEB5"
+    LCD_TYPE = _LCDTYPE_TOPPOLYTD024THEB5_
+endif
+
+ifeq "$(LCD)" "LCDTV_ToppolyTD025THEEA"
+    LCD_TYPE = _LCDTYPE_TOPPOLYTD025THEEA_
+endif
+
+ifeq "$(LCD)" "LCDTV_ToppolyTD030WHEA1"
+    LCD_TYPE = _LCDTYPE_TOPPOLYTD030WHEA1_
+endif
+
+ifeq "$(LCD)" "LCDTV_ToppolyTD024THEB2"
+    LCD_TYPE = _LCDTYPE_TOPPOLYTD024THEB2_
+endif
+
+ifeq "$(LCD)" "LCDTV_WD_F4823V7_7FLWA"
+    LCD_TYPE = _LCDTYPE_WD_F4823V7_7FLWA_
+endif
+
+ifeq "$(LCD)" "LCDTV_GiantPlusGPG48238QS5"
+    LCD_TYPE = _LCDTYPE_GIANTPLUSGPG48238QS5_
+endif
+
+ifeq "$(LCD)" "LCDTV_ALT027BSLN_J2_SQ"
+    LCD_TYPE = _LCDTYPE_ALT027BSLN_J2_SQ_
+endif
+
+ifeq "$(LCD)" "LCDTV_ALT027DSLN_J2_SQ"
+    LCD_TYPE = _LCDTYPE_ALT027DSLN_J2_SQ_
+endif
+
+ifeq "$(LCD)" "LCDTV_TXDT180A_18V6"
+    LCD_TYPE = _LCDTYPE_TXDT180A_18V6_
+endif
+
+ifeq "$(LCD)" "LCDTV_TXDT240C_9325D"
+    LCD_TYPE = _LCDTYPE_TXDT240C_9325D_
+endif
+
+ifeq "$(LCD)" "LCDTV_TXDT240C"
+    LCD_TYPE = _LCDTYPE_TXDT240C_
+endif
+
+ifeq "$(LCD)" "LCDTV_RZWT27P02"
+    LCD_TYPE = _LCDTYPE_RZWT27P02_
+endif
+
+ifeq "$(LCD)" "LCDTV_TXDT270M"
+    LCD_TYPE = _LCDTYPE_TXDT270M_
+endif
+
+ifeq "$(LCD)" "LCDTV_TXDT270CDR_2V7"
+    LCD_TYPE = _LCDTYPE_TXDT270CDR_2V7_
+endif
+
+ifeq "$(LCD)" "LCDTV_PS20P00"
+    LCD_TYPE = _LCDTYPE_PS20P00_
+endif
+
+ifeq "$(LCD)" "LCDTV_TXDT270C_8961_6A6"
+    LCD_TYPE = _LCDTYPE_TXDT270C_8961_6A6_
+endif
+
+ifeq "$(LCD)" "LCDTV_ALT030HSLN_J2"
+    LCD_TYPE = _LCDTYPE_ALT030HSLN_J2_
+endif
+
+ifeq "$(LCD)" "LCDTV_ALT020DSLN_J2"
+	LCD_TYPE = _LCDTYPE_ALT020DSLN_J2_
+endif
+
+ifeq "$(LCD)" "LCDTV_T27BDHJ102"
+    LCD_TYPE = _LCDTYPE_T27BDHJ102_
+endif
+
+ifeq "$(LCD)" "LCDTV_ILI9341"
+    LCD_TYPE = _LCDTYPE_LIL9341_
+endif
+
+ifeq "$(LCD)" "LCDTV_TXDT200LER_31V2"
+    LCD_TYPE = _LCDTYPE_TXDT200LER_31V2_
+endif
+
+ifeq "$(LCD)" "LCDTV_HX8238"
+    LCD_TYPE = _LCDTYPE_HX8238_
+endif
+
+LCD_PARAM = \
+	-D_LCDTYPE_AUAN04_=0 \
+	-D_LCDTYPE_AUBL02_=1 \
+	-D_LCDTYPE_AUBN01_=2 \
+	-D_LCDTYPE_AUBN02_=3 \
+	-D_LCDTYPE_AUCN01_=4 \
+	-D_LCDTYPE_AUDL02_=5 \
+	-D_LCDTYPE_CASIO1G_=6 \
+	-D_LCDTYPE_CASIO2G_=7 \
+	-D_LCDTYPE_TOPPOLY_=8 \
+	-D_LCDTYPE_TOPPOLYTD020_=9 \
+	-D_LCDTYPE_TOPPOLYTD024_=10 \
+	-D_LCDTYPE_TOPPOLYTD025_=11 \
+	-D_LCDTYPE_WT8871_=12 \
+	-D_LCDTYPE_TOPPOLYTD025THEE9_=13 \
+	-D_LCDTYPE_A027DN01_=14 \
+	-D_LCDTYPE_TOPPOLYTD024THEB5_=15 \
+	-D_LCDTYPE_TOPPOLYTD025THEEA_=16 \
+	-D_LCDTYPE_TOPPOLYTD030WHEA1_=17 \
+	-D_LCDTYPE_TOPPOLYTD024THEB2_=18 \
+	-D_LCDTYPE_WD_F4823V7_7FLWA_=19 \
+	-D_LCDTYPE_GIANTPLUSGPG48238QS5_=20 \
+	-D_LCDTYPE_ALT027BSLN_J2_SQ_=21 \
+	-D_LCDTYPE_ALT027DSLN_J2_SQ_=22 \
+	-D_LCDTYPE_TXDT180A_18V6_=23 \
+	-D_LCDTYPE_TXDT240C_9325D_=24 \
+	-D_LCDTYPE_RZWT27P02_=25 \
+	-D_LCDTYPE_TXDT270M_=26 \
+	-D_LCDTYPE_PS20P00_=27 \
+	-D_LCDTYPE_TXDT240C_=28 \
+	-D_LCDTYPE_TXDT270CDR_2V7_=29 \
+	-D_LCDTYPE_TXDT270C_8961_6A6_=30 \
+	-D_LCDTYPE_ALT030HSLN_J2_=31 \
+	-D_LCDTYPE_T27BDHJ102_=32 \
+	-D_LCDTYPE_LIL9341_=33 \
+	-D_LCDTYPE_ALT020DSLN_J2_=34 \
+	-D_LCDTYPE_TXDT200LER_31V2_=35\
+	-D_LCDTYPE_HX8238_=36\
+	-D_LCDTYPE_=$(LCD_TYPE)
+
+#----------------------------------------------------------------------
+# LCD2 parameters
+#----------------------------------------------------------------------
+ifeq "$(LCD2)" "LCDTV2_OFF"
+    LCD_TYPE2 = _LCDTYPE2_OFF_
+endif
+
+ifeq "$(LCD2)" "LCDTV2_5Q4ILI9163"
+    LCD_TYPE2 = _LCDTYPE2_5Q4ILI9163_
+endif
+
+ifeq "$(LCD2)" "LCDTV2_NT75761"
+    LCD_TYPE2 = _LCDTYPE2_NT75761_
+endif
+
+LCD2_PARAM = \
+	-D_LCDTYPE2_OFF_=0 \
+	-D_LCDTYPE2_5Q4ILI9163_=1 \
+	-D_LCDTYPE2_NT75761_=2 \
+	-D_LCDTYPE2_=$(LCD_TYPE2)
+
+#----------------------------------------------------------------------
+# Touch Panel parameters
+#----------------------------------------------------------------------
+ifeq "$(TouchPanel)" "DISABLE"
+    TouchPanelType = 0
+endif
+
+ifeq "$(TouchPanel)" "TouchPanel_VVT4046"
+    TouchPanelType = _TouchPanel_VVT4046_
+endif
+
+TOUCH_PANEL_PARAM = \
+	-D_TouchPanel_VVT4046_=1 \
+	-D_TouchPanel_=$(TouchPanelType)
+
+#----------------------------------------------------------------------
+# GPS parameters
+#----------------------------------------------------------------------
+ifeq "$(GPS_RECEIVER)" "ENABLE"
+    GPS = 1
+else
+    GPS = 0
+endif
+
+GPS_PARAM = \
+	-D_GPS_RECEIVER_=$(GPS)
+
+#----------------------------------------------------------------------
+# Sensor parameters
+#----------------------------------------------------------------------
+ifeq "$(SENSOR)" "CMOS_MI5100"
+    SENSOR_TYPE = _SENSORLIB_MI5100_
+endif
+
+ifeq "$(SENSOR)" "CMOS_OV5653"
+  SENSOR_TYPE = _SENSORLIB_OV5653_
+endif
+
+ifeq "$(SENSOR)" "CMOS_MI1310"
+  SENSOR_TYPE = _SENSORLIB_MI1310_
+endif
+
+ifeq "$(SENSOR)" "CMOS_MI5130"
+  SENSOR_TYPE = _SENSORLIB_MI5130_
+endif
+
+ifeq "$(SENSOR)" "CMOS_OV5633"
+  SENSOR_TYPE = _SENSORLIB_OV5633_
+endif
+
+ifeq "$(SENSOR)" "CMOS_MI9130"
+  SENSOR_TYPE = _SENSORLIB_MI9130_
+endif
+
+ifeq "$(SENSOR)" "CMOS_OV9712"
+  SENSOR_TYPE = _SENSORLIB_OV9712_
+endif
+
+ifeq "$(SENSOR)" "CMOS_MI1600"
+  SENSOR_TYPE = _SENSORLIB_MI1600_
+endif
+
+ifeq "$(SENSOR)" "CMOS_MI5131E"
+  SENSOR_TYPE = _SENSORLIB_MI5131E_
+endif
+
+ifeq "$(SENSOR)" "CMOS_NT99140"
+  SENSOR_TYPE = _SENSORLIB_NT99140_
+endif
+
+ifeq "$(SENSOR)" "CMOS_S5K3E2"
+  SENSOR_TYPE = _SENSORLIB_S5K3E2_
+endif
+
+ifeq "$(SENSOR)" "CMOS_NT99141"
+  SENSOR_TYPE = _SENSORLIB_NT99141_
+endif
+
+SENSOR_PARAM = \
+	-D_SENSORLIB_MI5100_=0 \
+	-D_SENSORLIB_OV5653_=1 \
+	-D_SENSORLIB_MI1310_=2 \
+	-D_SENSORLIB_MI5130_=3 \
+	-D_SENSORLIB_OV5633_=4 \
+	-D_SENSORLIB_MI9130_=5 \
+	-D_SENSORLIB_OV9712_=6 \
+	-D_SENSORLIB_MI1600_=7 \
+	-D_SENSORLIB_MI5131E_=8 \
+	-D_SENSORLIB_NT99140_=9 \
+	-D_SENSORLIB_S5K3E2_=10 \
+	-D_SENSORLIB_NT99141_=11 \
+	-D_SENSORLIB_=$(SENSOR_TYPE)
+
+#----------------------------------------------------------------------
+# IPP parameters
+#----------------------------------------------------------------------
+ifeq "$(IPP)" "IPP_OV5653_EVB_FF"
+  IPP_TYPE = _IPP_OV5653_220_
+endif
+
+ifeq "$(IPP)" "IPP_MI5100_EVB_FF"
+  IPP_TYPE = _IPP_MI5100_220_
+endif
+
+ifeq "$(IPP)" "IPP_OV5633_EVB_FF"
+  IPP_TYPE = _IPP_OV5633_220_
+endif
+
+ifeq "$(IPP)" "IPP_OV5633_TDC5S4_FF"
+  IPP_TYPE = _IPP_OV5633_220_
+endif
+
+ifeq "$(IPP)" "IPP_MI5130_EVB_FF"
+  IPP_TYPE = _IPP_MI5130_220_
+endif
+
+ifeq "$(IPP)" "IPP_MI5130_HDCF_FF"
+  IPP_TYPE = _IPP_MI5130_220_
+endif
+
+ifeq "$(IPP)" "IPP_MI9130_EVB_FF"
+  IPP_TYPE = _IPP_MI9130_220_
+endif
+
+ifeq "$(IPP)" "IPP_OV9712_EVB_FF"
+  IPP_TYPE = _IPP_OV9712_220_
+endif
+
+ifeq "$(IPP)" "IPP_OV9712_APC5_FF"
+  IPP_TYPE = _IPP_OV9712_220_
+endif
+
+ifeq "$(IPP)" "IPP_OV9712_DVTK_FF"
+  IPP_TYPE = _IPP_OV9712_220_
+endif
+
+ifeq "$(IPP)" "IPP_MI1600_DV195_FF"
+  IPP_TYPE = _IPP_MI1600_220_
+endif
+
+ifeq "$(IPP)" "IPP_MI5131E_FDNN_FF"
+  IPP_TYPE = _IPP_MI5131E_220_
+endif
+ifeq "$(IPP)" "IPP_NT99140_Sample_FF"
+ifeq "$(IPP)" "IPP_S5K3E2_HDV5160_FF"
+  IPP_TYPE = _IPP_S5K3E2_220_
+endif
+
+  IPP_TYPE = _IPP_NT99140_220_
+endif
+
+IPP_PARAM = \
+	-D_IPP_OV5653_220_=0 \
+	-D_IPP_MI5100_220_=1 \
+ 	-D_IPP_OV5633_220_=2 \
+ 	-D_IPP_MI5130_220_=3 \
+ 	-D_IPP_MI9130_220_=4 \
+	-D_IPP_OV9712_220_=5 \
+	-D_IPP_MI1600_220_=6 \
+	-D_IPP_MI5131E_220_=7 \
+ 	-D_IPP_NT99140_220_=8 \
+	-D_IPP_S5K3E2_220_=9 \
+   -D_IPPLIB_=$(IPP_TYPE)
+
+#----------------------------------------------------------------------
+# AE parameters
+#----------------------------------------------------------------------
+ifeq "$(AE)" "AE_SAMPLE"
+  AE_TYPE = _AE_SAMPLE_
+endif
+
+ifeq "$(AE)" "AE_OV5653_220"
+  AE_TYPE = _AE_OV5653_220_
+endif
+
+ifeq "$(AE)" "AE_MI5100_220"
+  AE_TYPE = _AE_MI5100_220_
+endif
+
+ifeq "$(AE)" "AE_OV5633_TDC5S4_FF"
+  AE_TYPE = _AE_OV5633_220_
+endif
+
+ifeq "$(AE)" "AE_MI5130_220"
+  AE_TYPE = _AE_MI5130_220_
+endif
+
+ifeq "$(AE)" "AE_MI5130_HDCF_FF"
+  AE_TYPE = _AE_MI5130_220_
+endif
+
+ifeq "$(AE)" "AE_MI9130_220"
+  AE_TYPE = _AE_MI9130_220_
+endif
+
+ifeq "$(AE)" "AE_OV9712_APC5_FF"
+  AE_TYPE = _AE_OV9712_220_
+endif
+
+ifeq "$(AE)" "AE_OV9712_DVTK_FF"
+  AE_TYPE = _AE_OV9712_220_
+endif
+
+ifeq "$(AE)" "AE_MI1600_DV195_FF"
+  AE_TYPE = _AE_MI1600_220_
+endif
+
+ifeq "$(AE)" "AE_MI5131E_FDNN_FF"
+  AE_TYPE = _AE_MI5131E_220_
+endif
+ifeq "$(AE)" "AE_NT99140_Sample_FF"
+  AE_TYPE = _AE_NT99140_220_
+ifeq "$(AE)" "AE_S5K3E2_HDV5160_FF"
+  AE_TYPE = _AE_S5K3E2_220_
+endif
+endif
+
+AE_PARAM = \
+	-D_AE_OV5653_220_=0 \
+	-D_AE_MI5100_220_=1 \
+ 	-D_AE_OV5633_220_=2 \
+ 	-D_AE_MI5130_220_=3 \
+ 	-D_AE_MI9130_220_=4 \
+	-D_AE_OV9712_220_=5 \
+	-D_AE_MI1600_220_=6 \
+	-D_AE_SAMPLE_=7 \
+	-D_AE_MI5131E_220_=8 \
+ 	-D_AE_NT99140_220_=9 \
+	-D_AE_S5K3E2_220_=10 \
+    -D_AELIB_=$(AE_TYPE)
+
+#----------------------------------------------------------------------
+# AWB parameters
+#----------------------------------------------------------------------
+ifeq "$(AWB)" "AWB_SAMPLE"
+  AWB_TYPE = _AWB_SAMPLE_
+endif
+
+ifeq "$(AWB)" "AWB_OV5653_220"
+  AWB_TYPE = _AWB_OV5653_220_
+endif
+
+ifeq "$(AWB)" "AWB_OV5653_HA60_FF"
+  AWB_TYPE = _AWB_OV5653_220_
+endif
+
+ifeq "$(AWB)" "AWB_MI5100_220"
+  AWB_TYPE = _AWB_MI5100_220_
+endif
+
+ifeq "$(AWB)" "AWB_OV5633_220"
+  AWB_TYPE = _AWB_OV5633_220_
+endif
+
+ifeq "$(AWB)" "AWB_MI5130_220"
+  AWB_TYPE = _AWB_MI5130_220_
+endif
+
+ifeq "$(AWB)" "AWB_MI5130_HDCF_FF"
+  AWB_TYPE = _AWB_MI5130_220_
+endif
+
+ifeq "$(AWB)" "AWB_MI9130_220"
+  AWB_TYPE = _AWB_MI9130_220_
+endif
+
+ifeq "$(AWB)" "AWB_OV9712_220"
+  AWB_TYPE = _AWB_OV9712_220_
+endif
+
+ifeq "$(AWB)" "AWB_OV9712_DVTK_FF"
+  AWB_TYPE = _AWB_OV9712_220_
+endif
+
+ifeq "$(AWB)" "AWB_OV9712_APC5_FF"
+  AE_TYPE = _AWB_OV9712_220_
+endif
+
+ifeq "$(AWB)" "AWB_S5K3E2_HDV5160_FF"
+  AWB_TYPE = _AWB_S5K3E2_220_
+endif
+
+ifeq "$(AWB)" "AWB_NT99140_Sample_FF"
+  AWB_TYPE = _AWB_NT99140_220_
+endif
+
+AWB_PARAM = \
+	-D_AWB_OV5653_220_=0 \
+	-D_AWB_MI5100_220_=1 \
+ 	-D_AWB_OV5633_220_=2 \
+ 	-D_AWB_MI5130_220_=3 \
+ 	-D_AWB_MI9130_220_=4 \
+	-D_AWB_OV9712_220_=5 \
+	-D_AWB_SAMPLE_=6 \
+	-D_AWB_MI5131E_220_=7 \
+  	-D_AWB_NT99140_220_=8 \
+	-D_AWB_S5K3E2_220_=9 \
+	-D_AWBLIB_=$(AWB_TYPE)
+
+# AF parameters
+#----------------------------------------------------------------------
+ifeq "$(AF)" "AF_SAMPLE"
+  AF_TYPE = _AF_SAMPLE_
+endif
+
+AF_PARAM = \
+	-D_AF_SAMPLE_=0 \
+	-D_AFLIB_=$(AF_TYPE)
+
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+# Exposure mode parameters
+#----------------------------------------------------------------------
+SENSOR_EXPOSURE_PARAM = \
+	-D_EXPOSURE_ERS_=0 \
+	-D_EXPOSURE_GRS_=1 \
+	-D_SENSOR_EXPOSURE_=$(SENSOR_EXPOSURE)
+
+#----------------------------------------------------------------------
+# Flash light parameters
+#----------------------------------------------------------------------
+FLASH_LIGHT_PARAM = \
+	-D_FLASH_SCR_=0 \
+	-D_FLASH_IGBT_=1 \
+	-D_FLASH_LIGHT_=$(FLASH_LIGHT)
+
+#----------------------------------------------------------------------
+# Lens parameters
+#----------------------------------------------------------------------
+ifeq "$(LENS_DRV)" "LensDrv_FF"
+    LENS_TYPE = _LENSLIB_FF_
+endif
+
+ifeq "$(LENS_DRV)" "LensDrv_A300"
+  LENS_TYPE = _LENSLIB_A300_
+endif
+
+ifeq "$(LENS_DRV)" "LensDrv_ST8003"
+    LENS_TYPE = _LENSLIB_ST8003_
+endif
+
+ifeq "$(LENS_DRV)" "LensDrv_ST8005"
+    LENS_TYPE = _LENSLIB_ST8005_
+endif
+
+ifeq "$(LENS_DRV)" "LensDrv_DZ5311"
+  LENS_TYPE = _LENSLIB_DZ5311_
+endif
+
+LENS_PARAM = \
+	-D_LENSLIB_FF_=0 \
+	-D_LENSLIB_A300_=1 \
+	-D_LENSLIB_ST8003_=2 \
+	-D_LENSLIB_DZ5311_=3 \
+	-D_LENSLIB_ST8005_=4 \
+	-D_LENSLIB_=$(LENS_TYPE)
+
+#----------------------------------------------------------------------
+# Motor parameters
+#----------------------------------------------------------------------
+ifeq "$(LENS_MOTOR)" "LensMotor_PSEUDO"
+    MOTOR_TYPE = _MOTORLIB_PSEUDO_
+endif
+
+ifeq "$(LENS_MOTOR)" "LensMotor_MSHONLY"
+    MOTOR_TYPE = _MOTORLIB_MSHONLY_
+endif
+
+ifeq "$(LENS_MOTOR)" "LensMotor_WT7026"
+    MOTOR_TYPE = _MOTORLIB_WT7026_
+endif
+
+ifeq "$(LENS_MOTOR)" "LensMotor_R2A30423"
+  MOTOR_TYPE = _MOTORLIB_R2A30423_
+endif
+
+MOTOR_PARAM = \
+	-D_MOTORLIB_PSEUDO_=0 \
+	-D_MOTORLIB_MSHONLY_=1 \
+	-D_MOTORLIB_WT7026_=2 \
+	-D_MOTORLIB_R2A30423_=3 \
+	-D_MOTORLIB_=$(MOTOR_TYPE)
+
+#----------------------------------------------------------------------
+# HDMI parameters
+#----------------------------------------------------------------------
+ifeq "$(HDMI)" "HDMITX_NOVATEK"
+  HDMI_TYPE = _HDMITYPE_NOVATEK_
+endif
+
+ifeq "$(HDMI)" "HDMITX_ANX7150"
+  HDMI_TYPE = _HDMITYPE_ANX7150_
+endif
+
+HDMI_PARAM = \
+	-D_HDMITYPE_NOVATEK_=0 \
+	-D_HDMITYPE_ANX7150_=1 \
+	-D_HDMITYPE_=$(HDMI_TYPE)
+
+#----------------------------------------------------------------------
+# SCANNER parameters
+#----------------------------------------------------------------------
+ifeq "$(SCANNER)" "SCAN_DUMMY"
+  SCAN_TYPE = _SCAN_DUMMY_
+endif
+
+ifeq "$(SCANNER)" "SCAN_CH1HT82V36"
+  SCAN_TYPE = _SCAN_CH1HT82V36_
+endif
+
+SCAN_PARAM = \
+	-D_SCANTYPE_DUMMY_=0 \
+	-D_SCANTYPE_CH1HT82V36_=1 \
+	-D_SCANTYPE_=$(SCAN_TYPE)
+
+#----------------------------------------------------------------------
+# Audio parameters
+#----------------------------------------------------------------------
+
+#----------------------------------------------------------------------
+# Storage parameters
+#----------------------------------------------------------------------
+ifeq "$(STORAGE)" "Storage_SDIO"
+    STORAGE_TYPE = _STORAGECARD_SDIO_
+endif
+
+STORAGE_PARAM = \
+	-D_STORAGECARD_SDIO_=0 \
+	-D_STORAGECARD_=$(STORAGE_TYPE)
+
+#----------------------------------------------------------------------
+# PStore type parameters
+#----------------------------------------------------------------------
+ifeq "$(PSTORE)" "Nand"
+    PSTORE_TYPE = _PSTOREDEVICE_NANDPS_
+else
+    PSTORE_TYPE = _PSTOREDEVICE_SPIFLASH_
+endif
+
+PSTORE_PARAM = \
+	-D_PSTOREDEVICE_NANDPS_=0 \
+	-D_PSTOREDEVICE_SPIFLASH_=1 \
+	-D_PSTOREDEVICE_=$(PSTORE_TYPE)
+
+#----------------------------------------------------------------------
+# IR Receiver device parameters
+#----------------------------------------------------------------------
+ifeq "$(IRRX)" "IrRx_NONE"
+  IRRX_TYPE = _IR_REMOTE_NONE_
+endif
+
+ifeq "$(IRRX)" "IrRx_NEC"
+  IRRX_TYPE = _IR_REMOTE_NEC_
+endif
+
+IRRX_PARAM = \
+	-D_IR_REMOTE_NONE_=0 \
+	-D_IR_REMOTE_NEC_=1 \
+	-D_IR_REMOTE_=$(IRRX_TYPE)
+
+#----------------------------------------------------------------------
+# FD parameters
+#----------------------------------------------------------------------
+ifeq "$(FD)" "ENABLE"
+    FD_CFG = 1
+else
+    FD_CFG = 0
+endif
+
+FD_PARAM = \
+	-D_FD_FUNCTION_=$(FD_CFG)
+
+#----------------------------------------------------------------------
+# SD parameters
+#----------------------------------------------------------------------
+ifeq "$(SD)" "ENABLE"
+    SD_CFG = 1
+else
+    SD_CFG = 0
+endif
+
+SD_PARAM = \
+	-D_SD_FUNCTION_=$(SD_CFG)
+
+#----------------------------------------------------------------------
+# Red-eye removal (post processing) parameters
+#----------------------------------------------------------------------
+ifeq "$(REDEYE_REMOVE)" "ENABLE"
+    REDEYE_CFG = 1
+else
+    REDEYE_CFG = 0
+endif
+
+REDEYE_PARAM = \
+	-D_REDEYE_FUNCTION_=$(REDEYE_CFG)
+
+#----------------------------------------------------------------------
+# MSDC Vendor type parameters
+#----------------------------------------------------------------------
+ifeq "$(MSDCVENDOR)" "MSDCVENDOR_DEFAULT"
+MSDCVENDOR_TYPE = _MSDCVENDOR_DEFAULT_
+endif
+
+ifeq "$(MSDCVENDOR)" "MSDCVENDOR_NVT"
+MSDCVENDOR_TYPE = _MSDCVENDOR_NVT_
+endif
+
+MSDCVENDOR_PARAM = \
+	-D_MSDCVENDOR_DEFAULT_=0 \
+	-D_MSDCVENDOR_NVT_=1 \
+	-D_MSDCVENDOR_=$(MSDCVENDOR_TYPE)
+
+#----------------------------------------------------------------------
+# MediaRec parameters
+#----------------------------------------------------------------------
+ifeq "$(MEDIA_REC)" "AppMediaRecFake"
+  MEDIA_REC_CFG = _APPMEDIARECFAKE_
+endif
+
+ifeq "$(MEDIA_REC)" "AppMediaRec"
+  MEDIA_REC_CFG = _APPMEDIAREC_
+endif
+
+MEDIAREC_PARAM = \
+	-D_APPMEDIARECFAKE_=0 \
+	-D_APPMEDIAREC_=1 \
+	-D_MEDIA_REC_=$(MEDIA_REC_CFG)
+
+#----------------------------------------------------------------------
+# RAM disk parameters
+#----------------------------------------------------------------------
+ifeq "$(RAM_DISK)" "ENABLE"
+    RAM_DISK_CFG = 1
+else
+    RAM_DISK_CFG = 0
+endif
+
+RAM_DISK_PARAM = \
+	-D_RAM_DISK_=$(RAM_DISK_CFG)
+
+#----------------------------------------------------------------------
+# select Gsensor device
+#----------------------------------------------------------------------
+GSENSOR = GSENSOR_LIS33DE
+#GSENSOR = GSENSOR_LIS35DE
+#GSENSOR = GSENSOR_LIS331DL
+
+ifeq "$(GSENSOR)" "GSENSOR_LIS33DE"
+  GSENSOR_TYPE = _GSENSORLIB_LIS33DE_
+endif
+
+ifeq "$(GSENSOR)" "GSENSOR_LIS35DE"
+  GSENSOR_TYPE = _GSENSORLIB_LIS35DE_
+endif
+
+ifeq "$(GSENSOR)" "GSENSOR_LIS331DL"
+  GSENSOR_TYPE = _GSENSORLIB_LIS331DL_
+endif
+
+GSENSOR_PARAM = \
+	-D_GSENSORLIB_LIS33DE_=0 \
+	-D_GSENSORLIB_LIS35DE_=1 \
+	-D_GSENSORLIB_LIS331DL_=2 \
+	-D_GENSORLIB_=$(GSENSOR_TYPE)
+#----------------------------------------------------------------------
+# select ENDE device
+#----------------------------------------------------------------------
+#ENDE = ENDE_CK235
+ENDE = ENDE_CK235
+
+#----------------------------------------------------------------------
+# select ENDELIB
+#----------------------------------------------------------------------
+#ENDELIB = ENDELIB_DUMMY
+#ENDELIB = ENDELIBLOUNNY001
+ENDELIB = ENDELIBLOUNNY001
+
+#----------------------------------------------------------------------
+# ENDE parameters
+#----------------------------------------------------------------------
+ifeq "$(ENDE)" "ENDE_CK235"
+  ENDE_TYPE = _ENDETYPE_CK235_
+endif
+
+ENDE_PARAM = \
+	-D_ENDETYPE_CK235_=0 \
+	-D_ENDETYPE_=$(ENDE_TYPE)
+
+#----------------------------------------------------------------------
+# ENDE lib parameters
+#----------------------------------------------------------------------
+ifeq "$(ENDELIB)" "ENDELIB_DUMMY"
+	ENDELIB_CFG = 0
+else
+	ENDELIB_CFG = 1
+endif
+
+ENDELIB_PARAM = \
+	-D_ENDELIB_FUNCTION_=$(ENDELIB_CFG)
+	

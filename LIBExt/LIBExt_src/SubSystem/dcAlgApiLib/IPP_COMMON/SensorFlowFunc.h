@@ -1,0 +1,76 @@
+#ifndef _SENSORFLOWFUNC_H
+#define _SENSORFLOWFUNC_H
+
+typedef enum
+{
+    AE_PRV_INIT = 0,
+    AE_PRV_SETTING,
+    AE_PRV_GAIN_SETTING,
+    AE_CAP_SETTING,
+    AWB_PRV_INIT,
+    AWB_PRV_SETTING,
+    AWB_CAP_SETTING,
+    PREFLASH_FLOW,
+    SIE_PRV_SETTING,
+    SIE_CAP_SETTING,
+    SIE_D2D_SETTING,
+    SIE_PRE_GET_CAP_RAW,
+    IPE_PRV_SETTING,
+    IPE_PRV_AE_SETTING,
+    IPE_PRV_AF_SETTING,
+    IPE_CAP_SETTING,
+    IFE_FUNC_SETTING,
+    IFE_RAW_SETTING,
+    IFE_YCC_SETTING,
+    IFE_Y_SETTING,
+    IFE_PRV_AE_SETTING,
+    I2C_INIT,
+    SENSOR_INIT,
+    SENSOR_MODE_SETTING,
+    IPPFUNC_Switch,
+    AAFD_Switch,
+    IPL_SLEEP,
+    IPL_WAKEUP,
+    GET_CAP_RAW_END,
+    IME_IQ_Init,
+    IME_PRV_SETTING,
+    IME_PRV_ChromaF,
+    IME_PRV_CurveM,
+    IME_PRV_CST,
+    IME_PRV_FilmG,
+    IME_PRV_ScaleF,
+    IME_CAP_SETTING,
+    IME_CAP_ChromaF,
+    IME_CAP_CurveM,
+    IME_CAP_CST,
+    IME_CAP_FilmG,
+    IME_CAP_ScaleF,
+    IFE_PRV_SETTING,
+    IFE_VIDREC_SETTING,
+    IFE_CAP_SETTING,
+    //#NT#2011/06/28#Ethan Lau -begin
+    IPE_SHARPNESS,
+    IPE_COLOREFFECT,
+    IPE_SATURATION,
+    //#NT#2011/06/28#Ethan Lau -end
+    SEN_FLOW_MSG_NUM,
+    ENUM_DUMMY4WORD(SEN_FLOW_MSG_NUM)
+}SEN_FLOW_MSG;
+
+typedef struct _SEN_CB_INFO
+{
+    UINT32 IPPImgMode;
+    struct  PUBLIC_STR_JOBREQS *IppMgrInfo;
+    SIE_PRE_PARAM *SiePreCapInfo;
+    SIE_PRE_PARAM *SiePrePrvInfo;
+    IPE_MODEINFO *IPEModeInfo;
+    pIME_MODE_PRAM IMEModeInfo;
+    pIFE_ENG_SETTING IFEModeInfo;
+    IPL_SLEEP_LEVEL IplSleepLevel;
+} SenCBInfo;
+
+extern void Set_SenInfo(UINT32 uiMode);
+extern void SenFlowFunc(SEN_FLOW_MSG MsgID);
+//extern UINT32 GetISOIdx(void);
+extern void SetAEInfo(UINT32 ISO,UINT32 ExpoT);
+#endif // EOF

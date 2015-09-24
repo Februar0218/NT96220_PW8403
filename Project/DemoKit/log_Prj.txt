@@ -1,0 +1,923 @@
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\CommandTsk.c", line 1012: Warning: C2207W: inventing 'extern int MotionDetection();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\CommandTsk.c", line 1013: Warning: C2207W: inventing 'extern int sie_waitVD();'
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\CommandTsk.c: 10 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\GlobalVar.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 499: Warning: C2914W: out-of-bound offset 5 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 500: Warning: C2914W: out-of-bound offset 5 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 523: Warning: C2914W: out-of-bound offset 6 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 524: Warning: C2914W: out-of-bound offset 6 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 532: Warning: C2914W: out-of-bound offset 9 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 533: Warning: C2914W: out-of-bound offset 9 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 539: Warning: C2914W: out-of-bound offset 10 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 540: Warning: C2914W: out-of-bound offset 10 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 567: Warning: C2914W: out-of-bound offset 12 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 568: Warning: C2914W: out-of-bound offset 12 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 572: Warning: C2914W: out-of-bound offset 11 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 573: Warning: C2914W: out-of-bound offset 11 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 585: Warning: C2914W: out-of-bound offset 13 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 586: Warning: C2914W: out-of-bound offset 13 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 602: Warning: C2914W: out-of-bound offset 14 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 603: Warning: C2914W: out-of-bound offset 14 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 795: Warning: C2914W: out-of-bound offset 12 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 796: Warning: C2914W: out-of-bound offset 12 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 807: Warning: C2914W: out-of-bound offset 14 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 808: Warning: C2914W: out-of-bound offset 14 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 813: Warning: C2914W: out-of-bound offset 13 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 814: Warning: C2914W: out-of-bound offset 13 in address
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 1221: Warning: C2870W: variable 'uiFlag' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 1221: Warning: C2870W: variable 'uiKeyCode' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 1221: Warning: C2870W: variable 'uiKeyAct' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 1440: Warning: C2870W: variable 'uiFlag' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 1440: Warning: C2870W: variable 'uiKeyCode' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c", line 1440: Warning: C2870W: variable 'uiKeyAct' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIConfig.c: 32 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 345: Warning: C2207W: inventing 'extern int FWRotate_GetStatus();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 358: Warning: C2207W: inventing 'extern int FWRotate_SetVideoAttrib();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 388: Warning: C2870W: variable 'pDispObj' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 388: Warning: C2870W: variable 'EmuDispLyr' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 388: Warning: C2870W: variable 'CurDisplayer' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 585: Warning: C2207W: inventing 'extern int FWRotate_SetGxCpuStatus();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 1873: Warning: C2207W: inventing 'extern int KeyScan_PoweroffFlow();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 1876: Warning: C2870W: variable 'exdata' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\SysInit\SystemInit.c: 16 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\SysCfg\Startup\CopyRest.c: 8 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c", line 147: Warning: C2207W: inventing 'extern int InterFace_KeyScan_PlaySound();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c", line 459: Warning: C2207W: inventing 'extern int KeyScan_IsACIn();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c", line 533: Warning: C2207W: inventing 'extern int MovRec_Stop();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c", line 709: Warning: C2870W: variable 'DispDev' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c", line 709: Warning: C2870W: variable 'strPos' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c", line 709: Warning: C2870W: variable 'pDCList' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c", line 709: Warning: C2870W: variable 'i' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c: 15 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\FwVersion.h", line 12: Warning: C2206W: Undefined macro 'TDV5160' in #if - treated as 0
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c", line 147: Warning: C2207W: inventing 'extern int KeyScan_DetSensorRotate();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c", line 347: Warning: C2207W: inventing 'extern int KeyScan_DelayShutterKey();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c", line 371: Warning: C2207W: inventing 'extern int KeyScan_DetAC();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c", line 375: Warning: C2207W: inventing 'extern int KeyScan_DetACUnPlug();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c", line 401: Warning: C2207W: inventing 'extern int KeyScan_DetBack();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c", line 514: Warning: C2870W: variable 'uiKey' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c: 15 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanUSB.c", line 81: Warning: C2207W: inventing 'extern int usb_getPlugState();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanUSB.c", line 265: Warning: C2207W: inventing 'extern int KeyScan_DetAC();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanUSB.c", line 269: Warning: C2207W: inventing 'extern int KeyScan_DetACUnPlug();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanUSB.c", line 300: Warning: C2870W: variable 'gbRecordingUSBDet' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanUSB.c: 8 warnings, 0 errors, 0 serious errors
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanLCD.c", line 71: Warning: C2870W: variable 'CurrMode' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanLCD.c", line 71: Warning: C2870W: variable 'RotParam' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanLCD.c: 2 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanSD.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanSound.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanSensor.c", line 48: Warning: C2207W: inventing 'extern int GPIOMap_DetSensorRotate();'
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanSensor.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTv.c", line 615: Warning: C2207W: inventing 'extern int GPIOMap_GetTVStatus();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTv.c", line 627: Warning: C2870W: variable 'i' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTv.c", line 631: Warning: C2871W: static 'u_TVInsert' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTv.c: 11 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+e:\workspace\NT96220_PW8403\Project\DemoKit\Srccode\KeyIOscan\KeyScanHDMI.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanAC.c", line 141: Warning: C2870W: variable 'pCurrnetWnd' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanAC.c", line 184: Warning: C2871W: static 'uiCurrentACMode' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanAC.c: 10 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanKey.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\FwVersion.h", line 12: Warning: C2206W: Undefined macro 'TDV5160' in #if - treated as 0
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\Interface.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanMisc.c", line 153: Warning: C2207W: inventing 'extern int GPIOMap_DetLCDClose();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanMisc.c", line 185: Warning: C2207W: inventing 'extern int Get_LCDBacklightValue();'
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\KeyScanMisc.c: 6 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\P5000\GPIOMapping.c: 4 warnings, 0 errors, 0 serious errors
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\P5000\KeyADC.c", line 63: Warning: C2899W: unsigned comparison with 0 is always true: '>='
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\P5000\KeyADC.c: 1 warning, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\KeyIOScan\P5000\VoltageDet.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\DeviceControl\DevCtrlMovie.c: 8 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\DeviceControl\DevCtrlPhoto.c: 8 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitUSB.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitAVI.c", line 133: Warning: C2207W: inventing 'extern int FWRotate_SetStatus();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitAVI.c", line 329: Warning: C2207W: inventing 'extern int FWRotate_GetStatus();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitAVI.c", line 331: Warning: C2207W: inventing 'extern int FWRotate_Open();'
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitAVI.c: 11 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitPhoto.c", line 88: Warning: C2207W: inventing 'extern int FWRotate_SetStatus();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitPhoto.c", line 244: Warning: C2207W: inventing 'extern int FWRotate_GetStatus();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitPhoto.c", line 246: Warning: C2207W: inventing 'extern int FWRotate_Open();'
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitPhoto.c: 11 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitPlayback.c", line 236: Warning: C2207W: inventing 'extern int FWRotate_SetStatus();'
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInitPlayback.c: 9 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInit.c", line 230: Warning: C2207W: inventing 'extern int FWRotate_GetStatus();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInit.c", line 232: Warning: C2207W: inventing 'extern int FWRotate_Close();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInit.c", line 239: Warning: C2207W: inventing 'extern int disprot_unlock();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInit.c", line 341: Warning: C2870W: variable 'bRunningMsdcTool' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\AppInit\AppInit.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\Calibration\CalibrationTsk.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\Calibration\CalibrationAPI.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\Calibration\CalibrationTbl.c: 4 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\Calibration\CIPA\CalCIPA.c: 4 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\Calibration\LCD\CalLCD.c: 4 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\Calibration\BurnIn\CalBurnIn.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UserEXIF\UserEXIF.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPhotoObj.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 59: Warning: C2207W: inventing 'extern int PB_ReadCurrFileSysInfo();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 66: Warning: C2870W: variable 'playObj' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 66: Warning: C2870W: variable 'pFile' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 66: Warning: C2870W: variable 'pcurPathName' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1203: Warning: C2870W: variable 'uiPlayDir' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1244: Warning: C2870W: variable 'uiPlayDir' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1144: Warning: C2874W: 'uiRet' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1168: Warning: C2874W: 'uiSelect' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1208: Warning: C2874W: 'uiSelect' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1519: Warning: C2871W: static 'UIPlay_DelGPSTxtFile' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1519: Warning: C2871W: static 'szFilename' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c: 19 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPlayStamp.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIMovieObj.c", line 570: Warning: C2207W: inventing 'extern int KeyScan_IsACIn();'
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIMovieObj.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UISystemObj.c", line 456: Warning: C2207W: inventing 'extern int sprintf();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UISystemObj.c", line 491: Warning: C2207W: inventing 'extern int KeyScan_SetAutoLCDoffTime();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UISystemObj.c", line 371: Warning: C2873W: implicit return in non-void function
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UISystemObj.c", line 471: Warning: C2873W: implicit return in non-void function
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UISystemObj.c: 12 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIPrintObj.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIApp\UIBackgroundObj.c: 4 warnings, 0 errors, 0 serious errors
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\UIFlow.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\DateImprint\GenDateImprintData.c", line 1129: Warning: C2207W: inventing 'extern int Photo_VidstampEnable();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\DateImprint\GenDateImprintData.c", line 1427: Warning: C2870W: variable 'uiTimeCount1' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\DateImprint\GenDateImprintData.c", line 1429: Warning: C2871W: static 'DateImprint_Gen' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\DateImprint\GenDateImprintData.c: 7 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\FwVersion.h", line 12: Warning: C2206W: Undefined macro 'TDV5160' in #if - treated as 0
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIInfo\UISystemStatusSettings.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIInfo\UIMenuPrintSettings.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowCBRecMovie.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.c", line 201: Warning: C2207W: inventing 'extern int Get_MovieCyclicRecTime();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.c", line 323: Warning: C2207W: inventing 'extern int FlowMovie_IconDrawDateTime();'
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.c: 6 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieIcons.c", line 56: Warning: C2207W: inventing 'extern int sprintf();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieIcons.c", line 329: Warning: C2870W: variable 'CarNoBuf' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieIcons.c: 6 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 238: Warning: C2870W: variable 'GPS_Second_Pre' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 238: Warning: C2870W: variable 'i' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 238: Warning: C2870W: variable 'first' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 238: Warning: C2870W: variable 'GPSStatus' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 238: Warning: C2870W: variable 'szIQInfo' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 238: Warning: C2870W: variable 'CurTime' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 238: Warning: C2870W: variable 'CurDate' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 238: Warning: C2870W: variable 'GS_Data' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 238: Warning: C2870W: variable 'RMCInfo' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 238: Warning: C2870W: variable 'bS' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 361: Warning: C2207W: inventing 'extern int Photo_GetDZoomIdx();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 460: Warning: C2207W: inventing 'extern int FlowMovie_UpdateIcons();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 472: Warning: C2207W: inventing 'extern int TimerDelayMs();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 561: Warning: C2207W: inventing 'extern int FlowMovie_IconDrawLockFile();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 562: Warning: C2207W: inventing 'extern int MediaRec_SetCrash();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 642: Warning: C2207W: inventing 'extern int FlowMovie_IconDrawMovieAudio();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 649: Warning: C2870W: variable 'i' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 649: Warning: C2870W: variable 'uhFileId' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 649: Warning: C2870W: variable 'uhFolderId' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 700: Warning: C2207W: inventing 'extern int FlowMovie_IconDrawLedLight();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 708: Warning: C2870W: variable 'uhFileId' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 708: Warning: C2870W: variable 'uhFolderId' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 830: Warning: C2207W: inventing 'extern int FlowMovie_IconDrawParking();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 847: Warning: C2870W: variable 'i' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 847: Warning: C2870W: variable 'uhFileId' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 847: Warning: C2870W: variable 'uhFolderId' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1098: Warning: C2207W: inventing 'extern int FlowMovie_IconHideYellowRec();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1147: Warning: C2870W: variable 'Resulte' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1147: Warning: C2870W: variable 'uiAVICurrentSec2' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1147: Warning: C2870W: variable 'uhFileId' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1147: Warning: C2870W: variable 'uhFolderId' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1172: Warning: C2870W: variable 'uhFileId' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1172: Warning: C2870W: variable 'uhFolderId' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1274: Warning: C2207W: inventing 'extern int mir3da_read_data();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1289: Warning: C2207W: inventing 'extern int abs();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1297: Warning: C2207W: inventing 'extern int GetGsensorPowerOn();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1302: Warning: C2207W: inventing 'extern int SetGsensorPowerOn();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1306: Warning: C2207W: inventing 'extern int KeyScan_SetDelayShutdownTime();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1307: Warning: C2207W: inventing 'extern int KeyScan_EnableDelayShutdown();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1319: Warning: C2870W: variable 'ret' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1322: Warning: C2870W: variable 'prev_rot' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1322: Warning: C2870W: variable 'rot' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1322: Warning: C2870W: variable 'upd' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1345: Warning: C2207W: inventing 'extern int MotionDetection();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1409: Warning: C2207W: inventing 'extern int FlowMovie_OnTimer1SecIndex();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1426: Warning: C2207W: inventing 'extern int Get_MovieCyclicRecTime();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 352: Warning: C2874W: 'state' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 395: Warning: C2874W: 'state' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1418: Warning: C2874W: 'state' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1437: Warning: C2873W: implicit return in non-void function
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1541: Warning: C2871W: static 'UIFlowWndMovie_Update_Speed' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1541: Warning: C2871W: static 'uiBatteryLvl' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 1541: Warning: C2871W: static 'gbDoFileProtect' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c: 57 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowCBPhoto.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoFuncs.c", line 231: Warning: C2207W: inventing 'extern int FlowPhoto_IconDrawSelftimerTime();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoFuncs.c", line 238: Warning: C2207W: inventing 'extern int FlowPhoto_IconHideSelftimerTime();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoFuncs.c", line 240: Warning: C2905E: implicit cast (to 'unsigned char') overflow
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoFuncs.c", line 262: Warning: C2871W: static 'g_SelftimerTime' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoFuncs.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIwnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoIcons.c", line 245: Warning: C2871W: static 'g_PhotoTimeStr' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIwnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoIcons.c", line 245: Warning: C2871W: static 'g_PhotoDateStr' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIwnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoIcons.c: 6 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 217: Warning: C2207W: inventing 'extern int FlowPhoto_IconDrawSelftimerTime();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 219: Warning: C2905E: implicit cast (to 'unsigned char') overflow
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 232: Warning: C2905E: implicit cast (to 'unsigned char') overflow
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 245: Warning: C2905E: implicit cast (to 'unsigned char') overflow
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 261: Warning: C2905E: implicit cast (to 'unsigned char') overflow
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 610: Warning: C2870W: variable 'uiPhotoEV' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 1185: Warning: C2870W: variable 'pDispObj' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 1185: Warning: C2870W: variable 'EmuDispLyr' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 1185: Warning: C2870W: variable 'CurDisplayer' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 546: Warning: C2874W: 'uiKeyAct' may be used before being set
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c: 18 warnings, 0 errors, 0 serious errors
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 19: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_RECORDING\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 23: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_PLAYING\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 27: Warning: C2917W: no side effect in void context: '"CALLBACK:WAVSTUDIO_EVENT_STOPPED \r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 31: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_PAUSED\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 35: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_RESUMED\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 39: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_SAVING\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 43: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_DURATION\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 47: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_DISKFULL\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 51: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_BUFFULL\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 55: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_INVALIDFILE\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 59: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_RWERROR\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 62: Warning: C2917W: no side effect in void context: '"CALLBACK EVENT = %x\r\n"'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 62: Warning: C2917W: no side effect in void context: 'uiEventID'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 65: Warning: C2870W: variable 'WAVDuration' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c: 14 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 118: Warning: C2207W: inventing 'extern int FlowPB_IconDrawMovPlayVolumn();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 309: Warning: C2207W: inventing 'extern int FlowPB_IconDrawMovSpeed();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 245: Warning: C2874W: 'uiActKey' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 322: Warning: C2874W: 'uiActKey' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 148: Warning: C2874W: 'uiActKey' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 830: Warning: C2871W: static 'g_uiMaskKeyContinue' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 830: Warning: C2871W: static 'g_uiMaskKeyRelease' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 830: Warning: C2871W: static 'g_uiMaskKeyPress' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c: 12 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayIcons.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayThumb.c", line 85: Warning: C2874W: 'uiActKey' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayThumb.c", line 103: Warning: C2874W: 'uiActKey' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayThumb.c", line 121: Warning: C2874W: 'uiActKey' may be used before being set
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayThumb.c", line 139: Warning: C2874W: 'uiActKey' may be used before being set
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayThumb.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayMagnify.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayNoFile.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPrint\UIFlowWndPrint.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowCommonIcons.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndWaitMoment.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndWrnMsg.c", line 156: Warning: C2207W: inventing 'extern int KeyScan_PoweroffFlow();'
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndWrnMsg.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndWrnStrgHotPlug.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSB.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\FwVersion.h", line 12: Warning: C2206W: Undefined macro 'TDV5160' in #if - treated as 0
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndFwVersion.c", line 37: Warning: C2207W: inventing 'extern int sprintf();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndFwVersion.c", line 45: Warning: C2870W: variable 'ConfigFwVersion' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndFwVersion.c: 7 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuMovie\MenuMovie.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\MenuPhoto.c", line 196: Warning: C2207W: inventing 'extern int TimerDelayMs();'
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\MenuPhoto.c", line 255: Warning: C2871W: static 'MenuCustom_PhotoColor' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\MenuPhoto.c", line 255: Warning: C2871W: static 'MenuCustom_PhotoWB' declared but not used
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\MenuPhoto.c", line 255: Warning: C2871W: static 'MenuCustom_PhotoEV' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\MenuPhoto.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\UIMenuWndPhotoExposure.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\UIMenuWndPhotoWB.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\UIMenuWndPhotoColor.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlaySlideShow.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlaySlideShowCB.c", line 20: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlaySlideShowCB.c", line 118: Warning: C2870W: variable 'pPlayObj' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlaySlideShowCB.c: 6 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayConfirmDel.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayDel.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayProtect.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayCopyToCard.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayDPOF.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlaySetDPOF.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayQuickConfirmDel.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayQuickDel.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\MenuPlayback.c", line 206: Warning: C2871W: static 'MenuCustom_DPOF' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\MenuPlayback.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupDateTime.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupFormat.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupFormatConfirm.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupDefaultSetting.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupVersion.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupLoaderVersion.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupCommonCarNumber.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupCarNumConfirm.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\MenuSetup.c", line 206: Warning: C2871W: static 'MenuCustom_PlateNumber' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\MenuSetup.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_SelectImages.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_PrintAll.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_PrintSetting.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_Confirm.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_PrintProgress.c: 4 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_Crop.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_PrintDPOF.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuCalibration\UIMenuWndCalibration.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuCommon\MenuCommonItem.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuCommon\MenuCommonOption.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuCommon\TabMenu.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuUSB\UIMenuWndUSB.c", line 132: Warning: C2207W: inventing 'extern int KeyScan_SetUSBPower();'
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuUSB\UIMenuWndUSB.c: 5 warnings, 0 errors, 0 serious errors
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 413: Warning: C2215W: Deprecated declaration mir3da_read_interrupt_statu() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 544: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 554: Warning: C2215W: Deprecated declaration InitGSENSOR() - give arg types
+"..\..\Include\Subsystem\GSensor\DMARD07.h", line 561: Warning: C2215W: Deprecated declaration I2C_Init() - give arg types
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 163: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\UIDisplay\D320x240_DRIVE\UIGraphics.c: 8 warnings, 0 errors, 0 serious errors
+"e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\Calibration\Sensor\Cal_Dummy_220\Cal_Dummy_220.c", line 129: Warning: C2871W: static 'CheckAwbGS' declared but not used
+e:\workspace\NT96220_PW8403\Project\DemoKit\SrcCode\Calibration\Sensor\Cal_Dummy_220\Cal_Dummy_220.c: 1 warning, 0 errors, 0 serious errors
+"220Demo.scf", line 50: Warning: L6314W: 220Demo.scf(line 50, col 24) No section matches pattern Kdef_int.*o(RO).
+"220Demo.scf", line 69: Warning: L6314W: 220Demo.scf(line 69, col 24) No section matches pattern KRSM_TSK.*o(RO).
+"220Demo.scf", line 75: Warning: L6314W: 220Demo.scf(line 75, col 24) No section matches pattern KSUS_TSK.*o(RO).
+"220Demo.scf", line 109: Warning: L6314W: 220Demo.scf(line 109, col 30) No section matches pattern LensDrv_ST8002.*o(RO).
+"220Demo.scf", line 110: Warning: L6314W: 220Demo.scf(line 110, col 30) No section matches pattern LensDrv_ST8003.*o(RO).
+"220Demo.scf", line 111: Warning: L6314W: 220Demo.scf(line 111, col 30) No section matches pattern LensDrv_ST8005.*o(RO).
+"220Demo.scf", line 114: Warning: L6314W: 220Demo.scf(line 114, col 31) No section matches pattern LensMotor_MD152.*o(RO).
+"220Demo.scf", line 115: Warning: L6314W: 220Demo.scf(line 115, col 33) No section matches pattern LensMotor_MSHONLY.*o(RO).
+"220Demo.scf", line 116: Warning: L6314W: 220Demo.scf(line 116, col 32) No section matches pattern LensMotor_WT7026.*o(RO).
+"220Demo.scf", line 117: Warning: L6314W: 220Demo.scf(line 117, col 32) No section matches pattern LensMotor_ST1151.*o(RO).
+"220Demo.scf", line 126: Warning: L6314W: 220Demo.scf(line 126, col 23) No section matches pattern NAND_PS.*o(RO).
+"220Demo.scf", line 140: Warning: L6329W: 220Demo.scf(line 140, col 28) Pattern screen_160x120.*o(RO) only matches removed unused sections.
+"220Demo.scf", line 141: Warning: L6314W: 220Demo.scf(line 141, col 36) No section matches pattern GiantPlusGPG48238QS5.*o(RO).
+"220Demo.scf", line 142: Warning: L6314W: 220Demo.scf(line 142, col 33) No section matches pattern ToppolyTD024THEB2.*o(RO).
+"220Demo.scf", line 143: Warning: L6314W: 220Demo.scf(line 143, col 27) No section matches pattern ToppolyTD20.*o(RO).
+"220Demo.scf", line 144: Warning: L6314W: 220Demo.scf(line 144, col 22) No section matches pattern AUCN01.*o(RO).
+"220Demo.scf", line 145: Warning: L6314W: 220Demo.scf(line 145, col 29) No section matches pattern TXDT180A_18V6.*o(RO).
+"220Demo.scf", line 146: Warning: L6314W: 220Demo.scf(line 146, col 24) No section matches pattern TXDT270M.*o(RO).
+"220Demo.scf", line 147: Warning: L6314W: 220Demo.scf(line 147, col 30) No section matches pattern TXDT270CDR_2V7.*o(RO).
+"220Demo.scf", line 149: Warning: L6314W: 220Demo.scf(line 149, col 29) No section matches pattern ALT030HSLN_J2.*o(RO).
+"220Demo.scf", line 150: Warning: L6314W: 220Demo.scf(line 150, col 25) No section matches pattern RZWT27P02.*o(RO).
+"220Demo.scf", line 151: Warning: L6314W: 220Demo.scf(line 151, col 23) No section matches pattern PS20P00.*o(RO).
+"220Demo.scf", line 152: Warning: L6314W: 220Demo.scf(line 152, col 25) No section matches pattern BG_Images.*o(RO).
+"220Demo.scf", line 154: Warning: L6314W: 220Demo.scf(line 154, col 25) No section matches pattern GlobalVar.*o(RO).
+"220Demo.scf", line 166: Warning: L6314W: 220Demo.scf(line 166, col 23) No section matches pattern Gesture.*o(RO).
+"220Demo.scf", line 175: Warning: L6314W: 220Demo.scf(line 175, col 33) No section matches pattern UIMenuWndPhotoSize.*o(RO).
+"220Demo.scf", line 176: Warning: L6314W: 220Demo.scf(line 176, col 33) No section matches pattern UIMenuWndMovieSize.*o(RO).
+"220Demo.scf", line 177: Warning: L6314W: 220Demo.scf(line 177, col 32) No section matches pattern UIMenuWndLanguage.*o(RO).
+"220Demo.scf", line 179: Warning: L6314W: 220Demo.scf(line 179, col 23) No section matches pattern ILI9341.*o(RO).
+"220Demo.scf", line 180: Warning: L6314W: 220Demo.scf(line 180, col 29) No section matches pattern ALT020DSLN_J2.*o(RO).
+"220Demo.scf", line 181: Warning: L6314W: 220Demo.scf(line 181, col 30) No section matches pattern TXDT200LER_31V2.*o(RO).
+"220Demo.scf", line 182: Warning: L6314W: 220Demo.scf(line 182, col 21) No section matches pattern HX8238.*o(RO).
+"220Demo.scf", line 189: Warning: L6314W: 220Demo.scf(line 189, col 35) No section matches pattern dispdev_IF8bits_int.*o(RO).
+"220Demo.scf", line 190: Warning: L6314W: 220Demo.scf(line 190, col 28) No section matches pattern dispdev_IFmi.*o(RO).
+"220Demo.scf", line 191: Warning: L6314W: 220Demo.scf(line 191, col 32) No section matches pattern dispdev_IFmi_int.*o(RO).
+"220Demo.scf", line 205: Warning: L6314W: 220Demo.scf(line 205, col 23) No section matches pattern KerInit.*o(RW).
+"220Demo.scf", line 214: Warning: L6314W: 220Demo.scf(line 214, col 27) No section matches pattern GPIOMapping.*o(RW).
+"220Demo.scf", line 258: Warning: L6314W: 220Demo.scf(line 258, col 19) No section matches pattern pad.*o(RW).
+"220Demo.scf", line 259: Warning: L6314W: 220Demo.scf(line 259, col 19) No section matches pattern pll.*o(RW).
+"220Demo.scf", line 260: Warning: L6314W: 220Demo.scf(line 260, col 25) No section matches pattern Interrupt.*o(RW).
+"220Demo.scf", line 262: Warning: L6314W: 220Demo.scf(line 262, col 21) No section matches pattern timer.*o(RW).
+"220Demo.scf", line 263: Warning: L6314W: 220Demo.scf(line 263, col 21) No section matches pattern Cache.*o(RW).
+"220Demo.scf", line 264: Warning: L6314W: 220Demo.scf(line 264, col 20) No section matches pattern GPIO.*o(RW).
+"220Demo.scf", line 265: Warning: L6314W: 220Demo.scf(line 265, col 19) No section matches pattern SIF.*o(RW).
+"220Demo.scf", line 266: Warning: L6314W: 220Demo.scf(line 266, col 20) No section matches pattern Uart.*o(RW).
+"220Demo.scf", line 268: Warning: L6314W: 220Demo.scf(line 268, col 27) No section matches pattern LensCtrlTsk.*o(RW).
+"220Demo.scf", line 269: Warning: L6314W: 220Demo.scf(line 269, col 23) No section matches pattern LensAPI.*o(RW).
+"220Demo.scf", line 270: Warning: L6314W: 220Demo.scf(line 270, col 30) No section matches pattern LensDrv_ST8002.*o(RW).
+"220Demo.scf", line 271: Warning: L6314W: 220Demo.scf(line 271, col 30) No section matches pattern LensDrv_ST8003.*o(RW).
+"220Demo.scf", line 272: Warning: L6314W: 220Demo.scf(line 272, col 30) No section matches pattern LensDrv_ST8005.*o(RW).
+"220Demo.scf", line 274: Warning: L6314W: 220Demo.scf(line 274, col 29) No section matches pattern LensDrv_DUMMY.*o(RW).
+"220Demo.scf", line 275: Warning: L6314W: 220Demo.scf(line 275, col 31) No section matches pattern LensMotor_MD152.*o(RW).
+"220Demo.scf", line 276: Warning: L6314W: 220Demo.scf(line 276, col 33) No section matches pattern LensMotor_MSHONLY.*o(RW).
+"220Demo.scf", line 277: Warning: L6314W: 220Demo.scf(line 277, col 32) No section matches pattern LensMotor_WT7026.*o(RW).
+"220Demo.scf", line 278: Warning: L6314W: 220Demo.scf(line 278, col 32) No section matches pattern LensMotor_ST1151.*o(RW).
+"220Demo.scf", line 280: Warning: L6314W: 220Demo.scf(line 280, col 31) No section matches pattern LensMotor_DUMMY.*o(RW).
+"220Demo.scf", line 281: Warning: L6314W: 220Demo.scf(line 281, col 20) No section matches pattern Perf.*o(RW).
+"220Demo.scf", line 283: Warning: L6314W: 220Demo.scf(line 283, col 26) No section matches pattern PrimaryAPI.*o(RW).
+"220Demo.scf", line 288: Warning: L6329W: 220Demo.scf(line 288, col 18) Pattern NAND.*o(RW) only matches removed unused sections.
+"220Demo.scf", line 289: Warning: L6314W: 220Demo.scf(line 289, col 23) No section matches pattern NAND_PS.*o(RW).
+"220Demo.scf", line 300: Warning: L6314W: 220Demo.scf(line 300, col 18) No section matches pattern lz.*o(RW).
+"220Demo.scf", line 302: Warning: L6314W: 220Demo.scf(line 302, col 22) No section matches pattern JpgDec.*o(RW).
+"220Demo.scf", line 304: Warning: L6314W: 220Demo.scf(line 304, col 30) No section matches pattern JpgParseHeader.*o(RW).
+"220Demo.scf", line 305: Warning: L6314W: 220Demo.scf(line 305, col 30) No section matches pattern screen_160x120.*o(RW).
+"220Demo.scf", line 306: Warning: L6314W: 220Demo.scf(line 306, col 36) No section matches pattern GiantPlusGPG48238QS5.*o(RW).
+"220Demo.scf", line 307: Warning: L6314W: 220Demo.scf(line 307, col 33) No section matches pattern ToppolyTD024THEB2.*o(RW).
+"220Demo.scf", line 308: Warning: L6314W: 220Demo.scf(line 308, col 27) No section matches pattern ToppolyTD20.*o(RW).
+"220Demo.scf", line 309: Warning: L6314W: 220Demo.scf(line 309, col 22) No section matches pattern AUCN01.*o(RW).
+"220Demo.scf", line 310: Warning: L6314W: 220Demo.scf(line 310, col 29) No section matches pattern TXDT180A_18V6.*o(RW).
+"220Demo.scf", line 311: Warning: L6314W: 220Demo.scf(line 311, col 24) No section matches pattern TXDT270M.*o(RW).
+"220Demo.scf", line 312: Warning: L6314W: 220Demo.scf(line 312, col 28) No section matches pattern TXDT270CDR_2V7(RW).
+"220Demo.scf", line 313: Warning: L6314W: 220Demo.scf(line 313, col 22) No section matches pattern TXDT270C(RW).
+"220Demo.scf", line 314: Warning: L6314W: 220Demo.scf(line 314, col 29) No section matches pattern ALT030HSLN_J2.*o(RW).
+"220Demo.scf", line 315: Warning: L6314W: 220Demo.scf(line 315, col 25) No section matches pattern RZWT27P02.*o(RW).
+"220Demo.scf", line 316: Warning: L6314W: 220Demo.scf(line 316, col 23) No section matches pattern PS20P00.*o(RW).
+"220Demo.scf", line 317: Warning: L6314W: 220Demo.scf(line 317, col 25) No section matches pattern BG_Images.*o(RW).
+"220Demo.scf", line 318: Warning: L6314W: 220Demo.scf(line 318, col 26) No section matches pattern BG_Opening.*o(RW).
+"220Demo.scf", line 319: Warning: L6314W: 220Demo.scf(line 319, col 25) No section matches pattern GlobalVar.*o(RW).
+"220Demo.scf", line 320: Warning: L6329W: 220Demo.scf(line 320, col 17) Pattern PWM.*o(RW) only matches removed unused sections.
+"220Demo.scf", line 323: Warning: L6329W: 220Demo.scf(line 323, col 17) Pattern ADC.*o(RW) only matches removed unused sections.
+"220Demo.scf", line 324: Warning: L6314W: 220Demo.scf(line 324, col 26) No section matches pattern KeyScanLED.*o(RW).
+"220Demo.scf", line 325: Warning: L6314W: 220Demo.scf(line 325, col 27) No section matches pattern SystemClock.*o(RW).
+"220Demo.scf", line 327: Warning: L6314W: 220Demo.scf(line 327, col 24) No section matches pattern FWRotate.*o(RW).
+"220Demo.scf", line 329: Warning: L6314W: 220Demo.scf(line 329, col 20) No section matches pattern Grph.*o(RW).
+"220Demo.scf", line 331: Warning: L6314W: 220Demo.scf(line 331, col 24) No section matches pattern UIConfig.*o(RW).
+"220Demo.scf", line 337: Warning: L6314W: 220Demo.scf(line 337, col 30) No section matches pattern UIFrameworkAPI.*o(RW).
+"220Demo.scf", line 338: Warning: L6314W: 220Demo.scf(line 338, col 33) No section matches pattern UIMenuWndPhotoSize.*o(RW).
+"220Demo.scf", line 339: Warning: L6314W: 220Demo.scf(line 339, col 32) No section matches pattern UIMenuWndLanguage.*o(RW).
+"220Demo.scf", line 340: Warning: L6314W: 220Demo.scf(line 340, col 23) No section matches pattern ILI9341.*o(RW).
+"220Demo.scf", line 341: Warning: L6314W: 220Demo.scf(line 341, col 29) No section matches pattern ALT020DSLN_J2.*o(RW).
+"220Demo.scf", line 342: Warning: L6314W: 220Demo.scf(line 342, col 30) No section matches pattern TXDT200LER_31V2.*o(RW).
+"220Demo.scf", line 343: Warning: L6314W: 220Demo.scf(line 343, col 21) No section matches pattern HX8238.*o(RW).
+"220Demo.scf", line 344: Warning: L6314W: 220Demo.scf(line 344, col 18) No section matches pattern mi.*o(RW).
+"220Demo.scf", line 350: Warning: L6314W: 220Demo.scf(line 350, col 35) No section matches pattern dispdev_IF8bits_int.*o(RW).
+"220Demo.scf", line 351: Warning: L6314W: 220Demo.scf(line 351, col 28) No section matches pattern dispdev_IFmi.*o(RW).
+"220Demo.scf", line 352: Warning: L6314W: 220Demo.scf(line 352, col 32) No section matches pattern dispdev_IFmi_int.*o(RW).
+"220Demo.scf", line 392: Warning: L6314W: 220Demo.scf(line 392, col 26) No section matches pattern CommandTsk.*o(RW).
+"220Demo.scf", line 408: Warning: L6314W: 220Demo.scf(line 408, col 29) No section matches pattern UpdateNandReset.*o(*).
+Finished: 0 information, 98 warning and 0 error messages.

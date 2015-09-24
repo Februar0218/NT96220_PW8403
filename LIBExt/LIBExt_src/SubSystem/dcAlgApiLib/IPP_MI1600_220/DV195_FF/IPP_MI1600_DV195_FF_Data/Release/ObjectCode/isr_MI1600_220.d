@@ -1,0 +1,2 @@
+IPP_MI1600_DV195_FF_Data/Release/ObjectCode/isr_MI1600_220.o:  \
+ d:/code/96220/NT96220_FW_DDR1_Ver2_FWRotate_20121008/LIBExt/LIBExt_src/SubSystem/dcAlgApiLib/IPP_MI1600_220/DV195_FF/isr_MI1600_220.c

@@ -1,0 +1,436 @@
+
+ifeq "$(OPTION_LOADED)" ""
+include $(MAKE_COMMON_DIR)/MakeOption.txt
+endif
+include $(MAKE_COMMON_DIR)/MakeCommon.txt
+
+#----------------------------------------------------------------------
+# include the libraries
+#----------------------------------------------------------------------
+APP_BASE_DIR_D = $(APP_BASE_DIR)/Debug
+APPEX_BASE_DIR_D = $(APPEX_BASE_DIR)/Debug
+LIB_BASE_DIR_D = $(LIB_BASE_DIR)/Debug
+LIBEX_BASE_DIR_D = $(LIBEX_BASE_DIR)/Debug
+
+APP_BASE_DIR_R = $(APP_BASE_DIR)/Release
+APPEX_BASE_DIR_R = $(APPEX_BASE_DIR)/Release
+LIB_BASE_DIR_R = $(LIB_BASE_DIR)/Release
+LIBEX_BASE_DIR_R = $(LIBEX_BASE_DIR)/Release
+
+# get slide-effect libraries except default effect
+LIB_SLIDE_ALL_D		:= $(wildcard $(LIB_BASE_DIR_D)/SlideEffect*.a)
+LIB_SLIDE_DEFAULT_D	:= $(filter %SlideEffect_Default_D.a, $(LIB_SLIDE_ALL_D))
+LIB_SLIDE_D		:= $(filter-out $(LIB_SLIDE_DEFAULT_D), $(LIB_SLIDE_ALL_D))
+
+LIB_SLIDE_ALL_R		:= $(wildcard $(LIB_BASE_DIR_R)/SlideEffect*.a)
+LIB_SLIDE_DEFAULT_R	:= $(filter %SlideEffect_Default.a, $(LIB_SLIDE_ALL_R))
+LIB_SLIDE_R		:= $(filter-out $(LIB_SLIDE_DEFAULT_R), $(LIB_SLIDE_ALL_R))
+
+# get format-parsing libraries
+LIB_PARSER_ALL_D	:= $(wildcard $(LIB_BASE_DIR_D)/PARSER*.a)
+LIB_PARSER_DEFAULT_D	:= $(filter %PARSER_Default_D.a, $(LIB_PARSER_ALL_D))
+LIB_PARSER_D		:= $(filter-out $(LIB_PARSER_DEFAULT_D), $(LIB_PARSER_ALL_D))
+
+LIB_PARSER_ALL_R	:= $(wildcard $(LIB_BASE_DIR_R)/PARSER*.a)
+LIB_PARSER_DEFAULT_R	:= $(filter %PARSER_Default.a, $(LIB_PARSER_ALL_R))
+LIB_PARSER_R		:= $(filter-out $(LIB_PARSER_DEFAULT_R), $(LIB_PARSER_ALL_R))
+
+LIB_GXGFX_ALL_D	:= $(wildcard $(LIB_BASE_DIR_D)/GxGfx*.a)
+LIB_GXGFX_ALL_R	:= $(wildcard $(LIB_BASE_DIR_R)/GxGfx*.a)
+
+ifeq "$(FWROTATE)" "ENABLE"
+LIB_GXGFX_D	:= $(wildcard $(LIB_BASE_DIR_D)/GxGfx_grph_D.a)
+LIB_GXGFX_R	:= $(wildcard $(LIB_BASE_DIR_R)/GxGfx_grph.a)
+else
+LIB_GXGFX_D	:= $(wildcard $(LIB_BASE_DIR_D)/GxGfx_cpu_D.a)
+LIB_GXGFX_R	:= $(wildcard $(LIB_BASE_DIR_R)/GxGfx_cpu.a)
+endif
+
+# get LIBs in Application (except capture library), AppExt
+# and LIB module (except driver and slide-effect libraries)
+LIB_APP_D	:= $(wildcard $(APP_BASE_DIR_D)/*.a)
+LIB_APPEX_D	:= $(wildcard $(APPEX_BASE_DIR_D)/*.a)
+LIB_LIB_D	:= $(filter-out $(LIB_PARSER_ALL_D) $(LIB_SLIDE_ALL_D) $(LIB_GXGFX_ALL_D), $(wildcard $(LIB_BASE_DIR_D)/*.a))
+
+LIB_APP_R	:= $(wildcard $(APP_BASE_DIR_R)/*.a)
+LIB_APPEX_R	:= $(wildcard $(APPEX_BASE_DIR_R)/*.a)
+LIB_LIB_R	:= $(filter-out $(LIB_PARSER_ALL_R) $(LIB_SLIDE_ALL_R) $(LIB_GXGFX_ALL_R), $(wildcard $(LIB_BASE_DIR_R)/*.a))
+
+# get LIBs in LIBExt module
+LIB_AUDIO_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(AUDIO)_D.a)
+LIB_AUTOTEST_D := $(wildcard $(LIBEX_BASE_DIR_D)/AutoTest_D.a)
+LIB_LCD_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(LCD)_D.a)
+LIB_LCD2_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(LCD2)_D.a)
+LIB_DISPDEV_TV_D:= $(wildcard $(LIBEX_BASE_DIR_D)/DISPDEV_TV_D.a)
+LIB_DISPDEV_HDMI_D:= $(wildcard $(LIBEX_BASE_DIR_D)/DISPDEV_HDMI_D.a)
+LIB_DISPDEV_PANELCOMMON_D:= $(wildcard $(LIBEX_BASE_DIR_D)/DISPDEV_PANELCOMMON_D.a)
+LIB_IPPC_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/IPP_COMMON_D.a)
+LIB_IPP_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(IPP)_D.a)
+LIB_SENSOR_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(SENSOR)_D.a)
+LIB_LENS_COMMON_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/Lens_Common_D.a)
+LIB_LENS_DRV_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(LENS_DRV)_D.a)
+LIB_LENS_MOTOR_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(LENS_MOTOR)_D.a)
+LIB_IRRX_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(IRRX)_D.a)
+LIB_PSTORE_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(PSTORE)_D.a)
+LIB_LSC_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(LSC)_D.a)
+LIB_MSDCEXT_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(MSDCVENDOR)_D.a)
+LIB_CUSTOM_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/Custom_D.a)
+LIB_CUSTOM2_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/Custom2_D.a)
+LIB_HDMITX_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(HDMI)_D.a)
+LIB_SCANNER_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(SCANNER)_D.a)
+LIB_AE_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(AE)_D.a)
+LIB_AWB_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(AWB)_D.a)
+LIB_AF_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(AF)_D.a)
+LIB_CAF_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/CAF_D.a)
+LIB_FLASH_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(FLASH)_D.a)
+LIB_IQSIM_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/IQSim_D.a)
+LIB_ENDE_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/$(ENDE)_D.a)
+LIB_ENDELIB_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/lounny001_D.a)
+LIB_GSENSOR_D       :=$(wildcard $(LIBEX_BASE_DIR_D)/$(GSENSOR)_D.a)
+ifeq "$(FD)" "ENABLE"
+LIB_FD_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/FD_D.a)
+endif
+
+ifeq "$(SD)" "ENABLE"
+LIB_SD_D	:= $(wildcard $(LIBEX_BASE_DIR_D)/SD_D.a)
+endif
+
+ifeq "$(GPS_RECEIVE)" "ENABLE"
+LIB_GPS_D   := $(wildcard $(LIBEX_BASE_DIR_D)/GPS_D.a)
+endif
+
+ifneq "$(TouchPanel)" "DISABLE"
+LIB_TOUCHPANEL_D   := $(wildcard $(LIBEX_BASE_DIR_D)/$(TouchPanel)_D.a)
+LIB_GESTURE_D   := $(wildcard $(LIBEX_BASE_DIR_D)/Gesture_D.a)
+endif
+
+LIB_AUDIO_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(AUDIO).a)
+LIB_AUTOTEST_R := $(wildcard $(LIBEX_BASE_DIR_R)/AutoTest.a)
+LIB_LCD_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(LCD).a)
+LIB_LCD2_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(LCD2).a)
+LIB_DISPDEV_TV_R:= $(wildcard $(LIBEX_BASE_DIR_R)/DISPDEV_TV.a)
+LIB_DISPDEV_HDMI_R:= $(wildcard $(LIBEX_BASE_DIR_R)/DISPDEV_HDMI.a)
+LIB_DISPDEV_PANELCOMMON_R:= $(wildcard $(LIBEX_BASE_DIR_R)/DISPDEV_PANELCOMMON.a)
+LIB_IPPC_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/IPP_COMMON.a)
+LIB_IPP_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(IPP).a)
+LIB_SENSOR_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(SENSOR).a)
+LIB_LENS_COMMON_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/Lens_Common.a)
+LIB_LENS_DRV_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(LENS_DRV).a)
+LIB_LENS_MOTOR_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(LENS_MOTOR).a)
+LIB_IRRX_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(IRRX).a)
+LIB_PSTORE_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(PSTORE).a)
+LIB_LSC_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(LSC).a)
+LIB_MSDCEXT_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(MSDCVENDOR).a)
+LIB_CUSTOM_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/Custom.a)
+LIB_CUSTOM2_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/Custom2.a)
+LIB_HDMITX_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(HDMI).a)
+LIB_SCANNER_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(SCANNER).a)
+LIB_AE_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(AE).a)
+LIB_AWB_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(AWB).a)
+LIB_AF_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(AF).a)
+LIB_CAF_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/CAF.a)
+LIB_FLASH_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(FLASH).a)
+LIB_IQSIM_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/IQSim.a)
+LIB_ENDE_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/$(ENDE).a)
+LIB_ENDELIB_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/lounny001.a)
+LIB_GSENSOR_R   :=$(wildcard $(LIBEX_BASE_DIR_R)/$(GSENSOR).a)
+ifeq "$(FD)" "ENABLE"
+LIB_FD_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/FD.a)
+endif
+
+ifeq "$(SD)" "ENABLE"
+LIB_SD_R	:= $(wildcard $(LIBEX_BASE_DIR_R)/SD.a)
+endif
+
+ifneq "$(REDEYE_REMOVE)" "ENABLE"
+LIB_LIB_R	:= $(filter-out $(wildcard $(LIB_BASE_DIR_R)/arcsoft_redeye.a), $(LIB_LIB_R))
+endif
+
+ifeq "$(GPS_RECEIVER)" "ENABLE"
+LIB_GPS_R   := $(wildcard $(LIBEX_BASE_DIR_R)/GPS.a)
+endif
+
+ifneq "$(TouchPanel)" "DISABLE"
+LIB_TOUCHPANEL_R   := $(wildcard $(LIBEX_BASE_DIR_R)/$(TouchPanel).a)
+LIB_GESTURE_R   := $(wildcard $(LIBEX_BASE_DIR_R)/Gesture.a)
+endif
+
+APP_ALL_R	:= $(wildcard $(APP_BASE_DIR_R)/*.a)
+APP_MEDIARECFAKE_R	:= $(wildcard $(APP_BASE_DIR_R)/AppMediaRecFake.a)
+APP_MEDIARECREAL_R	:= $(wildcard $(APP_BASE_DIR_R)/AppMediaRec.a)
+APP_MEDIAREC_R	:= $(wildcard $(APP_BASE_DIR_R)/$(MEDIA_REC).a)
+APP_NEW_R	:= $(filter-out $(APP_MEDIARECREAL_R) $(APP_MEDIARECFAKE_R), $(APP_ALL_R))
+
+APP_ALL_D	:= $(wildcard $(APP_BASE_DIR_D)/*.a)
+APP_MEDIARECFAKE_D	:= $(wildcard $(APP_BASE_DIR_D)/AppMediaRecFake_D.a)
+APP_MEDIARECREAL_D	:= $(wildcard $(APP_BASE_DIR_D)/AppMediaRec_D.a)
+APP_MEDIAREC_D	:= $(wildcard $(APP_BASE_DIR_D)/$(MEDIA_REC)_D.a)
+APP_NEW_D	:= $(filter-out $(APP_MEDIARECREAL_D) $(APP_MEDIARECFAKE_D), $(APP_ALL_D))
+
+# get total libraries for Debug & Release mode; note we cannot get string of LIB_R from LIB_D, or vice versa,
+# because we may build Debug and Release output separately, the library of one mode maybe not exist, and cause
+# the link problem. So, while adding/deleting libraries, please be patient to do it for Debug and Release mode both.
+
+LIB_R := \
+	$(APP_MEDIAREC_R) \
+	$(APP_NEW_R) \
+	$(LIB_APPEX_R) \
+	$(LIB_LIB_R) \
+	$(LIB_SLIDE_R) \
+	$(LIB_SLIDE_DEFAULT_R) \
+	$(LIB_PARSER_R) \
+	$(LIB_PARSER_DEFAULT_R) \
+	$(LIB_GXGFX_R) \
+	$(LIB_AUDIO_R) \
+	$(LIB_AUTOTEST_R) \
+	$(LIB_LCD_R) \
+	$(LIB_LCD2_R) \
+	$(LIB_DISPDEV_TV_R) \
+	$(LIB_DISPDEV_HDMI_R) \
+	$(LIB_DISPDEV_PANELCOMMON_R) \
+	$(LIB_IPPC_R) \
+	$(LIB_IPP_R) \
+	$(LIB_SENSOR_R) \
+	$(LIB_LENS_COMMON_R) \
+	$(LIB_LENS_DRV_R) \
+	$(LIB_LENS_MOTOR_R) \
+	$(LIB_IRRX_R) \
+	$(LIB_HDMI_R) \
+	$(LIB_PSTORE_R)\
+	$(LIB_FD_R) \
+	$(LIB_SD_R) \
+	$(LIB_LSC_R) \
+	$(LIB_CUSTOM_R) \
+	$(LIB_CUSTOM2_R) \
+	$(LIB_HDMITX_R) \
+	$(LIB_SCANNER_R) \
+	$(LIB_GPS_R) \
+	$(LIB_GESTURE_R) \
+	$(LIB_TOUCHPANEL_R) \
+	$(LIB_AE_R) \
+	$(LIB_AWB_R) \
+	$(LIB_AF_R) \
+	$(LIB_CAF_R) \
+	$(LIB_FLASH_R) \
+	$(LIB_IQSIM_R) \
+	$(LIB_MSDCEXT_R)\
+	$(LIB_ENDE_R) \
+	$(LIB_ENDELIB_R)\
+	$(LIB_GSENSOR_R)
+LIB_D := \
+	$(APP_MEDIAREC_D) \
+	$(APP_NEW_D) \
+	$(LIB_APPEX_D) \
+	$(LIB_LIB_D) \
+	$(LIB_SLIDE_D) \
+	$(LIB_SLIDE_DEFAULT_D) \
+	$(LIB_PARSER_D) \
+	$(LIB_PARSER_DEFAULT_D) \
+	$(LIB_GXGFX_D) \
+	$(LIB_AUDIO_D) \
+	$(LIB_AUTOTEST_D) \
+	$(LIB_LCD_D) \
+	$(LIB_LCD2_D) \
+	$(LIB_DISPDEV_TV_D) \
+	$(LIB_DISPDEV_HDMI_D) \
+	$(LIB_DISPDEV_PANELCOMMON_D) \
+	$(LIB_IPPC_D) \
+	$(LIB_IPP_D) \
+	$(LIB_SENSOR_D) \
+	$(LIB_LENS_COMMON_D) \
+	$(LIB_LENS_DRV_D) \
+	$(LIB_LENS_MOTOR_D) \
+	$(LIB_IRRX_D) \
+	$(LIB_PSTORE_D) \
+	$(LIB_FD_D) \
+	$(LIB_SD_D) \
+	$(LIB_LSC_D) \
+	$(LIB_HDMI_D) \
+	$(LIB_CUSTOM_D) \
+	$(LIB_CUSTOM2_D) \
+	$(LIB_HDMITX_D) \
+	$(LIB_SCANNER_D) \
+	$(LIB_GPS_D) \
+	$(LIB_GESTURE_D) \
+	$(LIB_TOUCHPANEL_D) \
+	$(LIB_MSDCEXT_D) \
+	$(LIB_AE_D) \
+	$(LIB_AWB_D) \
+	$(LIB_AF_D) \
+	$(LIB_CAF_D) \
+	$(LIB_FLASH_D) \
+	$(LIB_IQSIM_D) \
+	$(LIB_ENDE_D) \
+	$(LIB_ENDELIB_D) \
+	$(LIB_GSENSOR_D)\
+	$(LIB_R)
+
+#----------------------------------------------------------------------
+# set the make outputs
+#----------------------------------------------------------------------
+# for debug mode
+IMAGE_D = $(IMG_DEBUG)/$(PRJ_NAME)_D.axf
+BIN_D = $(IMG_DEBUG)/$(BIN_NAME).bin
+MAP_D = $(IMG_DEBUG)/$(PRJ_NAME)_D.txt
+
+# for release mode
+IMAGE_R = $(IMG_RELEASE)/$(PRJ_NAME).axf
+BIN_R = $(IMG_RELEASE)/$(BIN_NAME).bin
+MAP_R = $(IMG_RELEASE)/$(PRJ_NAME).txt
+
+#----------------------------------------------------------------------
+# set the warning/error log file option
+#----------------------------------------------------------------------
+log_file = log_Prj.txt
+
+ifeq "$(LOG_ERR)" "ON"
+LOG_OPTION = 2>>$(log_file)
+endif
+
+#----------------------------------------------------------------------
+# set robustness checking log file
+#----------------------------------------------------------------------
+chk_file = chk_Prj.txt
+
+#----------------------------------------------------------------------
+# set the make targets
+#----------------------------------------------------------------------
+build_D: make_debug_begin prepare_log $(IMAGE_D) $(BIN_D)
+build_R: make_release_begin prepare_log $(IMAGE_R) $(BIN_R)
+
+ifeq "$(ISOLATE_DEP)" "ON"
+build_DEP: make_dep_begin $(SRC) $(ASM) $(ALL_DEP)
+endif
+
+build_CHK: make_chk_begin $(CHECK_FILE)
+
+prepare_log:
+	@-rm -f $(FORCED_REBUILD_OBJ)
+	@$(LOG_OPTION)
+
+$(IMAGE_D): $(SRC) $(ASM) $(ALL_OBJ_D) $(LIB_D)
+	@echo Linking ... \
+	&& echo Creating image $@ ... \
+	&& $(LD) -keep clk_chang* -o $@ $(ALL_OBJ_D) $(LIB_D) -info totals -map -scatter $(SCATTER) -list $(MAP_D) $(LOG_OPTION)
+
+$(BIN_D): $(IMAGE_D)
+ifeq "$(MULTI_REGIONS)" "ON"
+	@echo Creating executable $@ ... \
+	&& $(FE) -output $(IMG_DEBUG) -bin $< \
+	&& mv $(IMG_DEBUG)/SPECIAL_RO $(BIN_D)
+else
+	@echo Creating executable $@ ... \
+	&& $(FE) -output $@ -bin $<
+endif
+#----------------------------------------------------------------------
+# AXF to disassmebly code
+# Command Line:> make AXF_DIS="ON" release
+#----------------------------------------------------------------------
+ifeq "$(AXF_DIS)" "ON"
+	@echo Translate AXF $< to disassembly... \
+	&& $(FE) -c -s -o $(IMG_DEBUG)/outfile.lst $<
+endif
+	@echo Encrypt binary file $@ ... \
+	&& $(EBIN) $(EBIN_METHOD) $(BIN_D) $(EBIN_BADDR) $(EBIN_MNAME) $(EBIN_PSTR)
+ifeq "$(FW_COMPRESS)" "ON"
+ifeq "$(FW_PARTIAL_COMPRESS)" "ON"
+	@$(BFC) c lz $(BIN_D) tmp 1 0x74 $(NAND_BLK_SIZE)\
+	&& cp -f tmp $(BIN_D) \
+	&& rm -f tmp
+else
+	@$(BFC) c lz $(BIN_D) tmp 0 0 \
+	&& cp -f tmp $(BIN_D) \
+	&& rm -f tmp
+endif
+endif
+
+ifeq "$(COPY_BIN_2_STG)" "ON"
+ifneq "$(NVT_STG_PATH)" ""
+	@-echo Copy \""$(BIN_D)\"" to $(NVT_STG_PATH) ... \
+	&& cp -f $(BIN_D) $(NVT_STG_PATH)$(notdir $(BIN_D))
+endif
+endif
+
+$(IMAGE_R): $(SRC) $(ASM) $(ALL_OBJ_R) $(LIB_R)
+	@echo Linking ... \
+	&& echo Creating image $@ ... \
+	&& $(LD) -keep clk_chang* -o $@ $(ALL_OBJ_R) $(LIB_R) -info totals -map -scatter $(SCATTER) -list $(MAP_R) $(LOG_OPTION)
+
+$(BIN_R): $(IMAGE_R)
+ifeq "$(MULTI_REGIONS)" "ON"
+	@echo Creating executable $@ ... \
+	&& $(FE) -output $(IMG_RELEASE) -bin $< \
+	&& mv $(IMG_RELEASE)/SPECIAL_RO $(BIN_R)
+else
+	@echo Creating executable $@ ... \
+	&& $(FE) -output $@ -bin $<
+endif
+#----------------------------------------------------------------------
+# AXF to disassmebly code
+# Command Line:> make AXF_DIS="ON" release
+#----------------------------------------------------------------------
+ifeq "$(AXF_DIS)" "ON"
+	@echo Translate AXF $< to disassembly... \
+	&& $(FE) -c -s -o $(IMG_RELEASE)/outfile.lst $<
+endif
+	@echo Encrypt binary file $@ ... \
+	&& $(EBIN) $(EBIN_METHOD) $(BIN_R) $(EBIN_BADDR) $(EBIN_MNAME) $(EBIN_PSTR)
+ifeq "$(FW_COMPRESS)" "ON"
+ifeq "$(FW_PARTIAL_COMPRESS)" "ON"
+	@$(BFC) c lz $(BIN_R) tmp 1 0x74 $(NAND_BLK_SIZE)\
+	&& cp -f tmp $(BIN_R) \
+	&& rm -f tmp
+else
+	@$(BFC) c lz $(BIN_R) tmp 0 0 \
+	&& cp -f tmp $(BIN_R) \
+	&& rm -f tmp
+endif
+endif
+
+ifeq "$(COPY_BIN_2_STG)" "ON"
+ifneq "$(NVT_STG_PATH)" ""
+	@-echo Copy \""$(BIN_R)\"" to $(NVT_STG_PATH) ... \
+	&& cp -f $(BIN_R) $(NVT_STG_PATH)$(notdir $(BIN_R))
+endif
+endif
+	@cp $(BIN_R) $(IMG_RELEASE)/$(BIN_NAME_T).bin
+
+.PHONY:
+rm_log:
+ifeq "$(CLEAN_LOG)" "ON"
+	@-rm -f $(log_file)
+endif
+
+clean:
+	@-echo Clean $(basename $(notdir $(IMAGE_R))) ... \
+	&& rm -rf $(IMG_BASE_DIR) $(log_file) $(chk_file)
+
+ifeq "$(ISOLATE_DEP)" "ON"
+all: rm_log
+	@make dep
+	@make debug
+	@make release
+
+rebuild:
+	@make clean
+	@make dep
+	@make debug
+	@make release
+
+dep: build_DEP
+else
+rebuild: clean build_D build_R
+endif
+
+debug: rm_log build_D
+
+release: rm_log build_R
+
+rm_chk_log:
+	@-rm -f $(chk_file)
+
+chk: rm_chk_log build_CHK
+
+chkclean:
+	@-echo Clean $(basename $(notdir $(IMAGE_R))) checking data ... \
+	&& rm -rf $(CHECK_DIR) $(chk_file)

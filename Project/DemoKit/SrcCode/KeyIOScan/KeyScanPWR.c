@@ -1,0 +1,799 @@
+/**
+    Copyright   Novatek Microelectronics Corp. 2005.  All rights reserved.
+
+    @file       KeyScanPWR.c
+    @ingroup    mIPRJAPKeyIO
+
+    @brief      Scan power off key and do power off, voltage detection
+                Scan power off key and do power off, voltage detection
+
+    @note       Nothing.
+
+    @date       2005/12/15
+*/
+
+/** \addtogroup mIPRJAPKeyIO */
+//@{
+
+#include "Kernel.h"
+#include "KeyScanTsk.h"
+#include "KeyScanInt.h"
+#include "PhotoTsk.h"
+#include "FilesysTsk.h"
+#include "GPIOMapping.h"
+#include "RTC.h"
+#include "Timer.h"
+#include "AppInit.h"
+#include "GlobalVar.h"
+#include "VoltageDet.h"
+#include "UIFramework.h"
+#include "NVTUserCommand.h"
+#include "SystemInit.h"
+#include "UICustomer.h"
+#include "GPIOMapping.h"
+#include "top.h"
+#include "Utility.h"
+#include "PrimaryTsk.h"
+#include "LCDTV.h"
+#include "PlaySoundTsk.h"
+#include "PlaySoundInt.h"
+#include "ide.h"
+#include "Alg_IPLMode.h"
+#include "UIFlow.h"
+#include "UIConfig.h"
+#include "display.h"
+#include "MediaRecAPI.h"
+
+static volatile BOOL     bACPower               = FALSE;
+static volatile BOOL     bDoPoweroff            = FALSE;
+static volatile UINT32   uiAutoPoweroffTime     = KEYSCAN_AUTOPOWEROFF_DISABLED;
+static volatile UINT32   uiAutoLCDoffTime     = KEYSCAN_AUTOPOWEROFF_DISABLED;
+static volatile UINT32   uiBatteryLvl           = VOLDET_BATTERY_LVL_3;
+
+static volatile UINT32   uiACUnPlugPoweroffTime = 0;
+static volatile BOOL     uiACPlug               = FALSE;
+static volatile BOOL     uiACUnplugPowerOff     = FALSE;
+extern volatile UINT32     g_uiKeyScanAutoLcdoffCnt;
+
+static volatile UINT32  uiDelayShutdownTime    = 0;
+extern BOOL gbMoviFileLock;
+/**
+  Detect AC power is plugging in or unplugged
+
+  Detect AC power is plugging in or unplugged.
+  [KeyScan internal API]
+
+  @param void
+  @return void
+*/
+void KeyScan_DetACPower(void)
+{
+    bACPower = FALSE;
+}
+
+/**
+  Detect power off key is pressed or not.
+
+  Detect power off key is pressed or not. If power off key is changing state
+  in the following sequence RELEASED -> PRESSED -> RELEASED, then do the
+  power off flow.
+  [KeyScan internal API]
+
+  @param void
+  @return void
+*/
+#define KEYSCAN_POWEROFF_COUNT  10 // 1 sec in unit of 100 ms
+void KeyScan_DetPoweroff(void)
+{
+    static UINT32 uiPowerKey    = KEYSCAN_PWRKEY_UNKNOWN;
+    static UINT32 uiPWRState    = KEYSCAN_PWROFF_INIT_STATE;
+    #if 1//(_OSD_SCREEN_DUMP_ == ENABLE)
+    static UINT32 uiPowerKeyPressCount = 0;
+    #endif
+
+    // Power off request from another task
+    if (bDoPoweroff == TRUE)
+    {
+        KeyScan_PoweroffFlow();
+    }
+
+#if 1//(_OSD_SCREEN_DUMP_ == ENABLE) // using POWER key to dump OSD screen
+    // Detect power off key
+    if (rtc_getPWRStatus())
+    {
+        // Reset shutdown timer
+        rtc_resetShutdownTimer();
+
+        // Debounce
+        if (uiPowerKey == KEYSCAN_PWRKEY_PRESSED)
+        {
+            if (uiPWRState == KEYSCAN_PWROFF_RELEASE_STATE)
+            {
+                uiPowerKeyPressCount++;
+                if (uiPowerKeyPressCount > KEYSCAN_POWEROFF_COUNT)
+                {
+                    uiPWRState = KEYSCAN_PWROFF_PRESS_STATE;
+                }
+            }
+
+            if (uiPWRState == KEYSCAN_PWROFF_PRESS_STATE)
+            {
+                KeyScan_PoweroffFlow();
+            }
+        }
+        else
+        {
+            uiPowerKey = KEYSCAN_PWRKEY_PRESSED;
+        }
+    }
+    else
+    {
+        // Debounce
+        if (uiPowerKey == KEYSCAN_PWRKEY_RELEASED)
+        {
+            if (uiPWRState == KEYSCAN_PWROFF_INIT_STATE)
+            {
+                uiPWRState = KEYSCAN_PWROFF_RELEASE_STATE;
+            }
+
+            if (uiPowerKeyPressCount)
+            {
+                uiPowerKeyPressCount = 0;
+                //UI_ClearOSD(_OSD_INDEX_TRANSPART);
+                //UI_DrawOsdString("Capture OSD Screen...", 56, 108, _OSD_INDEX_YELLOW);
+                //TimerDelayMs(200);
+                //Ux_RedrawAllWind();
+                //BMP_MakeFile("video.bmp");
+                InterFace_KeyScan_PlaySound(KEYSCAN_SOUND_KEY_OTHERS);
+				
+		   Ux_SendEvent(&UIMovieObjCtrl, NVTEVT_EXE_LEDLIGHT, 0);
+		   #if 0
+                if(!GPIOMap_IsLCDBacklightOn())
+                {
+                    g_uiKeyScanAutoLcdoffCnt = 0;
+                    GPIOMap_TurnOnLCDBacklight();
+                }
+                else
+                {
+                    g_uiKeyScanAutoLcdoffCnt = 0;
+                    GPIOMap_TurnOffLCDBacklight();
+                }
+		   #endif
+#if 0 
+        if(!KeyScan_IsHDMIPlugIn()&&(!KeyScan_IsTVPlugIn()))
+        {
+	        if(!GPIOMap_IsLCDBacklightOn())
+	        {
+	             g_uiKeyScanAutoLcdoffCnt = 0;
+			GPIOMap_TurnOnLCDBacklight();
+		  }
+		  //else		  	
+		  //{
+                // Ux_PostEvent(NVTEVT_KEY_LEDCTR, 1, NVTEVT_KEY_PRESS);   
+		  //}
+            //InterFace_KeyScan_PlaySound(KEYSCAN_SOUND_KEY_OTHERS);		  
+        }                
+#endif	
+            }
+        }
+        else
+        {
+            uiPowerKey = KEYSCAN_PWRKEY_RELEASED;
+        }
+    }
+#else // normal POWER key handling process
+    // Detect power off key
+    if (rtc_getPWRStatus())
+    {
+        // Reset shutdown timer
+        rtc_resetShutdownTimer();
+
+        // Debounce
+        if (uiPowerKey == KEYSCAN_PWRKEY_PRESSED)
+        {
+            if (uiPWRState == KEYSCAN_PWROFF_RELEASE_STATE)
+            {
+                uiPWRState = KEYSCAN_PWROFF_PRESS_STATE;
+            }
+            //#NT#2009/03/10#Photon Lin -begin
+            //#Remove KeyScan_PoweroffFlow() to case KEYSCAN_PWRKEY_PRESSED
+            if(uiPWRState == KEYSCAN_PWROFF_PRESS_STATE)
+            {
+                KeyScan_PoweroffFlow();
+            }
+            //#NT#2009/03/10#Photon Lin -end
+
+        }
+        else
+        {
+            uiPowerKey = KEYSCAN_PWRKEY_PRESSED;
+        }
+    }
+    else
+    {
+        // Debounce
+        if (uiPowerKey == KEYSCAN_PWRKEY_RELEASED)
+        {
+            if (uiPWRState == KEYSCAN_PWROFF_INIT_STATE)
+            {
+                uiPWRState = KEYSCAN_PWROFF_RELEASE_STATE;
+            }
+            //#NT#2009/03/10#Photon Lin -begin
+            //#Remove KeyScan_PoweroffFlow() to case KEYSCAN_PWRKEY_PRESSED
+            /*
+            else if (uiPWRState == KEYSCAN_PWROFF_PRESS_STATE)
+            {
+                KeyScan_PoweroffFlow();
+            }
+            */
+            //#NT#2009/03/10#Photon Lin -end
+        }
+        else
+        {
+            uiPowerKey = KEYSCAN_PWRKEY_RELEASED;
+        }
+    }
+#endif
+}
+
+/**
+  Detect battery voltage level
+
+  Detect battery voltage level and store it in uiBatteryLvl
+  If the battery voltage is VOLDET_BATTERY_LVL_EMPTY, then power off the system.
+  [KeyScan internal API]
+
+  @param void
+  @return void
+*/
+void KeyScan_DetBatteryInSysInit(void)
+{
+#if (KEYSCAN_POWEROFF_DET == ENABLE)
+
+UINT32  uiDetLowBattery = 0;
+
+    while (1)
+    {
+        uiBatteryLvl = VolDet_GetBatteryLevel();
+
+        if (uiBatteryLvl == VOLDET_BATTERY_LVL_EMPTY)
+        {
+            uiDetLowBattery++;
+            if (uiDetLowBattery >= 6)   // if continuously detect battery low over 600 ms
+            {
+                KeyScan_SetKeyMask(KEYSCAN_KEYMODE_PRESS, FLGKEY_KEY_MASK_NULL);
+                KeyScan_SetKeyMask(KEYSCAN_KEYMODE_RELEASE, FLGKEY_KEY_MASK_NULL);
+                KeyScan_SetKeyMask(KEYSCAN_KEYMODE_CONTINUE, FLGKEY_KEY_MASK_NULL);
+                Ux_OpenWindow(&UIFlowWndWrnMsgCtrl,2,UIFlowWndWrnMsg_StatusTXT_Msg_STRID_BATTERY_LOW,0);
+                TimerDelayMs(2000);
+                KeyScan_PoweroffFlow();
+                //#NT#2009/02/05#Hideo Lin -begin
+                //#NT#It's not necessary to turn on LCD backlight here
+                //GPIOMap_TurnOnLCDBacklight();
+                //#NT#2009/02/05#Hideo Lin -end
+            }
+            TimerDelayMs(100);
+        }
+        else
+            break;
+    }
+
+#endif //KEYSCAN_POWEROFF_DET
+}
+
+void KeyScan_DetBattery(void)
+{
+#if (KEYSCAN_POWEROFF_DET == ENABLE)
+
+    UINT32  ui_battery_level;
+    static UINT32   uiDetLowBattery = 0;
+    static UINT32   ui_Battery_val[] = {BATTERY_FULL,BATTERY_MED,BATTERY_LOW,BATTERY_EMPTY,BATTERY_EXHAUSTED, BATTERY_CHARGE};
+
+    // don't monitor battery as flash light charging
+    //if (KeyScan_IsFlashCharging())
+       // return;
+    if (KeyScan_IsUSBPower())
+    {
+        uiBatteryLvl = VOLDET_BATTERY_LVL_CHARGE;
+        ui_battery_level = BATTERY_CHARGE;
+        SetBatteryLevel(BATTERY_CHARGE);
+        Ux_PostEvent(NVTEVT_BATTERY, 0);
+    }else
+    {
+        uiBatteryLvl = VolDet_GetBatteryLevel();
+        ui_battery_level = GetBatteryLevel();
+        Ux_PostEvent(NVTEVT_BATTERY, 0);		
+    }
+
+    switch(ui_battery_level)
+    {
+    case BATTERY_CHARGE:
+        if(uiBatteryLvl != VOLDET_BATTERY_LVL_CHARGE)
+        {
+            SetBatteryLevel(ui_Battery_val[uiBatteryLvl]);
+            Ux_PostEvent(NVTEVT_BATTERY, 0);
+        }
+        break;
+    case BATTERY_FULL:
+        if(uiBatteryLvl != VOLDET_BATTERY_LVL_3)
+        {
+            SetBatteryLevel(ui_Battery_val[uiBatteryLvl]);
+            Ux_PostEvent(NVTEVT_BATTERY, 0);
+        }
+        break;
+    case BATTERY_MED:
+        if(uiBatteryLvl != VOLDET_BATTERY_LVL_2)
+        {
+            SetBatteryLevel(ui_Battery_val[uiBatteryLvl]);
+            Ux_PostEvent(NVTEVT_BATTERY, 0);
+        }
+        break;
+    case BATTERY_LOW:
+        if(uiBatteryLvl != VOLDET_BATTERY_LVL_1)
+        {
+            SetBatteryLevel(ui_Battery_val[uiBatteryLvl]);
+            Ux_PostEvent(NVTEVT_BATTERY, 0);
+        }
+        break;
+    case BATTERY_EMPTY:
+        if(uiBatteryLvl != VOLDET_BATTERY_LVL_0)
+        {
+            SetBatteryLevel(ui_Battery_val[uiBatteryLvl]);
+            Ux_PostEvent(NVTEVT_BATTERY, 0);
+        }
+        break;
+    case BATTERY_EXHAUSTED:
+        if(uiBatteryLvl != VOLDET_BATTERY_LVL_EMPTY)
+        {
+            SetBatteryLevel(ui_Battery_val[uiBatteryLvl]);
+            Ux_PostEvent(NVTEVT_BATTERY, 0);
+        }
+        break;
+    }
+
+    if (uiBatteryLvl == VOLDET_BATTERY_LVL_EMPTY)
+    {
+        uiDetLowBattery++;
+        if (uiDetLowBattery >= 3)   // if continuously detect battery low over 3 times
+        {
+            VControl    *pCurrnetWnd;
+
+            //#NT#2011/08/09#KS Hung -begin
+            switch(Primary_GetCurrentMode())
+            {
+            case PRIMARY_MODE_MOVIE:
+                switch (FlowMovie_GetMovDataState())
+                {
+                case MOV_ST_REC:
+                case MOV_ST_REC | MOV_ST_ZOOM:
+                    FlowMovie_StopRec();
+                    break;
+                }
+                break;
+            case PRIMARY_MODE_PLAYBACK:
+                switch (FlowPB_GetPlbDataState())
+                {
+                case PLB_ST_PLAY_MOV:
+                case PLB_ST_PAUSE_MOV:
+                    Ux_SendEvent(&UIPlayObjCtrl,NVTEVT_MOVSTOP,0);
+                    break;
+                }
+                break;
+            }
+
+            Ux_GetFocusedWindow(&pCurrnetWnd);
+            if (strncmp(pCurrnetWnd->Name,"UIFlowWndWrnMsg",15) != 0)
+            {
+                KeyScan_SetKeyMask(KEYSCAN_KEYMODE_PRESS, FLGKEY_KEY_MASK_NULL);
+                KeyScan_SetKeyMask(KEYSCAN_KEYMODE_RELEASE, FLGKEY_KEY_MASK_NULL);
+                KeyScan_SetKeyMask(KEYSCAN_KEYMODE_CONTINUE, FLGKEY_KEY_MASK_NULL);
+                Ux_OpenWindow(&UIFlowWndWrnMsgCtrl,2,UIFlowWndWrnMsg_StatusTXT_Msg_STRID_BATTERY_LOW, FLOWWRNMSG_TIMER_2SEC*5);
+            }
+            //#NT#2011/08/09#KS Hung -end
+        }
+    }
+    else
+    {
+        uiDetLowBattery = 0;
+    }
+#endif //KEYSCAN_POWEROFF_DET
+}
+
+/**
+  Detect auto power off
+
+  Detect auto power off.
+  If the auto power off counter reach auto power off setting, then do power off
+  [KeyScan internal API]
+
+  @param void
+  @return void
+*/
+void KeyScan_DetAutoPoweroff(void)
+{
+    g_uiKeyScanAutoPoweroffCnt++;
+
+    if (g_uiKeyScanAutoPoweroffCnt >= KeyScan_GetAutoPoweroffTime())
+    {
+        KeyScan_PoweroffFlow();
+    }
+}
+
+void KeyScan_DetAutoLCDoff(void)
+{
+    if(!KeyScan_IsHDMIPlugIn()&&(!KeyScan_IsTVPlugIn()))
+    {
+		g_uiKeyScanAutoLcdoffCnt++;
+    }
+    else
+    {
+		g_uiKeyScanAutoLcdoffCnt=0;
+
+	}
+    //debug_err(("g_uiKeyScanAutoLcdoffCnt : %d--\r\n",g_uiKeyScanAutoLcdoffCnt));
+
+    if (g_uiKeyScanAutoLcdoffCnt >= KeyScan_GetAutoLCDoffTime())
+    {
+       if(GPIOMap_IsLCDBacklightOn()==TRUE)
+       {
+            if ((Primary_GetCurrentMode() != PRIMARY_MODE_USBMSDC)&&(Primary_GetCurrentMode() != PRIMARY_MODE_USBPCC)
+                &&GPIOMap_IsLCDBacklightOn() !=TRUE)//&&GPIOMap_DetBack() !=TRUE)
+            {
+                GPIOMap_TurnOffLCDBacklight();
+            }
+       }
+    }
+}
+/**
+  Detect AC unplug
+
+  Detect AC unplug.
+  If AC unplug , then do power off
+  [KeyScan internal API]
+
+  @param void
+  @return void
+*/
+void KeyScan_DetACUnPlug(void)
+{
+   if (KeyScan_IsACIn()==TRUE)
+   {
+        // init AC pluging setting
+        if ((gMovData.State == MOV_ST_VIEW)||(gMovData.State == (MOV_ST_VIEW|MOV_ST_ZOOM)))
+        {
+            if(uiACUnplugPowerOff)
+                Ux_PostEvent(NVTEVT_KEY_SHUTTER2, 1, NVTEVT_KEY_PRESS); 
+        }
+        uiACPlug = TRUE;
+        uiACUnplugPowerOff = FALSE;
+        uiACUnPlugPoweroffTime = 0;
+   } else {
+        // AC unplug
+        if (uiACPlug==TRUE)
+            uiACUnplugPowerOff = TRUE;
+
+        uiACPlug = FALSE;
+   }
+
+   // do power off while unpluging AC
+   if (uiACUnplugPowerOff == TRUE)
+   {
+     uiACUnPlugPoweroffTime++;
+     if (uiACUnPlugPoweroffTime>=32) // 8 sec
+     {
+        KeyScan_PoweroffFlow();
+     }
+   }
+
+}
+
+BOOL KeyScan_IsACUnPlugPowerOff(void)
+{
+    return uiACUnplugPowerOff;
+}
+
+
+
+/**
+  Power off
+
+  Power off. Add any code here that you want to do during power off flow.
+  [KeyScan internal API]
+
+  @param void
+  @return void
+*/
+void KeyScan_PoweroffFlow(void)
+{
+#if (KEYSCAN_POWEROFF_DET == ENABLE)
+
+    UINT32 i;
+    //#NT#2011/07/25#KS Hung -begin
+    DC**     pDCList;
+    SIZE_2D  strPos;
+    //#NT#2011/07/25#KS Hung -end
+    PDISP_OBJ       pDispObj;
+    DISPDEV_PARAM   DispDev;
+	char  SrcPathName[32];
+
+    pDispObj = disp_getDisplayObject(DISP_1);
+
+    debug_err(("*********KeyScan_PoweroffFlow\r\n"));
+
+    //#NT#2009/03/23#Janice ::wait primary tsk idle for change mode busy
+    Primary_CheckIdle(PRI_TIME_INFINITE);
+
+    //#NT#2009/04/07#Janice -begin::fix press pwr key,still recode 1~2 sec
+#if (UI_STYLE == UI_STYLE_DRIVE)
+    if ((gMovData.State == MOV_ST_REC)||(gMovData.State == (MOV_ST_REC|MOV_ST_ZOOM)))
+#else
+    if(AVIRec_GetStatus()==AVIREC_STATUS_RECORDING)
+#endif
+    {
+        MovRec_Stop(TRUE);
+		if (gbMoviFileLock == TRUE)
+	{               
+		gbMoviFileLock = FALSE;      
+		//debug_err(("-----KeyScan_PoweroffFlow--lock %d, %d---\r\n",SysGetFlag(FL_DCF_FILE_ID),SysGetFlag(FL_DCF_DIR_ID)));        
+		FilesysWaitInitFinish(FST_TIME_INFINITE);	 
+		FilesysWaitCmdFinish(FST_TIME_INFINITE); 
+		if(FilesysGetDCFFileName(SrcPathName,SysGetFlag(FL_DCF_DIR_ID),SysGetFlag(FL_DCF_FILE_ID),FST_FMT_AVI) ==FST_STA_NO_FILE)
+		{
+			debug_err(("no avi files ...  \r\n"));	
+		}
+		else
+		{
+			FilesysSetAttribByName(SrcPathName,FST_ATTRIB_READONLY,TRUE);	
+			FilesysWaitInitFinish(FST_TIME_INFINITE);	 
+			FilesysWaitCmdFinish(FST_TIME_INFINITE);  	
+		}	
+	}
+    }
+    //#NT#2009/04/07#Janice -end
+   
+    //#NT#2007/07/24#Janice -begin
+    //make sure is not bad card,then check fst finish
+    if (GetFSStatus() == FS_INIT_OK)
+    {
+        // Wait for filesystem done,if normal power off,else skip wait
+        if(!g_bFilesysAbortCmd)
+        {
+            //check fst busy,wait inifinit would lock keyscantsk
+            if (FilesysWaitCmdFinish(FST_TIME_NO_WAIT) == FST_STA_BUSY)
+            {
+                KeyScan_Poweroff(); //force power off make sure KeyScan_DetPoweroff would enter KeyScan_PoweroffFlow again
+                return;
+            }
+        }
+    }
+    //#NT#2007/07/24#Janice -end
+
+    // Pause KeyScan timer
+    timer_pausePlay(g_uiKeyScanTimerID, _TIMER_PAUSE);
+
+    // Terminate all task first
+    debug_err(("*********AppInit_Close\r\n"));
+    AppInit_Close();
+
+    // Change IPL to off mode (stop preview DRAM data, otherwise it may overlap the power off screen buffer)
+    if (IPL_GetMode() != IPL_MODE_OFF)
+    {
+        IPL_OBJ IplObj;
+        IplObj.uiCmd = IPL_CMD_CHG_MODE;
+        IplObj.Mode = IPL_MODE_OFF;
+        IPL_SetCmd(&IplObj);
+    }
+
+    // Save menu info
+    debug_err(("*********Save_MenuInfo\r\n"));
+    Save_MenuInfo();
+
+    // Display poweroff logo
+    //UI_ClearOSD(_OSD_INDEX_BLUE); // clear OSD
+
+    #if 1//(UPDATE_CFG == UPDATE_CFG_YES)
+    if (FALSE == UI_ShowLogoFile(UI_LOGO_POWEROFF))
+    #endif
+    {
+#if 1
+        SysInit_DisplaySplashScreen(LOGO_POWEROFF,0,0);
+        //TimerDelayMs(1000);
+        //ide_disable_video(IDE_VIDEOID_1);		
+        //GPIOMap_TurnOffLCDBacklight();		
+#else    
+        // show power off logo
+        UI_ClearOSD(_OSD_INDEX_BLUE); // clear OSD
+#endif
+#if 0
+        if (GPIOMap_IsLCDBacklightOn() == FALSE &&
+            KeyScan_IsTVPlugIn() == FALSE &&
+            KeyScan_IsHDMIPlugIn() == FALSE)
+        {
+
+            //OpenPanel(&g_LCDCtrlObj, &g_LCDSize);
+            DispDev.SEL.OPEN_DEVICE.DevID = DISPDEV_ID_PANEL;
+            pDispObj->devCtrl(DISPDEV_OPEN_DEVICE,&DispDev);
+
+            pDispObj->devCtrl(DISPDEV_GET_DISPSIZE,&DispDev);
+            g_LCDSize.uiWidth     = DispDev.SEL.GET_DISPSIZE.uiBufWidth;
+            g_LCDSize.uiHeight    = DispDev.SEL.GET_DISPSIZE.uiBufHeight;
+            g_LCDSize.uiWinWidth  = DispDev.SEL.GET_DISPSIZE.uiWinWidth;
+            g_LCDSize.uiWinHeight = DispDev.SEL.GET_DISPSIZE.uiWinHeight;
+        }
+
+        //#NT#2011/07/25#KS Hung -begin
+        pDCList = (DC**)UI_BeginScreen();
+        GxGfx_SetShapeColor(_OSD_INDEX_BLUE, _OSD_INDEX_BLUE, 0);
+        GxGfx_FillRect(pDCList[GxGfx_OSD], 0,0 ,OSD_W, OSD_H);
+        //#NT#2010/05/23#KS Hung -begin
+        //#NT#The font frame must be transpart, else it will be regarded as the part of font.
+        GxGfx_SetTextStroke((const FONT* )&gDemoKit_Font, FONTSTYLE_NORMAL, SCALE_1X);
+        GxGfx_SetTextColor(_OSD_INDEX_WHITE, _OSD_INDEX_TRANSPART, _OSD_INDEX_TRANSPART);
+        //#NT#2010/05/23#KS Hung -end
+        GxGfx_GetFontCharSize((UINT16)STRID_GOOD_BYE, &strPos);
+        GxGfx_Text(pDCList[GxGfx_OSD], 118, (OSD_H-strPos.h)/2, GxGfx_GetStringID((UINT16)STRID_GOOD_BYE));
+        UI_EndScreen((UINT32)pDCList);
+        //#NT#2011/07/25#KS Hung -end
+#endif		
+    }
+
+#if 1
+    // Play power off sound
+    KeyScan_PlaySound(PLAYSOUND_SOUND_SHUTDOWN);
+#else
+    TimerDelayMs(300);
+#endif
+
+    TimerDelayMs(300);
+    // Turn off CCD
+    GPIOMap_TurnOffSensorPower();
+
+    // Retract lens
+    Lens_Retract(0);
+
+    GPIOMap_TurnOffLCDBacklight();
+    // Wait play sound stop and close
+    debug_err(("*********PlaySound_Close\r\n"));
+    PlaySound_Close();
+  if(SysGetFlag(FL_MOVIE_PARKING) == MOVIE_PARKING_ON)
+        {
+            debug_msg(">>----turn on Parking movie--------\r\n");
+            //GSensor_GMA301_Open_ParkingMode();//add auto start
+            mir3da_open_interrupt(0);//add auto start
+        }
+//    GPIOMap_TurnOffLCDBacklight();
+//    TimerDelayMs(10);
+    ide_disable_video(IDE_VIDEOID_1);
+//    TimerDelayMs(10);
+//    GPIOMap_TurnOffLCDBacklight();
+//    TimerDelayMs(30);
+
+    // Clear screen
+    if (KeyScan_IsTVPlugIn() == TRUE)
+        UI_ClearOSD(_OSD_INDEX_BLACK); //for TV & HDMI.(sent black pattern when power off)
+    else
+        UI_ClearOSD(_OSD_INDEX_TRANSPART);//(_OSD_INDEX_WHITE); //for Toppoly LCD.(need to sent white pattern when power off)
+
+    // Close Panel
+    //ClosePanel();
+    pDispObj->devCtrl(DISPDEV_CLOSE_DEVICE, NULL);
+    //TimerDelayMs(100);
+//    for (i=0x80000; i>0; i--);
+
+    // Panel enter sleep mode
+    //GPIOMap_TurnOffLCDPower();
+    //TimerDelayMs(200);
+
+    // Turn off green and red LED
+     KeyScan_TurnOffLED(KEYSCAN_LED_GREEN);//eric edit
+    //KeyScan_TurnOffLED(KEYSCAN_LED_RED);
+
+    // set NAND write protect to stop NAND (write) accessing
+    GPIOMap_SetNANDWp();
+
+    debug_err(("*********rtc_poweroffPWR\r\n"));
+    // Power off
+#if 0
+    GPIOMap_SetPoweroffCtrlLow();
+#else
+    rtc_poweroffPWR();
+#endif
+
+    // Loop forever
+    while (1)
+    {
+        debug_err(("*"));
+    }
+
+#endif //KEYSCAN_POWEROFF_DET
+}
+
+/**
+  Enable/Disable auto power off function
+
+  Detect auto power off.
+  If the auto power off function is disabled and you want to enable it,
+  the power off counter will reset to 0.
+
+  @param void
+  @return void
+*/
+void KeyScan_EnableAutoPoweroff(BOOL bEn)
+{
+    // Reset auto power off counter
+    if (g_bKeyScanAutoPoweroffEn == FALSE && bEn == TRUE)
+    {
+        g_uiKeyScanAutoPoweroffCnt = 0;
+    }
+    g_bKeyScanAutoPoweroffEn = bEn;
+}
+
+/**
+  Set/Get auto power off time value
+
+  Set/Get auto power off time value (in seconds)
+
+  @param
+  @return
+*/
+void KeyScan_SetAutoPoweroffTime(UINT32 uiTime)
+{
+    uiAutoPoweroffTime = uiTime;
+}
+UINT32 KeyScan_GetAutoPoweroffTime(void)
+{
+    return uiAutoPoweroffTime;
+}
+
+void KeyScan_SetAutoLCDoffTime(UINT32 uiTime)
+{
+    uiAutoLCDoffTime = uiTime;
+}
+UINT32 KeyScan_GetAutoLCDoffTime(void)
+{
+    return uiAutoLCDoffTime;
+}
+/**
+  Ask KeyScan task to do power off
+
+  Ask KeyScan task to do power off. The timing of key scan task to handle
+  this event will be related to the timing of calling KeyScan_DetPoweroff() API.
+
+  @param void
+  @return void
+*/
+void KeyScan_Poweroff(void)
+{
+    bDoPoweroff = TRUE;
+}
+
+void KeyScan_SetDelayShutdownTime(UINT32 uiTime)
+{
+    uiDelayShutdownTime = uiTime;
+}
+
+UINT32 KeyScan_GetDelayShutdownTime(void)
+{
+    return uiDelayShutdownTime;
+}
+
+void KeyScan_DetDelayShusdown(void)
+{
+    g_uiKeyScanDelayShutdownCnt ++;
+
+    if (g_uiKeyScanDelayShutdownCnt >= KeyScan_GetDelayShutdownTime())
+    {
+        KeyScan_PoweroffFlow();
+    }
+}
+
+void KeyScan_EnableDelayShutdown(BOOL bEn)
+{
+    if (g_bKeyScanDelayShutdownEn == FALSE && bEn == TRUE)
+    {
+        g_uiKeyScanDelayShutdownCnt = 0;
+    }
+	g_bKeyScanDelayShutdownEn = bEn;
+}
+
+//@}

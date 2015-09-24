@@ -1,0 +1,2 @@
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\LIBExt\LIBExt_src\SubSystem\dcAlgApiLib\IPP_COMMON\IPPBuffer.c", line 844: Warning: C2207W: inventing 'extern int SenMode2Tbl();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\LIBExt\LIBExt_src\SubSystem\dcAlgApiLib\IPP_COMMON\IPPBuffer.c: 1 warning, 0 errors, 0 serious errors

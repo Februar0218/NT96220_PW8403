@@ -1,0 +1,16 @@
+Document naming rule:
+
+\IPP_sensorname_220\projname_lens_appendix\
+
+  1.sensorname:Full sensor name
+  2.projname:Full proj. name
+  3.lens:
+	a. FF: means fix zoom and focus.
+        b. AF: means focus only.
+        c. nX: means zoom lens.
+  4.appendix: less than 5 char. if needed.
+
+
+Library naming rule:
+	IPP_sensorname_projname_lens_appendix.
+	ps:appendix plz less than 5 char if needed

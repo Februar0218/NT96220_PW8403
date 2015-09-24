@@ -1,0 +1,729 @@
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\CommandTsk.c", line 1012: Warning: C2207W: inventing 'extern int MotionDetection();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\CommandTsk.c", line 1013: Warning: C2207W: inventing 'extern int sie_waitVD();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\CommandTsk.c: 6 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 445: Warning: C2914W: out-of-bound offset 9 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 446: Warning: C2914W: out-of-bound offset 9 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 452: Warning: C2914W: out-of-bound offset 10 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 453: Warning: C2914W: out-of-bound offset 10 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 480: Warning: C2914W: out-of-bound offset 12 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 481: Warning: C2914W: out-of-bound offset 12 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 485: Warning: C2914W: out-of-bound offset 11 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 486: Warning: C2914W: out-of-bound offset 11 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 498: Warning: C2914W: out-of-bound offset 13 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 499: Warning: C2914W: out-of-bound offset 13 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 515: Warning: C2914W: out-of-bound offset 14 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 516: Warning: C2914W: out-of-bound offset 14 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 708: Warning: C2914W: out-of-bound offset 10 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 709: Warning: C2914W: out-of-bound offset 10 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 720: Warning: C2914W: out-of-bound offset 12 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 721: Warning: C2914W: out-of-bound offset 12 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 726: Warning: C2914W: out-of-bound offset 11 in address
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c", line 727: Warning: C2914W: out-of-bound offset 11 in address
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIConfig.c: 22 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 234: Warning: C2207W: inventing 'extern int FWRotate_GetStatus();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 247: Warning: C2207W: inventing 'extern int FWRotate_SetVideoAttrib();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 277: Warning: C2870W: variable 'pDispObj' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 277: Warning: C2870W: variable 'EmuDispLyr' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 277: Warning: C2870W: variable 'CurDisplayer' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\SysInit\SystemInit.c", line 474: Warning: C2207W: inventing 'extern int FWRotate_SetGxCpuStatus();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\SysInit\SystemInit.c: 10 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\SysCfg\Startup\CopyRest.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c", line 263: Warning: C2207W: inventing 'extern int KeyScan_IsACIn();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c", line 470: Warning: C2207W: inventing 'extern int MovRec_Stop();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c", line 616: Warning: C2870W: variable 'i' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanPWR.c: 7 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\FwVersion.h", line 12: Warning: C2206W: Undefined macro 'TDV5160' in #if - treated as 0
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c", line 141: Warning: C2207W: inventing 'extern int KeyScan_DetSensorRotate();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c", line 308: Warning: C2207W: inventing 'extern int KeyScan_DetAC();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c", line 312: Warning: C2207W: inventing 'extern int KeyScan_DetACUnPlug();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c", line 342: Warning: C2207W: inventing 'extern int KeyScan_DetLCDClose();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTsk.c: 9 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanUSB.c", line 80: Warning: C2207W: inventing 'extern int usb_getPlugState();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanUSB.c", line 240: Warning: C2207W: inventing 'extern int KeyScan_DetAC();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanUSB.c", line 244: Warning: C2207W: inventing 'extern int KeyScan_DetACUnPlug();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanUSB.c", line 249: Warning: C2207W: inventing 'extern int KeyScan_IsACUnPlugPowerOff();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanUSB.c: 8 warnings, 0 errors, 0 serious errors
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanLCD.c", line 69: Warning: C2870W: variable 'CurrMode' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanLCD.c", line 69: Warning: C2870W: variable 'RotParam' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanLCD.c: 2 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanSD.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanSound.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanSensor.c", line 48: Warning: C2207W: inventing 'extern int GPIOMap_DetSensorRotate();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanSensor.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanTv.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\Srccode\KeyIOscan\KeyScanHDMI.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanAC.c", line 168: Warning: C2871W: static 'uiCurrentACMode' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanAC.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanKey.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\FwVersion.h", line 12: Warning: C2206W: Undefined macro 'TDV5160' in #if - treated as 0
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\Interface.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanMisc.c", line 152: Warning: C2207W: inventing 'extern int GPIOMap_DetLCDClose();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanMisc.c", line 184: Warning: C2207W: inventing 'extern int Get_LCDBacklightValue();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\KeyScanMisc.c: 6 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\JXW\GPIOMapping.c", line 272: Warning: C2870W: variable 'LCDBackLightFlag' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\JXW\GPIOMapping.c", line 384: Warning: C2207W: inventing 'extern int KeyScan_PoweroffFlow();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\JXW\GPIOMapping.c", line 537: Warning: C2873W: implicit return in non-void function
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\JXW\GPIOMapping.c", line 765: Warning: C2873W: implicit return in non-void function
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\JXW\GPIOMapping.c: 8 warnings, 0 errors, 0 serious errors
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\JXW\KeyADC.c", line 115: Warning: C2211W: non-value return in non-void function
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\KeyIOScan\JXW\KeyADC.c: 1 warning, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\DeviceControl\DevCtrlMovie.c", line 59: Warning: C2207W: inventing 'extern int KeyScan_IsSensorRotate();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\DeviceControl\DevCtrlMovie.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\DeviceControl\DevCtrlPhoto.c", line 59: Warning: C2207W: inventing 'extern int KeyScan_IsSensorRotate();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\DeviceControl\DevCtrlPhoto.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitUSB.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitAVI.c", line 133: Warning: C2207W: inventing 'extern int FWRotate_SetStatus();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitAVI.c", line 329: Warning: C2207W: inventing 'extern int FWRotate_GetStatus();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitAVI.c", line 331: Warning: C2207W: inventing 'extern int FWRotate_Open();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitAVI.c: 7 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitPhoto.c", line 88: Warning: C2207W: inventing 'extern int FWRotate_SetStatus();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitPhoto.c", line 244: Warning: C2207W: inventing 'extern int FWRotate_GetStatus();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitPhoto.c", line 246: Warning: C2207W: inventing 'extern int FWRotate_Open();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitPhoto.c: 7 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitPlayback.c", line 236: Warning: C2207W: inventing 'extern int FWRotate_SetStatus();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInitPlayback.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInit.c", line 230: Warning: C2207W: inventing 'extern int FWRotate_GetStatus();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInit.c", line 232: Warning: C2207W: inventing 'extern int FWRotate_Close();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInit.c", line 239: Warning: C2207W: inventing 'extern int disprot_unlock();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInit.c", line 341: Warning: C2870W: variable 'bRunningMsdcTool' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\AppInit\AppInit.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\Calibration\CalibrationTsk.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\Calibration\CalibrationAPI.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\Calibration\CalibrationTbl.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UserEXIF\UserEXIF.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPhotoObj.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 59: Warning: C2207W: inventing 'extern int PB_ReadCurrFileSysInfo();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 66: Warning: C2870W: variable 'playObj' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 66: Warning: C2870W: variable 'pFile' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 66: Warning: C2870W: variable 'pcurPathName' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1138: Warning: C2870W: variable 'uiPlayDir' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1179: Warning: C2870W: variable 'uiPlayDir' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1079: Warning: C2874W: 'uiRet' may be used before being set
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1103: Warning: C2874W: 'uiSelect' may be used before being set
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c", line 1143: Warning: C2874W: 'uiSelect' may be used before being set
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayObj.c: 13 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPlayStamp.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIMovieObj.c", line 395: Warning: C2207W: inventing 'extern int KeyScan_IsACIn();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIMovieObj.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UISystemObj.c", line 382: Warning: C2207W: inventing 'extern int sprintf();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UISystemObj.c", line 354: Warning: C2873W: implicit return in non-void function
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UISystemObj.c", line 397: Warning: C2873W: implicit return in non-void function
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UISystemObj.c: 7 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIPrintObj.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIApp\UIBackgroundObj.c: 4 warnings, 0 errors, 0 serious errors
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\UIFlow.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\DateImprint\GenDateImprintData.c", line 1125: Warning: C2207W: inventing 'extern int Photo_VidstampEnable();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\DateImprint\GenDateImprintData.c", line 1396: Warning: C2870W: variable 'uiTimeCount1' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\DateImprint\GenDateImprintData.c", line 1398: Warning: C2871W: static 'DateImprint_Gen' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\DateImprint\GenDateImprintData.c: 7 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\FwVersion.h", line 12: Warning: C2206W: Undefined macro 'TDV5160' in #if - treated as 0
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIInfo\UISystemStatusSettings.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIInfo\UIMenuPrintSettings.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowCBRecMovie.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.c", line 272: Warning: C2207W: inventing 'extern int FlowMovie_IconDrawDateTime();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieIcons.c", line 56: Warning: C2207W: inventing 'extern int sprintf();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieIcons.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 162: Warning: C2207W: inventing 'extern int FlowMovie_NeedHandleSlowCard();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 163: Warning: C2207W: inventing 'extern int FlowMovie_SlowCardHandling();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 196: Warning: C2207W: inventing 'extern int Photo_GetDZoomIdx();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 294: Warning: C2207W: inventing 'extern int FlowMovie_UpdateIcons();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 323: Warning: C2207W: inventing 'extern int TimerDelayMs();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 514: Warning: C2207W: inventing 'extern int KeyScan_IsACIn();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 701: Warning: C2207W: inventing 'extern int MotionDetection();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 740: Warning: C2207W: inventing 'extern int FlowMovie_OnTimer1SecIndex();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 187: Warning: C2874W: 'state' may be used before being set
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c", line 230: Warning: C2874W: 'state' may be used before being set
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowWndMovie.c: 14 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowCBPhoto.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoFuncs.c", line 231: Warning: C2207W: inventing 'extern int FlowPhoto_IconDrawSelftimerTime();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoFuncs.c", line 238: Warning: C2207W: inventing 'extern int FlowPhoto_IconHideSelftimerTime();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoFuncs.c", line 240: Warning: C2905E: implicit cast (to 'unsigned char') overflow
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoFuncs.c", line 262: Warning: C2871W: static 'g_SelftimerTime' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoFuncs.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIwnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoIcons.c", line 244: Warning: C2871W: static 'g_PhotoTimeStr' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIwnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoIcons.c", line 244: Warning: C2871W: static 'g_PhotoDateStr' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIwnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowPhotoIcons.c: 6 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 208: Warning: C2207W: inventing 'extern int FlowPhoto_IconDrawSelftimerTime();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 210: Warning: C2905E: implicit cast (to 'unsigned char') overflow
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 223: Warning: C2905E: implicit cast (to 'unsigned char') overflow
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 236: Warning: C2905E: implicit cast (to 'unsigned char') overflow
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 252: Warning: C2905E: implicit cast (to 'unsigned char') overflow
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 626: Warning: C2207W: inventing 'extern int KeyScan_IsACIn();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 1146: Warning: C2870W: variable 'pDispObj' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 1146: Warning: C2870W: variable 'EmuDispLyr' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 1146: Warning: C2870W: variable 'CurDisplayer' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c", line 537: Warning: C2874W: 'uiKeyAct' may be used before being set
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPhoto\UIFlowWndPhoto.c: 14 warnings, 0 errors, 0 serious errors
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 19: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_RECORDING\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 23: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_PLAYING\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 27: Warning: C2917W: no side effect in void context: '"CALLBACK:WAVSTUDIO_EVENT_STOPPED \r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 31: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_PAUSED\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 35: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_RESUMED\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 39: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_SAVING\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 43: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_DURATION\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 47: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_DISKFULL\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 51: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_BUFFULL\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 55: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_INVALIDFILE\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 59: Warning: C2917W: no side effect in void context: '"CALLBACK: WAVSTUDIO_EVENT_RWERROR\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 62: Warning: C2917W: no side effect in void context: '"CALLBACK EVENT = %x\r\n"'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 62: Warning: C2917W: no side effect in void context: 'uiEventID'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c", line 65: Warning: C2870W: variable 'WAVDuration' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowCBWav.c: 14 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 110: Warning: C2207W: inventing 'extern int FlowPB_IconDrawMovPlayVolumn();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 239: Warning: C2207W: inventing 'extern int FlowPB_IconDrawMovSpeed();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 446: Warning: C2207W: inventing 'extern int KeyScan_IsACIn();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 121: Warning: C2874W: 'uiActKey' may be used before being set
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 709: Warning: C2871W: static 'g_uiMaskKeyContinue' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 709: Warning: C2871W: static 'g_uiMaskKeyRelease' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c", line 709: Warning: C2871W: static 'g_uiMaskKeyPress' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlay.c: 11 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayIcons.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayThumb.c", line 83: Warning: C2874W: 'uiActKey' may be used before being set
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayThumb.c", line 101: Warning: C2874W: 'uiActKey' may be used before being set
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayThumb.c", line 119: Warning: C2874W: 'uiActKey' may be used before being set
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayThumb.c", line 137: Warning: C2874W: 'uiActKey' may be used before being set
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayThumb.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayMagnify.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowWndPlayNoFile.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPrint\UIFlowWndPrint.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowCommonIcons.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndWaitMoment.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndWrnMsg.c", line 140: Warning: C2207W: inventing 'extern int KeyScan_PoweroffFlow();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndWrnMsg.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndWrnStrgHotPlug.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSB.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\FwVersion.h", line 12: Warning: C2206W: Undefined macro 'TDV5160' in #if - treated as 0
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndFwVersion.c", line 37: Warning: C2207W: inventing 'extern int sprintf();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndFwVersion.c", line 45: Warning: C2870W: variable 'ConfigFwVersion' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndFwVersion.c: 7 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuMovie\MenuMovie.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\MenuPhoto.c", line 196: Warning: C2207W: inventing 'extern int TimerDelayMs();'
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\MenuPhoto.c", line 255: Warning: C2871W: static 'MenuCustom_PhotoColor' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\MenuPhoto.c", line 255: Warning: C2871W: static 'MenuCustom_PhotoWB' declared but not used
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\MenuPhoto.c", line 255: Warning: C2871W: static 'MenuCustom_PhotoEV' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\MenuPhoto.c: 8 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\UIMenuWndPhotoExposure.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\UIMenuWndPhotoWB.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPhoto\UIMenuWndPhotoColor.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlaySlideShow.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlaySlideShowCB.c", line 20: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlaySlideShowCB.c", line 118: Warning: C2870W: variable 'pPlayObj' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlaySlideShowCB.c: 6 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayConfirmDel.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayDel.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayProtect.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayCopyToCard.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayDPOF.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlaySetDPOF.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayQuickConfirmDel.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\UIMenuWndPlayQuickDel.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\MenuPlayback.c", line 206: Warning: C2871W: static 'MenuCustom_DPOF' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPlay\MenuPlayback.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupDateTime.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupFormat.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupFormatConfirm.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupDefaultSetting.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupVersion.c", line 43: Warning: C2207W: inventing 'extern int GetUIConfigSoftwareVer();'
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupVersion.c: 5 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\UIMenuWndSetupLoaderVersion.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuSetup\MenuSetup.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_SelectImages.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_PrintAll.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_PrintSetting.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_Confirm.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_PrintProgress.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_Crop.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuPrint\UIMenuWndPrint_PrintDPOF.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuCalibration\UIMenuWndCalibration.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuCommon\MenuCommonItem.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuCommon\MenuCommonOption.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuCommon\TabMenu.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIWnd\DRIVE\UIMenu\UIMenuUSB\UIMenuWndUSB.c: 4 warnings, 0 errors, 0 serious errors
+"SrcCode\UIWnd\DRIVE\UIInfo\SysFlags.h", line 157: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowCommon\UIFlowWndUSBAPI.h", line 11: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowMovie\UIFlowMovieFuncs.h", line 42: Warning: C2220W: Superfluous ',' in 'enum' declaration
+"SrcCode\UIWnd\DRIVE\UIFlow\UIFlowPlay\UIFlowPlayFuncs.h", line 39: Warning: C2220W: Superfluous ',' in 'enum' declaration
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\UIDisplay\D320x240_DRIVE\UIGraphics.c: 4 warnings, 0 errors, 0 serious errors
+"d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\Calibration\Sensor\Cal_Dummy_220\Cal_Dummy_220.c", line 129: Warning: C2871W: static 'CheckAwbGS' declared but not used
+d:\code\96220\NT96220_FW_DDR1_Ver2_FWRotate_20121008\Project\DemoKit\SrcCode\Calibration\Sensor\Cal_Dummy_220\Cal_Dummy_220.c: 1 warning, 0 errors, 0 serious errors
+"220Demo.scf", line 50: Warning: L6314W: 220Demo.scf(line 50, col 24) No section matches pattern Kdef_int.*o(RO).
+"220Demo.scf", line 69: Warning: L6314W: 220Demo.scf(line 69, col 24) No section matches pattern KRSM_TSK.*o(RO).
+"220Demo.scf", line 75: Warning: L6314W: 220Demo.scf(line 75, col 24) No section matches pattern KSUS_TSK.*o(RO).
+"220Demo.scf", line 109: Warning: L6314W: 220Demo.scf(line 109, col 30) No section matches pattern LensDrv_ST8002.*o(RO).
+"220Demo.scf", line 110: Warning: L6314W: 220Demo.scf(line 110, col 30) No section matches pattern LensDrv_ST8003.*o(RO).
+"220Demo.scf", line 111: Warning: L6314W: 220Demo.scf(line 111, col 30) No section matches pattern LensDrv_ST8005.*o(RO).
+"220Demo.scf", line 114: Warning: L6314W: 220Demo.scf(line 114, col 31) No section matches pattern LensMotor_MD152.*o(RO).
+"220Demo.scf", line 115: Warning: L6314W: 220Demo.scf(line 115, col 33) No section matches pattern LensMotor_MSHONLY.*o(RO).
+"220Demo.scf", line 116: Warning: L6314W: 220Demo.scf(line 116, col 32) No section matches pattern LensMotor_WT7026.*o(RO).
+"220Demo.scf", line 117: Warning: L6314W: 220Demo.scf(line 117, col 32) No section matches pattern LensMotor_ST1151.*o(RO).
+"220Demo.scf", line 126: Warning: L6314W: 220Demo.scf(line 126, col 23) No section matches pattern NAND_PS.*o(RO).
+"220Demo.scf", line 140: Warning: L6329W: 220Demo.scf(line 140, col 28) Pattern screen_160x120.*o(RO) only matches removed unused sections.
+"220Demo.scf", line 141: Warning: L6314W: 220Demo.scf(line 141, col 36) No section matches pattern GiantPlusGPG48238QS5.*o(RO).
+"220Demo.scf", line 142: Warning: L6314W: 220Demo.scf(line 142, col 33) No section matches pattern ToppolyTD024THEB2.*o(RO).
+"220Demo.scf", line 143: Warning: L6314W: 220Demo.scf(line 143, col 27) No section matches pattern ToppolyTD20.*o(RO).
+"220Demo.scf", line 144: Warning: L6314W: 220Demo.scf(line 144, col 22) No section matches pattern AUCN01.*o(RO).
+"220Demo.scf", line 145: Warning: L6314W: 220Demo.scf(line 145, col 29) No section matches pattern TXDT180A_18V6.*o(RO).
+"220Demo.scf", line 147: Warning: L6314W: 220Demo.scf(line 147, col 30) No section matches pattern TXDT270CDR_2V7.*o(RO).
+"220Demo.scf", line 148: Warning: L6314W: 220Demo.scf(line 148, col 24) No section matches pattern TXDT270C.*o(RO).
+"220Demo.scf", line 149: Warning: L6314W: 220Demo.scf(line 149, col 29) No section matches pattern ALT030HSLN_J2.*o(RO).
+"220Demo.scf", line 150: Warning: L6314W: 220Demo.scf(line 150, col 25) No section matches pattern RZWT27P02.*o(RO).
+"220Demo.scf", line 151: Warning: L6314W: 220Demo.scf(line 151, col 23) No section matches pattern PS20P00.*o(RO).
+"220Demo.scf", line 152: Warning: L6314W: 220Demo.scf(line 152, col 25) No section matches pattern BG_Images.*o(RO).
+"220Demo.scf", line 154: Warning: L6314W: 220Demo.scf(line 154, col 25) No section matches pattern GlobalVar.*o(RO).
+"220Demo.scf", line 166: Warning: L6314W: 220Demo.scf(line 166, col 23) No section matches pattern Gesture.*o(RO).
+"220Demo.scf", line 175: Warning: L6314W: 220Demo.scf(line 175, col 33) No section matches pattern UIMenuWndPhotoSize.*o(RO).
+"220Demo.scf", line 176: Warning: L6314W: 220Demo.scf(line 176, col 33) No section matches pattern UIMenuWndMovieSize.*o(RO).
+"220Demo.scf", line 177: Warning: L6314W: 220Demo.scf(line 177, col 32) No section matches pattern UIMenuWndLanguage.*o(RO).
+"220Demo.scf", line 179: Warning: L6314W: 220Demo.scf(line 179, col 23) No section matches pattern ILI9341.*o(RO).
+"220Demo.scf", line 180: Warning: L6314W: 220Demo.scf(line 180, col 29) No section matches pattern ALT020DSLN_J2.*o(RO).
+"220Demo.scf", line 187: Warning: L6314W: 220Demo.scf(line 187, col 35) No section matches pattern dispdev_IF8bits_int.*o(RO).
+"220Demo.scf", line 188: Warning: L6314W: 220Demo.scf(line 188, col 28) No section matches pattern dispdev_IFmi.*o(RO).
+"220Demo.scf", line 189: Warning: L6314W: 220Demo.scf(line 189, col 32) No section matches pattern dispdev_IFmi_int.*o(RO).
+"220Demo.scf", line 203: Warning: L6314W: 220Demo.scf(line 203, col 23) No section matches pattern KerInit.*o(RW).
+"220Demo.scf", line 256: Warning: L6314W: 220Demo.scf(line 256, col 19) No section matches pattern pad.*o(RW).
+"220Demo.scf", line 257: Warning: L6314W: 220Demo.scf(line 257, col 19) No section matches pattern pll.*o(RW).
+"220Demo.scf", line 258: Warning: L6314W: 220Demo.scf(line 258, col 25) No section matches pattern Interrupt.*o(RW).
+"220Demo.scf", line 260: Warning: L6314W: 220Demo.scf(line 260, col 21) No section matches pattern timer.*o(RW).
+"220Demo.scf", line 261: Warning: L6314W: 220Demo.scf(line 261, col 21) No section matches pattern Cache.*o(RW).
+"220Demo.scf", line 262: Warning: L6314W: 220Demo.scf(line 262, col 20) No section matches pattern GPIO.*o(RW).
+"220Demo.scf", line 263: Warning: L6314W: 220Demo.scf(line 263, col 19) No section matches pattern SIF.*o(RW).
+"220Demo.scf", line 264: Warning: L6314W: 220Demo.scf(line 264, col 20) No section matches pattern Uart.*o(RW).
+"220Demo.scf", line 266: Warning: L6314W: 220Demo.scf(line 266, col 27) No section matches pattern LensCtrlTsk.*o(RW).
+"220Demo.scf", line 267: Warning: L6314W: 220Demo.scf(line 267, col 23) No section matches pattern LensAPI.*o(RW).
+"220Demo.scf", line 268: Warning: L6314W: 220Demo.scf(line 268, col 30) No section matches pattern LensDrv_ST8002.*o(RW).
+"220Demo.scf", line 269: Warning: L6314W: 220Demo.scf(line 269, col 30) No section matches pattern LensDrv_ST8003.*o(RW).
+"220Demo.scf", line 270: Warning: L6314W: 220Demo.scf(line 270, col 30) No section matches pattern LensDrv_ST8005.*o(RW).
+"220Demo.scf", line 272: Warning: L6314W: 220Demo.scf(line 272, col 29) No section matches pattern LensDrv_DUMMY.*o(RW).
+"220Demo.scf", line 273: Warning: L6314W: 220Demo.scf(line 273, col 31) No section matches pattern LensMotor_MD152.*o(RW).
+"220Demo.scf", line 274: Warning: L6314W: 220Demo.scf(line 274, col 33) No section matches pattern LensMotor_MSHONLY.*o(RW).
+"220Demo.scf", line 275: Warning: L6314W: 220Demo.scf(line 275, col 32) No section matches pattern LensMotor_WT7026.*o(RW).
+"220Demo.scf", line 276: Warning: L6314W: 220Demo.scf(line 276, col 32) No section matches pattern LensMotor_ST1151.*o(RW).
+"220Demo.scf", line 278: Warning: L6314W: 220Demo.scf(line 278, col 31) No section matches pattern LensMotor_DUMMY.*o(RW).
+"220Demo.scf", line 279: Warning: L6314W: 220Demo.scf(line 279, col 20) No section matches pattern Perf.*o(RW).
+"220Demo.scf", line 281: Warning: L6314W: 220Demo.scf(line 281, col 26) No section matches pattern PrimaryAPI.*o(RW).
+"220Demo.scf", line 286: Warning: L6329W: 220Demo.scf(line 286, col 18) Pattern NAND.*o(RW) only matches removed unused sections.
+"220Demo.scf", line 287: Warning: L6314W: 220Demo.scf(line 287, col 23) No section matches pattern NAND_PS.*o(RW).
+"220Demo.scf", line 298: Warning: L6314W: 220Demo.scf(line 298, col 18) No section matches pattern lz.*o(RW).
+"220Demo.scf", line 300: Warning: L6314W: 220Demo.scf(line 300, col 22) No section matches pattern JpgDec.*o(RW).
+"220Demo.scf", line 302: Warning: L6314W: 220Demo.scf(line 302, col 30) No section matches pattern JpgParseHeader.*o(RW).
+"220Demo.scf", line 303: Warning: L6314W: 220Demo.scf(line 303, col 30) No section matches pattern screen_160x120.*o(RW).
+"220Demo.scf", line 304: Warning: L6314W: 220Demo.scf(line 304, col 36) No section matches pattern GiantPlusGPG48238QS5.*o(RW).
+"220Demo.scf", line 305: Warning: L6314W: 220Demo.scf(line 305, col 33) No section matches pattern ToppolyTD024THEB2.*o(RW).
+"220Demo.scf", line 306: Warning: L6314W: 220Demo.scf(line 306, col 27) No section matches pattern ToppolyTD20.*o(RW).
+"220Demo.scf", line 307: Warning: L6314W: 220Demo.scf(line 307, col 22) No section matches pattern AUCN01.*o(RW).
+"220Demo.scf", line 308: Warning: L6314W: 220Demo.scf(line 308, col 29) No section matches pattern TXDT180A_18V6.*o(RW).
+"220Demo.scf", line 309: Warning: L6314W: 220Demo.scf(line 309, col 24) No section matches pattern TXDT270M.*o(RW).
+"220Demo.scf", line 310: Warning: L6314W: 220Demo.scf(line 310, col 28) No section matches pattern TXDT270CDR_2V7(RW).
+"220Demo.scf", line 311: Warning: L6314W: 220Demo.scf(line 311, col 22) No section matches pattern TXDT270C(RW).
+"220Demo.scf", line 312: Warning: L6314W: 220Demo.scf(line 312, col 29) No section matches pattern ALT030HSLN_J2.*o(RW).
+"220Demo.scf", line 313: Warning: L6314W: 220Demo.scf(line 313, col 25) No section matches pattern RZWT27P02.*o(RW).
+"220Demo.scf", line 314: Warning: L6314W: 220Demo.scf(line 314, col 23) No section matches pattern PS20P00.*o(RW).
+"220Demo.scf", line 315: Warning: L6314W: 220Demo.scf(line 315, col 25) No section matches pattern BG_Images.*o(RW).
+"220Demo.scf", line 316: Warning: L6314W: 220Demo.scf(line 316, col 26) No section matches pattern BG_Opening.*o(RW).
+"220Demo.scf", line 317: Warning: L6314W: 220Demo.scf(line 317, col 25) No section matches pattern GlobalVar.*o(RW).
+"220Demo.scf", line 318: Warning: L6329W: 220Demo.scf(line 318, col 17) Pattern PWM.*o(RW) only matches removed unused sections.
+"220Demo.scf", line 321: Warning: L6329W: 220Demo.scf(line 321, col 17) Pattern ADC.*o(RW) only matches removed unused sections.
+"220Demo.scf", line 322: Warning: L6314W: 220Demo.scf(line 322, col 26) No section matches pattern KeyScanLED.*o(RW).
+"220Demo.scf", line 323: Warning: L6314W: 220Demo.scf(line 323, col 27) No section matches pattern SystemClock.*o(RW).
+"220Demo.scf", line 325: Warning: L6314W: 220Demo.scf(line 325, col 24) No section matches pattern FWRotate.*o(RW).
+"220Demo.scf", line 327: Warning: L6314W: 220Demo.scf(line 327, col 20) No section matches pattern Grph.*o(RW).
+"220Demo.scf", line 329: Warning: L6314W: 220Demo.scf(line 329, col 24) No section matches pattern UIConfig.*o(RW).
+"220Demo.scf", line 335: Warning: L6314W: 220Demo.scf(line 335, col 30) No section matches pattern UIFrameworkAPI.*o(RW).
+"220Demo.scf", line 336: Warning: L6314W: 220Demo.scf(line 336, col 33) No section matches pattern UIMenuWndPhotoSize.*o(RW).
+"220Demo.scf", line 337: Warning: L6314W: 220Demo.scf(line 337, col 32) No section matches pattern UIMenuWndLanguage.*o(RW).
+"220Demo.scf", line 338: Warning: L6314W: 220Demo.scf(line 338, col 23) No section matches pattern ILI9341.*o(RW).
+"220Demo.scf", line 339: Warning: L6314W: 220Demo.scf(line 339, col 29) No section matches pattern ALT020DSLN_J2.*o(RW).
+"220Demo.scf", line 340: Warning: L6314W: 220Demo.scf(line 340, col 18) No section matches pattern mi.*o(RW).
+"220Demo.scf", line 346: Warning: L6314W: 220Demo.scf(line 346, col 35) No section matches pattern dispdev_IF8bits_int.*o(RW).
+"220Demo.scf", line 347: Warning: L6314W: 220Demo.scf(line 347, col 28) No section matches pattern dispdev_IFmi.*o(RW).
+"220Demo.scf", line 348: Warning: L6314W: 220Demo.scf(line 348, col 32) No section matches pattern dispdev_IFmi_int.*o(RW).
+"220Demo.scf", line 388: Warning: L6314W: 220Demo.scf(line 388, col 26) No section matches pattern CommandTsk.*o(RW).
+"220Demo.scf", line 404: Warning: L6314W: 220Demo.scf(line 404, col 29) No section matches pattern UpdateNandReset.*o(*).
+Finished: 0 information, 93 warning and 0 error messages.
