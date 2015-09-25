@@ -1,5 +1,5 @@
 LCDTV_TXDT270C_8961_6A6_Data/Release/ObjectCode/dispdev_IF8bits.o:  \
- e:/NVT_SourceCode/A10/NT96220_FW_DDR1_FWRotate_20121008_D106_A10/LIBExt/LIBExt_src/SubSystem/DISPDEV/PANEL/IF8BITS/LCD1/TXDT270C_8961_6A6/../../dispdev_IF8bits.c \
+ e:/workspace/NT96220_PW8403/LIBExt/LIBExt_src/SubSystem/DISPDEV/PANEL/IF8BITS/LCD1/TXDT270C_8961_6A6/../../dispdev_IF8bits.c \
   ../../../../../../../../Include/Driver220/Display/IDE.h \
   ../../../../../../../../Include/Type.h \
   ../../../../../../../../Include/StdCMac.h \
@@ -49,7 +49,7 @@ LCDTV_TXDT270C_8961_6A6_Data/Release/ObjectCode/dispdev_IF8bits.o:  \
   ../../../../../../../../Include/Subsystem/DISP/dispdevctrl.h \
   ../../../../../../../../Include/Driver220/IO/sif.h \
   ../../../../../../../../Include/Driver220/Display/hdmitx.h \
-  e:/NVT_SourceCode/A10/NT96220_FW_DDR1_FWRotate_20121008_D106_A10/LIBExt/LIBExt_src/SubSystem/DISPDEV/PANEL/IF8BITS/LCD1/TXDT270C_8961_6A6/../../dispdev_IF8bits.h \
+  e:/workspace/NT96220_PW8403/LIBExt/LIBExt_src/SubSystem/DISPDEV/PANEL/IF8BITS/LCD1/TXDT270C_8961_6A6/../../dispdev_IF8bits.h \
   ../../../../../../../../Include/Oscommon.h \
   ../../../../../../../../Include/Driver220/IO/sif.h \
   ../../../dispdev_panlcomn.h ../../../../../../../../Include/Oscommon.h \
@@ -158,7 +158,7 @@ LCDTV_TXDT270C_8961_6A6_Data/Release/ObjectCode/dispdev_IF8bits.o:  \
 
 ../../../../../../../../Include/Driver220/Display/hdmitx.h:
 
-e:/NVT_SourceCode/A10/NT96220_FW_DDR1_FWRotate_20121008_D106_A10/LIBExt/LIBExt_src/SubSystem/DISPDEV/PANEL/IF8BITS/LCD1/TXDT270C_8961_6A6/../../dispdev_IF8bits.h:
+e:/workspace/NT96220_PW8403/LIBExt/LIBExt_src/SubSystem/DISPDEV/PANEL/IF8BITS/LCD1/TXDT270C_8961_6A6/../../dispdev_IF8bits.h:
 
 ../../../../../../../../Include/Oscommon.h:
 

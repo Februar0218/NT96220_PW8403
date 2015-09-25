@@ -783,6 +783,7 @@ void KeyScan_DetDelayShusdown(void)
 
     if (g_uiKeyScanDelayShutdownCnt >= KeyScan_GetDelayShutdownTime())
     {
+
         KeyScan_PoweroffFlow();
     }
 }

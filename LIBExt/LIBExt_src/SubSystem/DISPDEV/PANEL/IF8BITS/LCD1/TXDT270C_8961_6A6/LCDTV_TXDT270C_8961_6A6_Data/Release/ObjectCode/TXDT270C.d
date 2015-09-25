@@ -1,5 +1,5 @@
 LCDTV_TXDT270C_8961_6A6_Data/Release/ObjectCode/TXDT270C.o:  \
- e:/NVT_SourceCode/A10/NT96220_FW_DDR1_FWRotate_20121008_D106_A10/LIBExt/LIBExt_src/SubSystem/DISPDEV/PANEL/IF8BITS/LCD1/TXDT270C_8961_6A6/TXDT270C.c \
+ e:/workspace/NT96220_PW8403/LIBExt/LIBExt_src/SubSystem/DISPDEV/PANEL/IF8BITS/LCD1/TXDT270C_8961_6A6/TXDT270C.c \
   ../../../../../../../../Include/Oscommon.h \
   ../../../../../../../../Include/Type.h \
   ../../../../../../../../Include/StdCMac.h \
